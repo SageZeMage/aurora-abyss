@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='utf-8'?>
+<elements>
+  <info>
+    <name>All Beneath the Yonder Seas and Streams — Optional Features</name>
+    <description>Artificer Infusions and Warlock Invocations from ABYSS.</description>
+    <update version="1.0.0">
+      <file name="abyss-optional-features.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-abyss/main/abyss-optional-features.xml" />
+    </update>
+  </info>
+  <element name="Buried Treasure" type="Archetype Feature" source="ABYSS" id="ID_ABYSS_OPTION_Buried_Treasure">
+    <supports>Eldritch Invocation</supports>
+    <description>You can pinpoint the location of precious metals and stones, such as coins, gems, and jewelry, within 60 feet of you, even if you can't see or smell the material.</description>
+    <sheet>
+      <description>You can pinpoint the location of precious metals and stones, such as coins, gems, and jewelry, within 60 feet of you, even if you can't see or smell the material.</description>
+    </sheet>
+  </element>
+  <element name="Captain's Parrot" type="Archetype Feature" source="ABYSS" id="ID_ABYSS_OPTION_Captain_s_Parrot">
+    <supports>Eldritch Invocation</supports>
+    <description>Prerequisite: Pact of the Chain
+
+Your familiar gains the ability to speak, read, and write two languages of your choice. It also learns the vicious mockery cantrip, which it casts using your warlock spell save DC. When determining the spell's damage, your familiar is considered a spellcaster of the same level as you.</description>
+    <sheet>
+      <description>Prerequisite: Pact of the Chain
+
+Your familiar gains the ability to speak, read, and write two languages of your choice. It also learns the vicious mockery cantrip, which it casts using your warlock spell save DC. When determining the spell's damage, your familiar is considered a spellcaster of the same level as you.</description>
+    </sheet>
+  </element>
+  <element name="Collector of Curses" type="Archetype Feature" source="ABYSS" id="ID_ABYSS_OPTION_Collector_of_Curses">
+    <supports>Eldritch Invocation</supports>
+    <description>Prerequisite: Warlock 5+
+
+Cursed magic items don't count against the total number of items that you can attune to.</description>
+    <sheet>
+      <description>Prerequisite: Warlock 5+
+
+Cursed magic items don't count against the total number of items that you can attune to.</description>
+    </sheet>
+  </element>
+  <element name="Nautical Charts" type="Archetype Feature" source="ABYSS" id="ID_ABYSS_OPTION_Nautical_Charts">
+    <supports>Eldritch Invocation</supports>
+    <description>Prerequisite: Pact of the Tome
+
+So long as you can see a body of water, you know your current location and the distance and direction to the nearest area of civilization, such as a fort, village, or town, that can safely feed and house you and creatures traveling with you.</description>
+    <sheet>
+      <description>Prerequisite: Pact of the Tome
+
+So long as you can see a body of water, you know your current location and the distance and direction to the nearest area of civilization, such as a fort, village, or town, that can safely feed and house you and creatures traveling with you.</description>
+    </sheet>
+  </element>
+  <element name="Quartermaster's Stockpile" type="Archetype Feature" source="ABYSS" id="ID_ABYSS_OPTION_Quartermaster_s_Stockpile">
+    <supports>Eldritch Invocation</supports>
+    <description>Prerequisite: Pact of the Blade
+
+When you would summon your pact weapon, you can instead summon one piece of adventuring gear of your choice, so long as it isn't a piece of adventuring gear that is consumed when used. This piece of gear vanishes, reforms, and otherwise follows the same rules as your pact weapon.</description>
+    <sheet>
+      <description>Prerequisite: Pact of the Blade
+
+When you would summon your pact weapon, you can instead summon one piece of adventuring gear of your choice, so long as it isn't a piece of adventuring gear that is consumed when used. This piece of gear vanishes, reforms, and otherwise follows the same rules as your pact weapon.</description>
+    </sheet>
+  </element>
+  <element name="Replicate Magic Item" type="Archetype Feature" source="ABYSS" id="ID_ABYSS_OPTION_Replicate_Magic_Item">
+    <supports>Artificer Infusion</supports>
+    <description>This infusion adds a number of magic items from this book to the artificer's Replicate Magic Item infusion.
+{'type': 'table', 'caption': 'Replicable Items (2nd-Level Artificer)', 'colLabels': ['Magic Item', 'Attunement'], 'colStyles': ['col-10', 'col-2 text-center'], 'rows': [['Bailing twine', 'No'], ['Billowing Sailcloth', 'No'], ['Braziers of Misty Forms', 'No'], ["Captain's Lantern", 'No'], ['Fog Horn', 'No'], ['Lurelight', 'No'], ["Sea Walker's Helm", 'No'], ['Shape of Water', 'Yes'], ['Wand of Phase Change', 'No'], ['War Rigging', 'No']]}
+{'type': 'table', 'caption': 'Replicable Items (6th-Level Artificer)', 'colLabels': ['Magic Item', 'Attunement'], 'colStyles': ['col-10', 'col-2 text-center'], 'rows': [['Brine-Burst Blade', 'No'], ['Crab Claw Gauntlets', 'No'], ["Figgly's Wand of Squids", 'No'], ["Hydromancer's Trident", 'No'], ["Knave's Cutlass", 'No'], ["Krend's Fishing Rod", 'Yes'], ['Lifeline', 'No'], ['Shield of Surfing', 'No'], ['Sticky Shield', 'No'], ['Vitreous Tear', 'Yes']]}
+{'type': 'table', 'caption': 'Replicable Items (10th-Level Artificer)', 'colLabels': ['Magic Item', 'Attunement'], 'colStyles': ['col-11', 'col-2 text-center'], 'rows': [['Cephalian Bands', 'Yes'], ['Flow Gauntlets', 'Yes'], ["Rayleigh's Raincoat", 'No']]}
+{'type': 'table', 'caption': 'Replicable Items (14th-Level Artificer)', 'colLabels': ['Magic Item', 'Attunement'], 'colStyles': ['col-11', 'col-1 text-center'], 'rows': [['Blade of Parting Water', 'Yes'], ['Grail of Restoration', 'No'], ["Mariner's Cowl", 'Yes'], ['Rime-Wrought Bow', 'Yes'], ['Spellguard Staff', 'Yes'], ['Tranquil Anchor', 'Yes']]}</description>
+    <sheet>
+      <description>This infusion adds a number of magic items from this book to the artificer's Replicate Magic Item infusion.
+{'type': 'table', 'caption': 'Replicable Items (2nd-Level Artificer)', 'colLabels': ['Magic Item', 'Attunement'], 'colStyles': ['col-10', 'col-2 text-center'], 'rows': [['Bailing twine', 'No'], ['Billowing Sailcloth', 'No'], ['Braziers of Misty Forms', 'No'], ["Captain's Lantern", 'No'], ['Fog Horn', 'No'], ['Lurelight', 'No'], ["Sea Walker's Helm", 'No'], ['Shape of Water', 'Yes'], ['Wand of Phase Change', 'No'], ['War Rigging', 'No']]}
+{'type': 'table', 'caption': 'Replicable Items (6th-Level Artificer)', 'colLabels': ['Magic Item', 'Attunement'], 'colStyles': ['col-10', 'col-2 text-center'], 'rows': [['Brine-Burst Blade', 'No'], ['Crab Claw Gauntlets', 'No'], ["Figgly's Wand of Squids", 'No'], ["Hydromancer's Trident", 'No'], ["Knave's Cutlass", 'No'], ["Krend's Fishing Rod", 'Yes'], ['Lifeline', 'No'], ['Shield of Surfing', 'No'], ['Sticky Shield', 'No'], ['Vitreous Tear', 'Yes']]}
+{'type': 'table', 'caption': 'Replicable Items (10th-Level Artificer)', 'colLabels': ['Magic Item', 'Attunement'], 'colStyles': ['col-11', 'col-2 text-center'], 'rows': [['Cephalian Bands', 'Yes'], ['Flow Gauntlets', 'Yes'], ["Rayleigh's Raincoat", 'No']]}
+{'type': 'table', 'caption': 'Replicable Items (14th-Level Artificer)', 'colLabels': ['Magic Item', 'Attunement'], 'colStyles': ['col-11', 'col-1 text-center'], 'rows': [['Blade of Parting Water', 'Yes'], ['Grail of Restoration', 'No'], ["Mariner's Cowl", 'Yes'], ['Rime-Wrought Bow', 'Yes'], ['Spellguard Staff', 'Yes'], ['Tranquil Anchor', 'Yes']]}</description>
+    </sheet>
+  </element>
+  <element name="Sundertide Weapon" type="Archetype Feature" source="ABYSS" id="ID_ABYSS_OPTION_Sundertide_Weapon">
+    <supports>Artificer Infusion</supports>
+    <description>Prerequisite: Pact of the 6Th Level, A Simple Or Martial Weapon (Requires Attunement)
+
+This magic weapon grants a +1 bonus to attack and damage rolls made with it. Attacks with this weapon are not made at disadvantage due to being underwater.
+The weapon has 4 charges. While underwater, the wielder can expend 1 charge to cause the next attack to release a wave of rippling force through the water. The wave is a ranged spell attack with a range of 60 feet. You are proficient with it, and you add the weapon's normal modifier to its attack and damage rolls. In addition to the attack's normal effects, it deals an additional 1d8 cold damage. The weapon regains 1d4 expended charges daily at dawn.</description>
+    <sheet>
+      <description>Prerequisite: Pact of the 6Th Level, A Simple Or Martial Weapon (Requires Attunement)
+
+This magic weapon grants a +1 bonus to attack and damage rolls made with it. Attacks with this weapon are not made at disadvantage due to being underwater.
+The weapon has 4 charges. While underwater, the wielder can expend 1 charge to cause the next attack to release a wave of rippling force through the water. The wave is a ranged spell attack with a range of 60 feet. You are proficient with it, and you add the weapon's normal modifier to its attack and damage rolls. In addition to the attack's normal effects, it deals an additional 1d8 cold damage. The weapon regains 1d4 expended charges daily at dawn.</description>
+    </sheet>
+  </element>
+</elements>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<index>
+  <info>
+    <name>All Beneath the Yonder Seas and Streams (ABYSS)</name>
+    <description>ABYSS homebrew for Aurora; subclasses, spells, feats, items, and optional features only (no monsters).</description>
+    <author>Haven (conversion by SageZeMage)</author>
+    <update version="1.0.0">
+      <file name="abyss.index" url="https://raw.githubusercontent.com/SageZeMage/aurora-abyss/main/abyss.index" />
+    </update>
+  </info>
+  <files>
+    <file name="abyss-source.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-abyss/main/abyss-source.xml" />
+    <file name="abyss-subclasses.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-abyss/main/abyss-subclasses.xml" />
+    <file name="abyss-spells.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-abyss/main/abyss-spells.xml" />
+    <file name="abyss-feats.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-abyss/main/abyss-feats.xml" />
+    <file name="abyss-items.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-abyss/main/abyss-items.xml" />
+    <file name="abyss-optional-features.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-abyss/main/abyss-optional-features.xml" />
+  </files>
+</index>

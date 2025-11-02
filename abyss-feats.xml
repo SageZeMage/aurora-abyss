@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='utf-8'?>
+<elements>
+  <info>
+    <name>All Beneath the Yonder Seas and Streams — Feats</name>
+    <description>All ABYSS feats.</description>
+    <update version="1.0.0">
+      <file name="abyss-feats.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-abyss/main/abyss-feats.xml" />
+    </update>
+  </info>
+  <element name="Cannoneer" type="Feat" source="ABYSS" id="ID_ABYSS_FEAT_Cannoneer">
+    <description>Your familiarity with ballista, cannon, and other heavy mounted weaponry grants you the following benefits:
+{'type': 'list', 'items': ['You can load, aim, or fire a ballista or cannon as a bonus action on your turn.', "When a ballista or cannon you loaded deals damage, you can reroll the weapon's damage dice and use either total.", 'When a ballista or cannon that you aimed is fired, you can add your proficiency bonus to the attack roll.', "When you fire a ballista or cannon, attacking at long range doesn't impose disadvantage on the ranged weapon attack roll.", 'If you spend 1 minute repairing a ballista or cannon, it regains hit points equal to 1d6 + your level.']}</description>
+    <sheet>
+      <description>Your familiarity with ballista, cannon, and other heavy mounted weaponry grants you the following benefits:
+{'type': 'list', 'items': ['You can load, aim, or fire a ballista or cannon as a bonus action on your turn.', "When a ballista or cannon you loaded deals damage, you can reroll the weapon's damage dice and use either total.", 'When a ballista or cannon that you aimed is fired, you can add your proficiency bonus to the attack roll.', "When you fire a ballista or cannon, attacking at long range doesn't impose disadvantage on the ranged weapon attack roll.", 'If you spend 1 minute repairing a ballista or cannon, it regains hit points equal to 1d6 + your level.']}</description>
+    </sheet>
+  </element>
+  <element name="Conductive Hydromancer" type="Feat" source="ABYSS" id="ID_ABYSS_FEAT_Conductive_Hydromancer">
+    <description>Prerequisite: Spellcasting
+
+You have learned techniques to direct lightning spells through bodies of water, gaining the following benefits:
+{'type': 'list', 'items': ['You learn the create or destroy water spell and can cast it once without expending a spell slot or providing material components. You regain the ability to cast this spell in this way when you finish a long rest.', 'When you cast a spell using hydromancy, you can treat any bodies of water that are less than 10 feet apart at any point as a single body of water.', 'When you cast a spell that deals lightning damage, it gains the hydromancy tag with a hydromancy radius of 30 feet.', 'Once per turn when you deal lightning damage to a creature with a spell cast using hydromancy, you can cause it to take an additional 1d8 lightning damage, or 1d12 lightning damage if the creature is submerged in water.']}</description>
+    <sheet>
+      <description>Prerequisite: Spellcasting
+
+You have learned techniques to direct lightning spells through bodies of water, gaining the following benefits:
+{'type': 'list', 'items': ['You learn the create or destroy water spell and can cast it once without expending a spell slot or providing material components. You regain the ability to cast this spell in this way when you finish a long rest.', 'When you cast a spell using hydromancy, you can treat any bodies of water that are less than 10 feet apart at any point as a single body of water.', 'When you cast a spell that deals lightning damage, it gains the hydromancy tag with a hydromancy radius of 30 feet.', 'Once per turn when you deal lightning damage to a creature with a spell cast using hydromancy, you can cause it to take an additional 1d8 lightning damage, or 1d12 lightning damage if the creature is submerged in water.']}</description>
+    </sheet>
+  </element>
+  <element name="Expert Fisherman" type="Feat" source="ABYSS" id="ID_ABYSS_FEAT_Expert_Fisherman">
+    <description>Experienced in the behavior and motions of aquatic prey, you gain the following benefits:
+{'type': 'list', 'items': ['You have advantage on Intelligence (Nature), Wisdom (Animal Handling), and Wisdom (Survival) checks made when interacting with aquatic creatures.', 'You have advantage on Wisdom (Perception) checks made to spot creatures and phenomena underwater.', 'When you make an attack at a target that is submerged in water on your turn in combat, you can use a bonus action to steady your aim in order to gain advantage on the attack roll.', 'If you are proficient with nets, you can add your proficiency bonus to the DC for the Strength check required to free a creature from a net you threw.']}</description>
+    <sheet>
+      <description>Experienced in the behavior and motions of aquatic prey, you gain the following benefits:
+{'type': 'list', 'items': ['You have advantage on Intelligence (Nature), Wisdom (Animal Handling), and Wisdom (Survival) checks made when interacting with aquatic creatures.', 'You have advantage on Wisdom (Perception) checks made to spot creatures and phenomena underwater.', 'When you make an attack at a target that is submerged in water on your turn in combat, you can use a bonus action to steady your aim in order to gain advantage on the attack roll.', 'If you are proficient with nets, you can add your proficiency bonus to the DC for the Strength check required to free a creature from a net you threw.']}</description>
+    </sheet>
+  </element>
+  <element name="Fanatical Devotion" type="Feat" source="ABYSS" id="ID_ABYSS_FEAT_Fanatical_Devotion">
+    <description>Prerequisite: kuo-toa
+
+Your intense worship and piety grant you the following benefits:
+{'type': 'list', 'items': ['When you create a kuo-toa idol using God Making, it remains for 8 hours instead of 1 hour, and is created with a number of temporary hit points equal to your level.', "While you are within 10 feet of your kuo-toa idol and can see  it, you have advantage on all Intelligence, Wisdom, and Charisma saving throws, and can't be frightened or charmed."]}</description>
+    <sheet>
+      <description>Prerequisite: kuo-toa
+
+Your intense worship and piety grant you the following benefits:
+{'type': 'list', 'items': ['When you create a kuo-toa idol using God Making, it remains for 8 hours instead of 1 hour, and is created with a number of temporary hit points equal to your level.', "While you are within 10 feet of your kuo-toa idol and can see  it, you have advantage on all Intelligence, Wisdom, and Charisma saving throws, and can't be frightened or charmed."]}</description>
+    </sheet>
+  </element>
+  <element name="Heavy Carapace" type="Feat" source="ABYSS" id="ID_ABYSS_FEAT_Heavy_Carapace">
+    <description>Prerequisite: karkinos
+
+Your carapace hardens and grows more dense, granting you the following benefits:
+{'type': 'list', 'items': ['Your weight doubles.', "When you aren't wearing armor, your AC is 17 (your Dexterity modifier doesn't affect this number). You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.", 'You have advantage on Strength checks and saving throws made against effects that would push you or knock you prone.', 'Your pincers gain the heavy property, and you can deal bludgeoning or slashing damage (your choice) equal to 1d8 + your Strength modifier when you hit with them.']}</description>
+    <sheet>
+      <description>Prerequisite: karkinos
+
+Your carapace hardens and grows more dense, granting you the following benefits:
+{'type': 'list', 'items': ['Your weight doubles.', "When you aren't wearing armor, your AC is 17 (your Dexterity modifier doesn't affect this number). You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.", 'You have advantage on Strength checks and saving throws made against effects that would push you or knock you prone.', 'Your pincers gain the heavy property, and you can deal bludgeoning or slashing damage (your choice) equal to 1d8 + your Strength modifier when you hit with them.']}</description>
+    </sheet>
+  </element>
+  <element name="Rime Hydromancer" type="Feat" source="ABYSS" id="ID_ABYSS_FEAT_Rime_Hydromancer">
+    <description>Prerequisite: Spellcasting
+
+You have learned techniques to direct your hydromancy through ice and snow, and to direct cold spells through bodies of water, gaining the following benefits:
+{'type': 'list', 'items': ['You learn the water walk spell and cast it once without expending a spell slot or providing material components. When you cast the spell in this way, it is only capable of targeting yourself, only allows you to move across the surface of liquid water, and leaves shards of ice in your wake. You regain the ability to cast this spell in this way when you finish a long rest.', 'You can treat a body of snow or ice as a body of water when casting spells with the hydromancy tag.', 'When you cast a spell that deals cold damage, it gains the hydromancy tag with a hydromancy radius of 30 feet.', 'While you are fully submerged in water, you have resistance to cold damage.']}</description>
+    <sheet>
+      <description>Prerequisite: Spellcasting
+
+You have learned techniques to direct your hydromancy through ice and snow, and to direct cold spells through bodies of water, gaining the following benefits:
+{'type': 'list', 'items': ['You learn the water walk spell and cast it once without expending a spell slot or providing material components. When you cast the spell in this way, it is only capable of targeting yourself, only allows you to move across the surface of liquid water, and leaves shards of ice in your wake. You regain the ability to cast this spell in this way when you finish a long rest.', 'You can treat a body of snow or ice as a body of water when casting spells with the hydromancy tag.', 'When you cast a spell that deals cold damage, it gains the hydromancy tag with a hydromancy radius of 30 feet.', 'While you are fully submerged in water, you have resistance to cold damage.']}</description>
+    </sheet>
+  </element>
+  <element name="Steam Hydromancer" type="Feat" source="ABYSS" id="ID_ABYSS_FEAT_Steam_Hydromancer">
+    <description>Prerequisite: Spellcasting
+
+You have learned techniques to direct your hydromancy spells through water vapor, and to direct fire spells through bodies of water, gaining the following benefits:
+{'type': 'list', 'items': ['You learn the fog cloud spell and can cast it once without expending a spell slot. You regain the ability to cast this spell in this way when you finish a long rest.', 'You can treat an area of fog, mist, or steam as a body of water when casting spells with the hydromancy tag.', 'When you cast a spell that deals fire damage, it gains the hydromancy tag with a hydromancy radius of 30 feet.', 'Fire damage dealt by spells you cast using hydromancy ignores resistance granted from being underwater.']}</description>
+    <sheet>
+      <description>Prerequisite: Spellcasting
+
+You have learned techniques to direct your hydromancy spells through water vapor, and to direct fire spells through bodies of water, gaining the following benefits:
+{'type': 'list', 'items': ['You learn the fog cloud spell and can cast it once without expending a spell slot. You regain the ability to cast this spell in this way when you finish a long rest.', 'You can treat an area of fog, mist, or steam as a body of water when casting spells with the hydromancy tag.', 'When you cast a spell that deals fire damage, it gains the hydromancy tag with a hydromancy radius of 30 feet.', 'Fire damage dealt by spells you cast using hydromancy ignores resistance granted from being underwater.']}</description>
+    </sheet>
+  </element>
+  <element name="Sure-Footed" type="Feat" source="ABYSS" id="ID_ABYSS_FEAT_Sure_Footed">
+    <description>Experienced with shifting terrain or the rocking and swaying of ships out at sea, you gain the following benefits:
+{'type': 'list', 'items': ['You have advantage on ability checks and saving throws made to resist being knocked prone.', 'When a creature within 5 feet of you fails an ability check or saving throw against an effect that would knock it prone, you can use your reaction to allow the creature to reroll the ability check or saving throw if you have at least one hand free.']}</description>
+    <sheet>
+      <description>Experienced with shifting terrain or the rocking and swaying of ships out at sea, you gain the following benefits:
+{'type': 'list', 'items': ['You have advantage on ability checks and saving throws made to resist being knocked prone.', 'When a creature within 5 feet of you fails an ability check or saving throw against an effect that would knock it prone, you can use your reaction to allow the creature to reroll the ability check or saving throw if you have at least one hand free.']}</description>
+    </sheet>
+  </element>
+  <element name="Swimmer" type="Feat" source="ABYSS" id="ID_ABYSS_FEAT_Swimmer">
+    <description>You have undergone extensive aquatic training to gain the following benefits:
+{'type': 'list', 'items': ['You gain a swim speed equal to your walking speed.', 'You can hold your breath a number of minutes equal to 2 + twice your Constitution modifier (minimum of 1 minute).', 'When you fall into water, you take no bludgeoning damage from the fall if you are not incapacitated.', "You can't be knocked prone while you are underwater."]}</description>
+    <sheet>
+      <description>You have undergone extensive aquatic training to gain the following benefits:
+{'type': 'list', 'items': ['You gain a swim speed equal to your walking speed.', 'You can hold your breath a number of minutes equal to 2 + twice your Constitution modifier (minimum of 1 minute).', 'When you fall into water, you take no bludgeoning damage from the fall if you are not incapacitated.', "You can't be knocked prone while you are underwater."]}</description>
+    </sheet>
+  </element>
+</elements>

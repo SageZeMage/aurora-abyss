@@ -1,0 +1,1554 @@
+<?xml version='1.0' encoding='utf-8'?>
+<elements>
+  <info>
+    <name>All Beneath the Yonder Seas and Streams — Spells</name>
+    <description>All ABYSS spells.</description>
+    <update version="1.0.0">
+      <file name="abyss-spells.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-abyss/main/abyss-spells.xml" />
+    </update>
+  </info>
+  <element name="Aqueous Blast" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Aqueous_Blast">
+    <description>You conjure a small ball of water and hurl it at a point you can see within range, which can be extended through hydromancy. The ball then expands in an explosive blast of water. Each creature in a 20-foot-radius sphere centered on that point must make a Strength saving throw. On a failed save, a creature takes 4d8 bludgeoning damage and is pushed 20 feet away from the center of the sphere. On a successful save, a creature takes half as much damage and is pushed half as far.
+
+The spell produces 50 gallons of water, which spreads out across the ground, extinguishing unprotected flames and forming a thin puddle in the area.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 and the amount of water produced increases by 10 gallons for each slot level above 3rd.</description>
+    <sheet>
+      <description>You conjure a small ball of water and hurl it at a point you can see within range, which can be extended through hydromancy. The ball then expands in an explosive blast of water. Each creature in a 20-foot-radius sphere centered on that point must make a Strength saving throw. On a failed save, a creature takes 4d8 bludgeoning damage and is pushed 20 feet away from the center of the sphere. On a successful save, a creature takes half as much damage and is pushed half as far.
+
+The spell produces 50 gallons of water, which spreads out across the ground, extinguishing unprotected flames and forming a thin puddle in the area.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 and the amount of water produced increases by 10 gallons for each slot level above 3rd.</description>
+    </sheet>
+    <setters>
+      <set name="level">3</set>
+      <set name="school">C</set>
+      <set name="time">1 action</set>
+      <set name="range">60 feet</set>
+      <set name="components">V, S</set>
+      <set name="duration">Instantaneous</set>
+      <set name="classes">Artificer, Druid, Sorcerer, Wizard</set>
+    </setters>
+  </element>
+  <element name="Aqueous Form" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Aqueous_Form">
+    <description>You transform a willing creature you touch into a pool of water for the duration. Any objects the target is carrying or wearing meld into its new form and are inaccessible, though it continues to be affected by anything it was wearing, such as armor. The spell ends if the creature drops to 0 hit points. While in this form, the target is under the following effects:
+
+It gains a swimming speed of 30 feet, and can move over or through other liquids.
+
+It is indistinguishable from a normal pool of water while it remains motionless, and is invisible while underwater.
+
+It has resistance to nonmagical damage, and it has advantage on Strength, Dexterity, and Constitution saving throws.
+
+It can't be grappled or knocked prone.
+
+It can enter and occupy the space of another creature, and can move through a space as narrow as 1 inch wide without squeezing.
+
+It extinguishes nonmagical flames in any space it enters.
+
+It can't talk, attack, or cast spells.</description>
+    <sheet>
+      <description>You transform a willing creature you touch into a pool of water for the duration. Any objects the target is carrying or wearing meld into its new form and are inaccessible, though it continues to be affected by anything it was wearing, such as armor. The spell ends if the creature drops to 0 hit points. While in this form, the target is under the following effects:
+
+It gains a swimming speed of 30 feet, and can move over or through other liquids.
+
+It is indistinguishable from a normal pool of water while it remains motionless, and is invisible while underwater.
+
+It has resistance to nonmagical damage, and it has advantage on Strength, Dexterity, and Constitution saving throws.
+
+It can't be grappled or knocked prone.
+
+It can enter and occupy the space of another creature, and can move through a space as narrow as 1 inch wide without squeezing.
+
+It extinguishes nonmagical flames in any space it enters.
+
+It can't talk, attack, or cast spells.</description>
+    </sheet>
+    <setters>
+      <set name="level">3</set>
+      <set name="school">T</set>
+      <set name="time">1 action</set>
+      <set name="range">Touch</set>
+      <set name="components">V, S</set>
+      <set name="duration">1 hour (concentration)</set>
+      <set name="classes">Druid, Sorcerer, Warlock, Wizard</set>
+    </setters>
+  </element>
+  <element name="Brine Sphere" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Brine_Sphere">
+    <description>Choose a point you can see within range. You cause water within a 10-foot-radius sphere centered on that point to rapidly cool and increase in salinity. The area becomes foggy and lightly obscured for the duration, and a creature moving through the area must spend 3 feet of movement for every 1 foot it moves.
+
+When a creature enters the spell's area for the first time on a turn or starts its turn there, it must make a Constitution saving throw. On a failed save, it takes 3d6 cold damage and is poisoned until the spell ends. On a successful save, it takes half as much damage and isn't poisoned. If a poisoned creature ends its turn outside of the sphere, it can make another Constitution saving throw, ending the condition on a success. Creatures that don't need to breathe or are holding their breath aren't poisoned by this spell.
+
+On each of your turns after you cast this spell, you can use an action to move the sphere up to 30 feet in any direction, so long as the sphere remains underwater.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 and the radius of the sphere increases by 5 feet for each slot level above 3rd.</description>
+    <sheet>
+      <description>Choose a point you can see within range. You cause water within a 10-foot-radius sphere centered on that point to rapidly cool and increase in salinity. The area becomes foggy and lightly obscured for the duration, and a creature moving through the area must spend 3 feet of movement for every 1 foot it moves.
+
+When a creature enters the spell's area for the first time on a turn or starts its turn there, it must make a Constitution saving throw. On a failed save, it takes 3d6 cold damage and is poisoned until the spell ends. On a successful save, it takes half as much damage and isn't poisoned. If a poisoned creature ends its turn outside of the sphere, it can make another Constitution saving throw, ending the condition on a success. Creatures that don't need to breathe or are holding their breath aren't poisoned by this spell.
+
+On each of your turns after you cast this spell, you can use an action to move the sphere up to 30 feet in any direction, so long as the sphere remains underwater.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 and the radius of the sphere increases by 5 feet for each slot level above 3rd.</description>
+    </sheet>
+    <setters>
+      <set name="level">3</set>
+      <set name="school">T</set>
+      <set name="time">1 action</set>
+      <set name="range">60 feet</set>
+      <set name="components">V, S, M (a grain of salt)</set>
+      <set name="duration">1 minute (concentration)</set>
+      <set name="classes">Druid, Sorcerer, Warlock, Wizard</set>
+    </setters>
+  </element>
+  <element name="Carve Gulf" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Carve_Gulf">
+    <description>You cause a solid surface within range to shift and break apart, creating a chasm. You can make the chasm up to 5 miles long, 500 feet wide, and 100 feet deep. This spell splits earth and stone, but can't manipulate artificial construction. Man-made structures in the area of the chasm shift to accommodate the new terrain, moving harmlessly to whichever side of the chasm it is closer to. When complete, the chasm then fills with your choice of saltwater or freshwater, forming a gulf.</description>
+    <sheet>
+      <description>You cause a solid surface within range to shift and break apart, creating a chasm. You can make the chasm up to 5 miles long, 500 feet wide, and 100 feet deep. This spell splits earth and stone, but can't manipulate artificial construction. Man-made structures in the area of the chasm shift to accommodate the new terrain, moving harmlessly to whichever side of the chasm it is closer to. When complete, the chasm then fills with your choice of saltwater or freshwater, forming a gulf.</description>
+    </sheet>
+    <setters>
+      <set name="level">9</set>
+      <set name="school">T</set>
+      <set name="time">8 hours</set>
+      <set name="range">Sight</set>
+      <set name="components">V, S, M (an adamantine shovel and pick, each worth at least 500 gp, which the spell consumes)</set>
+      <set name="duration">Instantaneous</set>
+      <set name="classes">Cleric, Druid, Sorcerer</set>
+    </setters>
+  </element>
+  <element name="Cold Snap" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Cold_Snap">
+    <description>You rapidly lower the temperature in a 20-foot-radius sphere centered on a point you choose within range, which can be extended through hydromancy. Each creature in the sphere must make a Constitution saving throw. On a failed save, a creature takes 3d10 cold damage and is restrained until the end of your next turn. On a successful save, the creature takes half as much damage and isn't restrained, but its speed reduced by 10 feet until the end of your next turn.
+
+The spell freezes all nonmagical liquids with a volume of less than 1 gallon in open containers within the area.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d10 for each slot level above 3rd.</description>
+    <sheet>
+      <description>You rapidly lower the temperature in a 20-foot-radius sphere centered on a point you choose within range, which can be extended through hydromancy. Each creature in the sphere must make a Constitution saving throw. On a failed save, a creature takes 3d10 cold damage and is restrained until the end of your next turn. On a successful save, the creature takes half as much damage and isn't restrained, but its speed reduced by 10 feet until the end of your next turn.
+
+The spell freezes all nonmagical liquids with a volume of less than 1 gallon in open containers within the area.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d10 for each slot level above 3rd.</description>
+    </sheet>
+    <setters>
+      <set name="level">3</set>
+      <set name="school">V</set>
+      <set name="time">1 action</set>
+      <set name="range">150 feet</set>
+      <set name="components">V, S, M (a tiny ball of bat guano and sulfur)</set>
+      <set name="duration">Instantaneous</set>
+      <set name="classes">Artificer, Druid, Sorcerer, Warlock, Wizard</set>
+    </setters>
+  </element>
+  <element name="Corrosion" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Corrosion">
+    <description>You bestow a curse upon a 30-foot cube within range, eating away metal within the area. Each object thinner than 3 inches in any dimension made of metal within the area is destroyed (including nonmagical shields, weapons, and ammunition). Objects that aren't completely destroyed by the spell become coated with a layer of rust. Each nonmagical suit of medium or heavy armor made of metal within the area instead takes a permanent -5 penalty to the AC it offers. If the penalty reduces the armor's AC to 10 or lower, it is destroyed. Otherwise, the armor seizes at the joints, and a creature wearing it becomes restrained. A creature restrained by the armor can use its action to make a Strength check against your spell save DC, freeing itself on a success.
+
+Objects made of silver, gold, platinum, mithril, and adamantine are unaffected by this spell.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 5th level or higher, you target an additional 30-foot cube for each slot level above 4th. Each cube must have at least one face adjacent to the face of another cube, and must originate from a point within range.</description>
+    <sheet>
+      <description>You bestow a curse upon a 30-foot cube within range, eating away metal within the area. Each object thinner than 3 inches in any dimension made of metal within the area is destroyed (including nonmagical shields, weapons, and ammunition). Objects that aren't completely destroyed by the spell become coated with a layer of rust. Each nonmagical suit of medium or heavy armor made of metal within the area instead takes a permanent -5 penalty to the AC it offers. If the penalty reduces the armor's AC to 10 or lower, it is destroyed. Otherwise, the armor seizes at the joints, and a creature wearing it becomes restrained. A creature restrained by the armor can use its action to make a Strength check against your spell save DC, freeing itself on a success.
+
+Objects made of silver, gold, platinum, mithril, and adamantine are unaffected by this spell.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 5th level or higher, you target an additional 30-foot cube for each slot level above 4th. Each cube must have at least one face adjacent to the face of another cube, and must originate from a point within range.</description>
+    </sheet>
+    <setters>
+      <set name="level">4</set>
+      <set name="school">T</set>
+      <set name="time">1 minute</set>
+      <set name="range">60 feet</set>
+      <set name="components">V, S, M (a drop of sea water and a black pearl worth at least 200 gp, which the spell consumes)</set>
+      <set name="duration">Instantaneous</set>
+      <set name="classes">Artificer, Bard, Druid, Ranger, Sorcerer, Warlock, Wizard</set>
+    </setters>
+  </element>
+  <element name="Crashing Wave" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Crashing_Wave">
+    <description>This spell allows you to move like water. When you cast this spell, and then as a bonus action on each of your turns until the spell ends, you can propel yourself up to 20 feet in a straight line. If this moves you into another creature's space for the first time on a turn, that creature must succeed on a Strength saving throw or take 2d6 bludgeoning damage and be knocked prone.
+
+
+At Higher Levels.
+
+When you cast the spell using a spell slot of 3rd level or higher, the distance you can propel yourself increases by 5 feet for each slot level above 2nd.</description>
+    <sheet>
+      <description>This spell allows you to move like water. When you cast this spell, and then as a bonus action on each of your turns until the spell ends, you can propel yourself up to 20 feet in a straight line. If this moves you into another creature's space for the first time on a turn, that creature must succeed on a Strength saving throw or take 2d6 bludgeoning damage and be knocked prone.
+
+
+At Higher Levels.
+
+When you cast the spell using a spell slot of 3rd level or higher, the distance you can propel yourself increases by 5 feet for each slot level above 2nd.</description>
+    </sheet>
+    <setters>
+      <set name="level">2</set>
+      <set name="school">V</set>
+      <set name="time">1 bonus</set>
+      <set name="range">Self</set>
+      <set name="components">V, S</set>
+      <set name="duration">1 minute (concentration)</set>
+      <set name="classes">Druid, Ranger, Sorcerer, Wizard</set>
+    </setters>
+  </element>
+  <element name="Crushing Depths" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Crushing_Depths">
+    <description>You manifest the pressure of the deep sea in a 20-foot-cube within range, which can be extended through hydromancy. The area becomes difficult terrain for the duration. Each creature within the area when the spell is cast must succeed on a Strength saving throw or become blinded and restrained for the duration. Each creature that enters the spell's area for the first time on its turn or starts its turn there must also succeed on a Strength saving throw or become blinded and restrained for the duration. A creature has advantage on the saving throw if it has a swimming speed, and automatically succeeds if it is immune to the effects of being underwater at a depth greater than 100 feet.
+
+A creature restrained by the spell that starts its turn within the area takes 1d6 bludgeoning damage, and can use its action to make a Strength check against your spell save DC, ending the spell on itself on a success.
+
+When the spell ends, either because your concentration is broken or because you decide to end it, each creature restrained by the spell takes 1d6 bludgeoning damage for each round that has passed since you cast the spell from the change in pressure.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 5th level or higher, the size of the cube increases by 10 feet for each slot level above 4th.</description>
+    <sheet>
+      <description>You manifest the pressure of the deep sea in a 20-foot-cube within range, which can be extended through hydromancy. The area becomes difficult terrain for the duration. Each creature within the area when the spell is cast must succeed on a Strength saving throw or become blinded and restrained for the duration. Each creature that enters the spell's area for the first time on its turn or starts its turn there must also succeed on a Strength saving throw or become blinded and restrained for the duration. A creature has advantage on the saving throw if it has a swimming speed, and automatically succeeds if it is immune to the effects of being underwater at a depth greater than 100 feet.
+
+A creature restrained by the spell that starts its turn within the area takes 1d6 bludgeoning damage, and can use its action to make a Strength check against your spell save DC, ending the spell on itself on a success.
+
+When the spell ends, either because your concentration is broken or because you decide to end it, each creature restrained by the spell takes 1d6 bludgeoning damage for each round that has passed since you cast the spell from the change in pressure.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 5th level or higher, the size of the cube increases by 10 feet for each slot level above 4th.</description>
+    </sheet>
+    <setters>
+      <set name="level">4</set>
+      <set name="school">V</set>
+      <set name="time">1 action</set>
+      <set name="range">30 feet</set>
+      <set name="components">V, S</set>
+      <set name="duration">1 minute (concentration)</set>
+      <set name="classes">Druid, Ranger, Sorcerer, Warlock, Wizard</set>
+    </setters>
+  </element>
+  <element name="Dairlain's Glimmering Trove" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Dairlain_s_Glimmering_Trove">
+    <description>The image of an overflowing chest of treasure appears in a space you can see within range. When a creature comes within 5 feet of the chest for the first time, it must make a Wisdom saving throw. On a failed save, the creature is entranced by the chest and is charmed for the duration. While charmed by this spell, the creature is incapacitated and has a speed of 0.
+
+At the end of each of its turns, an affected creature can make another Wisdom saving throw. On a success, the target is no longer charmed. The charm also ends for an affected creature if it takes any damage or if someone else uses an action to shake the creature out of its stupor.
+
+If a creature uses its action to examine the chest, the creature can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature and it becomes immune to the spell's effects.</description>
+    <sheet>
+      <description>The image of an overflowing chest of treasure appears in a space you can see within range. When a creature comes within 5 feet of the chest for the first time, it must make a Wisdom saving throw. On a failed save, the creature is entranced by the chest and is charmed for the duration. While charmed by this spell, the creature is incapacitated and has a speed of 0.
+
+At the end of each of its turns, an affected creature can make another Wisdom saving throw. On a success, the target is no longer charmed. The charm also ends for an affected creature if it takes any damage or if someone else uses an action to shake the creature out of its stupor.
+
+If a creature uses its action to examine the chest, the creature can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature and it becomes immune to the spell's effects.</description>
+    </sheet>
+    <setters>
+      <set name="level">2</set>
+      <set name="school">I</set>
+      <set name="time">1 action</set>
+      <set name="range">30 feet</set>
+      <set name="components">S, M (a single gold coin)</set>
+      <set name="duration">1 minute</set>
+      <set name="classes">Bard, Sorcerer, Warlock, Wizard</set>
+    </setters>
+  </element>
+  <element name="Drown" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Drown">
+    <description>You choose a creature you can see within range, which can be extended through hydromancy, and conjure a liquid within its lungs. Roll 12d8; if the target has hit points equal to or fewer than the total, it begins suffocating and becomes unable to breathe or speak for the duration. If the target has hit points greater than the total, the spell is still cast but doesn't take effect until the target's hit points drop below the total. Creatures that don't have lungs, don't need to breathe, or can breathe water are unaffected by this spell. As an action, the creature can make a Constitution saving throw. On a success, the spell ends.
+
+Until the spell ends, you can use a bonus action on your turn to cause liquid to swell inside the target's lungs and cause it take 2d6 bludgeoning damage.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 5th level or higher, roll an additional 2d8 for each slot level above 4th.</description>
+    <sheet>
+      <description>You choose a creature you can see within range, which can be extended through hydromancy, and conjure a liquid within its lungs. Roll 12d8; if the target has hit points equal to or fewer than the total, it begins suffocating and becomes unable to breathe or speak for the duration. If the target has hit points greater than the total, the spell is still cast but doesn't take effect until the target's hit points drop below the total. Creatures that don't have lungs, don't need to breathe, or can breathe water are unaffected by this spell. As an action, the creature can make a Constitution saving throw. On a success, the spell ends.
+
+Until the spell ends, you can use a bonus action on your turn to cause liquid to swell inside the target's lungs and cause it take 2d6 bludgeoning damage.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 5th level or higher, roll an additional 2d8 for each slot level above 4th.</description>
+    </sheet>
+    <setters>
+      <set name="level">4</set>
+      <set name="school">C</set>
+      <set name="time">1 action</set>
+      <set name="range">60 feet</set>
+      <set name="components">V, S, M (a jug of water)</set>
+      <set name="duration">1 minute (concentration)</set>
+      <set name="classes">Druid, Sorcerer, Warlock, Wizard</set>
+    </setters>
+  </element>
+  <element name="Druid Cove" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Druid_Cove">
+    <description>You invoke the spirits of nature to protect an area on  near the sea. The area can be as small as a 30-foot cube or as large as a 90-foot cube. Buildings and other structures are excluded from the affected area. If you cast this spell in the same area every day for a year, the spell lasts until dispelled.
+
+The spell creates the following effects within the area. When you cast this spell, you can specify creatures as friends who are immune to the effects. You can also specify a password that, when spoken aloud, makes the speaker immune to these effects.
+
+The entire warded area radiates magic. A dispel magic cast on the area, if successful, removes only one of the following effects, not the entire area. That spell's caster chooses which effect to end. Only when all its effects are gone is this spell dispelled.
+
+ You can fill any number of 5-foot squares on the ground with thick fog, making them heavily obscured. The fog reaches 10 feet high. In addition, every foot of movement through the fog costs 2 extra feet. To a creature immune to this effect, the fog obscures nothing and looks like soft mist, with motes of green light floating in the air.
+
+ You can fill any number of 5-foot squares on the ground that aren't filled with fog with whirlpools, as if they were affected by a control water spell. To a creature immune to this effect, the water is smooth and the current guides them around any treacherous areas.
+
+ You can animate up to three waves in the area, causing them to move on independently of the current. These wave have the same statistics as a water weird. If any creature not immune to this effect enters the warded area, the cove guardians fight until they have driven off or slain the intruders. The grove guardians also obey your spoken commands (no action required by you) that you issue while in the area. If you don't give them commands and no intruders are present, the cove guardians do nothing. The cove guardians can't leave the warded area. When the spell ends, the magic animating them disappears, and the waves return to the sea.
+
+ You can place your choice of one of the following magical effects within the warded area:
+
+A constant riptide in four locations of your choice
+
+Plant growth in one location of your choice
+
+A steam vent in one location of your choice
+
+To a creature immune to this effect, the water parts to allow them and any vehicle they are aboard to pass.</description>
+    <sheet>
+      <description>You invoke the spirits of nature to protect an area on  near the sea. The area can be as small as a 30-foot cube or as large as a 90-foot cube. Buildings and other structures are excluded from the affected area. If you cast this spell in the same area every day for a year, the spell lasts until dispelled.
+
+The spell creates the following effects within the area. When you cast this spell, you can specify creatures as friends who are immune to the effects. You can also specify a password that, when spoken aloud, makes the speaker immune to these effects.
+
+The entire warded area radiates magic. A dispel magic cast on the area, if successful, removes only one of the following effects, not the entire area. That spell's caster chooses which effect to end. Only when all its effects are gone is this spell dispelled.
+
+ You can fill any number of 5-foot squares on the ground with thick fog, making them heavily obscured. The fog reaches 10 feet high. In addition, every foot of movement through the fog costs 2 extra feet. To a creature immune to this effect, the fog obscures nothing and looks like soft mist, with motes of green light floating in the air.
+
+ You can fill any number of 5-foot squares on the ground that aren't filled with fog with whirlpools, as if they were affected by a control water spell. To a creature immune to this effect, the water is smooth and the current guides them around any treacherous areas.
+
+ You can animate up to three waves in the area, causing them to move on independently of the current. These wave have the same statistics as a water weird. If any creature not immune to this effect enters the warded area, the cove guardians fight until they have driven off or slain the intruders. The grove guardians also obey your spoken commands (no action required by you) that you issue while in the area. If you don't give them commands and no intruders are present, the cove guardians do nothing. The cove guardians can't leave the warded area. When the spell en</description>
+    </sheet>
+    <setters>
+      <set name="level">6</set>
+      <set name="school">T</set>
+      <set name="time">10 minutes</set>
+      <set name="range">Touch</set>
+      <set name="components">V, S, M (samphire, which the spell consumes, that was harvested with a silver sickle under the light of a new moon)</set>
+      <set name="duration">24 hours</set>
+      <set name="classes">Druid</set>
+    </setters>
+  </element>
+  <element name="Echoes of the Deep" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Echoes_of_the_Deep">
+    <description>The sounds of the deep consume the minds of up to 10 creatures of your choice that you can see within range. Each creature experiences complete darkness, intense pressure, and the weight of water as they believe themselves dragged into the deepest trenches of the sea.
+
+This illusion includes sound, temperature, pressure, and other stimuli, and produces the following affects for each affected creature.
+
+The creature is blinded and deafened.
+
+The creature takes 6d6 psychic damage at the start of each of its turns, which it perceives as bludgeoning damage from the pressure around it. Creatures that are immune to the effects of being underwater at a depth greater than 100 feet are immune to this effect.
+
+The creature must hold its breath or begin immediately suffocating. If the creature attempts to breathe, speak, or open its mouth, it begins suffocating. Creatures with the ability to breathe underwater are immune to this effect.
+
+The creature must spend 2 feet of movement for every 1 foot it moves, and has disadvantage on melee weapon attacks it makes with weapons other than daggers, javelins, shortswords, spears, or tridents. Creatures with a swimming speed are immune to this effect.
+
+A creature that uses an action to examine its surroundings can determine that it is experiencing an illusion by succeeding on an Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature is no longer blinded or deafened, can breathe normally, and no longer takes psychic damage from this spell at the start of its turn.</description>
+    <sheet>
+      <description>The sounds of the deep consume the minds of up to 10 creatures of your choice that you can see within range. Each creature experiences complete darkness, intense pressure, and the weight of water as they believe themselves dragged into the deepest trenches of the sea.
+
+This illusion includes sound, temperature, pressure, and other stimuli, and produces the following affects for each affected creature.
+
+The creature is blinded and deafened.
+
+The creature takes 6d6 psychic damage at the start of each of its turns, which it perceives as bludgeoning damage from the pressure around it. Creatures that are immune to the effects of being underwater at a depth greater than 100 feet are immune to this effect.
+
+The creature must hold its breath or begin immediately suffocating. If the creature attempts to breathe, speak, or open its mouth, it begins suffocating. Creatures with the ability to breathe underwater are immune to this effect.
+
+The creature must spend 2 feet of movement for every 1 foot it moves, and has disadvantage on melee weapon attacks it makes with weapons other than daggers, javelins, shortswords, spears, or tridents. Creatures with a swimming speed are immune to this effect.
+
+A creature that uses an action to examine its surroundings can determine that it is experiencing an illusion by succeeding on an Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature is no longer blinded or deafened, can breathe normally, and no longer takes psychic damage from this spell at the start of its turn.</description>
+    </sheet>
+    <setters>
+      <set name="level">9</set>
+      <set name="school">I</set>
+      <set name="time">1 action</set>
+      <set name="range">60 feet</set>
+      <set name="components">V</set>
+      <set name="duration">10 minutes (concentration)</set>
+      <set name="classes">Bard, Sorcerer, Warlock, Wizard</set>
+    </setters>
+  </element>
+  <element name="Enhance Vehicle" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Enhance_Vehicle">
+    <description>You touch a vehicle that fits within a 30-foot cube and infuse it with energy. Until the spell ends, the vehicle gains a +2 bonus to its AC, and its speed increases by 10 feet. If the vehicle is pulled by one or more creatures, each creature's speed increases by 10 feet while it is pulling the vehicle.
+
+Any enclosed spaces within the vehicle double in all dimensions, though this produces no visible change noticeable from outside of the vehicle. A creature that passes into the vehicle experiences the sensation of the space around it rapidly expanding when it enters the vehicle, and conversely experiences the outside world shrinking around it when it exits the vehicle.
+
+If you cast this spell on the same vehicle every day for 30 days, the effect lasts until it is dispelled.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 3rd level or higher, the size of the cube increases by 30 feet for each slot level above 2nd.</description>
+    <sheet>
+      <description>You touch a vehicle that fits within a 30-foot cube and infuse it with energy. Until the spell ends, the vehicle gains a +2 bonus to its AC, and its speed increases by 10 feet. If the vehicle is pulled by one or more creatures, each creature's speed increases by 10 feet while it is pulling the vehicle.
+
+Any enclosed spaces within the vehicle double in all dimensions, though this produces no visible change noticeable from outside of the vehicle. A creature that passes into the vehicle experiences the sensation of the space around it rapidly expanding when it enters the vehicle, and conversely experiences the outside world shrinking around it when it exits the vehicle.
+
+If you cast this spell on the same vehicle every day for 30 days, the effect lasts until it is dispelled.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 3rd level or higher, the size of the cube increases by 30 feet for each slot level above 2nd.</description>
+    </sheet>
+    <setters>
+      <set name="level">2</set>
+      <set name="school">T</set>
+      <set name="time">1 hour</set>
+      <set name="range">Touch</set>
+      <set name="components">V, S, M (10 gp worth of quicksilver, which the spell consumes)</set>
+      <set name="duration">24 hours</set>
+      <set name="classes">Artificer, Bard, Cleric, Paladin</set>
+    </setters>
+  </element>
+  <element name="Fey Fountain" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Fey_Fountain">
+    <description>You summon forth a spring of clear, cool water blessed with the restorative magic of the feywild. Choose a point within range. For the duration water flows from that point at a rate of 1 gallon every 10 minutes. Each creature that drinks at least a pint of water from this spring gains 10 temporary hit points. While a creature has these hit points, it has advantage on Constitution saving throws made to resist exhaustion. The spell doesn't function if cast targeting a point of worked stone, such as in dungeons and towns, but does function underground.
+
+Water produced by this spell retains its properties for the duration, after which it becomes nonmagical water.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 3rd level or higher, creatures that drink from the fountain gain 5 additional temporary hit points for each slot level above 2nd.</description>
+    <sheet>
+      <description>You summon forth a spring of clear, cool water blessed with the restorative magic of the feywild. Choose a point within range. For the duration water flows from that point at a rate of 1 gallon every 10 minutes. Each creature that drinks at least a pint of water from this spring gains 10 temporary hit points. While a creature has these hit points, it has advantage on Constitution saving throws made to resist exhaustion. The spell doesn't function if cast targeting a point of worked stone, such as in dungeons and towns, but does function underground.
+
+Water produced by this spell retains its properties for the duration, after which it becomes nonmagical water.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 3rd level or higher, creatures that drink from the fountain gain 5 additional temporary hit points for each slot level above 2nd.</description>
+    </sheet>
+    <setters>
+      <set name="level">2</set>
+      <set name="school">C</set>
+      <set name="time">1 minute</set>
+      <set name="range">10 feet</set>
+      <set name="components">V, S, M (5 gp worth of gold dust, which the spell consumes)</set>
+      <set name="duration">1 hour</set>
+      <set name="classes">Bard, Druid, Ranger</set>
+    </setters>
+  </element>
+  <element name="Figgly's Exploding Squid" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Figgly_s_Exploding_Squid">
+    <description>You summon a squid and fling it at a creature within range, which can be extended through hydromancy. Make a ranged spell attack against the target. On a hit, the squid explodes in a burst of ink. The target takes 1d12 piercing damage and becomes blinded until the end of your next turn.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 2nd level or higher, you summon an additional squid for each slot level above 1st. You can fling them at one target or several.</description>
+    <sheet>
+      <description>You summon a squid and fling it at a creature within range, which can be extended through hydromancy. Make a ranged spell attack against the target. On a hit, the squid explodes in a burst of ink. The target takes 1d12 piercing damage and becomes blinded until the end of your next turn.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 2nd level or higher, you summon an additional squid for each slot level above 1st. You can fling them at one target or several.</description>
+    </sheet>
+    <setters>
+      <set name="level">1</set>
+      <set name="school">C</set>
+      <set name="time">1 action</set>
+      <set name="range">60 feet</set>
+      <set name="components">S</set>
+      <set name="duration">Instantaneous</set>
+      <set name="classes">Artificer, Bard, Druid, Sorcerer, Warlock, Wizard</set>
+    </setters>
+  </element>
+  <element name="Flood" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Flood">
+    <description>You create a 50-foot-radius sphere of water centered on a point of your choice you can see within range. Until the spell ends, the sphere's radius increases by 5 feet at the beginning of each of your turn. When a creature enters the spell's area for the first time on a turn or starts its turn there, it must make a Constitution saving throw. It takes 6d8 bludgeoning damage on a failed save, or half as much damage on a successful one. The water extinguishes all flames within the sphere.
+
+When the spell ends, the sphere falls to the ground and forms a shallow pool of water with a radius equal to twice the sphere's radius, extinguishing all normal flames within the area. Each creature in the area must succeed on a Strength saving throw or be knocked prone. Any creature in the sphere is knocked prone in the space where it falls.</description>
+    <sheet>
+      <description>You create a 50-foot-radius sphere of water centered on a point of your choice you can see within range. Until the spell ends, the sphere's radius increases by 5 feet at the beginning of each of your turn. When a creature enters the spell's area for the first time on a turn or starts its turn there, it must make a Constitution saving throw. It takes 6d8 bludgeoning damage on a failed save, or half as much damage on a successful one. The water extinguishes all flames within the sphere.
+
+When the spell ends, the sphere falls to the ground and forms a shallow pool of water with a radius equal to twice the sphere's radius, extinguishing all normal flames within the area. Each creature in the area must succeed on a Strength saving throw or be knocked prone. Any creature in the sphere is knocked prone in the space where it falls.</description>
+    </sheet>
+    <setters>
+      <set name="level">8</set>
+      <set name="school">C</set>
+      <set name="time">1 action</set>
+      <set name="range">300 feet</set>
+      <set name="components">V, S, M (a vial of ocean water and sapphire dust worth at least 100 gp)</set>
+      <set name="duration">1 minute (concentration)</set>
+      <set name="classes">Cleric, Druid, Sorcerer, Wizard</set>
+    </setters>
+  </element>
+  <element name="Freeze" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Freeze">
+    <description>Make a melee spell attack against a creature you can reach, whether through normal means or hydromancy. On a hit, a creature takes 2d8 cold damage and must make a Constitution saving throw. On a failed save, the creature is paralyzed until the end of your next turn. On a successful save, the creature is not paralyzed, and instead its speed is halved until the end of your next turn. If a creature affected by this spell takes damage, the spell ends early.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.</description>
+    <sheet>
+      <description>Make a melee spell attack against a creature you can reach, whether through normal means or hydromancy. On a hit, a creature takes 2d8 cold damage and must make a Constitution saving throw. On a failed save, the creature is paralyzed until the end of your next turn. On a successful save, the creature is not paralyzed, and instead its speed is halved until the end of your next turn. If a creature affected by this spell takes damage, the spell ends early.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.</description>
+    </sheet>
+    <setters>
+      <set name="level">2</set>
+      <set name="school">V</set>
+      <set name="time">1 action</set>
+      <set name="range">Touch</set>
+      <set name="components">V, S</set>
+      <set name="duration">1 round</set>
+      <set name="classes">Sorcerer, Wizard</set>
+    </setters>
+  </element>
+  <element name="Frigid Strike" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Frigid_Strike">
+    <description>The next time you hit a creature with a weapon attack before the spell ends, your weapon rimes with frost. The attack deals an extra 1d6 cold damage to the target, its speed is reduced by 10 feet until the spell ends, and it must make a Strength saving throw or be restrained until the spell ends. As an action, the creature can make a Strength check against your spell save DC, ending the spell on a success.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 2nd level or higher, the extra damage increases by 1d6 for each slot level above 1st.</description>
+    <sheet>
+      <description>The next time you hit a creature with a weapon attack before the spell ends, your weapon rimes with frost. The attack deals an extra 1d6 cold damage to the target, its speed is reduced by 10 feet until the spell ends, and it must make a Strength saving throw or be restrained until the spell ends. As an action, the creature can make a Strength check against your spell save DC, ending the spell on a success.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 2nd level or higher, the extra damage increases by 1d6 for each slot level above 1st.</description>
+    </sheet>
+    <setters>
+      <set name="level">1</set>
+      <set name="school">V</set>
+      <set name="time">1 bonus</set>
+      <set name="range">Self</set>
+      <set name="components">V</set>
+      <set name="duration">1 minute (concentration)</set>
+      <set name="classes">Paladin, Ranger</set>
+    </setters>
+  </element>
+  <element name="Fulminous Smite" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Fulminous_Smite">
+    <description>The next time you hit a creature with a weapon attack during the spell's duration, your weapon arcs with lightning, and the attack deals an extra 1d6 lightning damage to the target and causes the target to glow faintly until the spell ends. As a bonus action on your turn, you can dismiss this spell and cause a bolt of lightning to strike the target. Each creature within 5 feet of the target must succeed on a Dexterity saving throw or take 1d6 lightning damage.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 2nd level or higher, both the initial extra damage and the damage dealt by the lightning bolt increase by 1d6 for each slot level above 1st.</description>
+    <sheet>
+      <description>The next time you hit a creature with a weapon attack during the spell's duration, your weapon arcs with lightning, and the attack deals an extra 1d6 lightning damage to the target and causes the target to glow faintly until the spell ends. As a bonus action on your turn, you can dismiss this spell and cause a bolt of lightning to strike the target. Each creature within 5 feet of the target must succeed on a Dexterity saving throw or take 1d6 lightning damage.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 2nd level or higher, both the initial extra damage and the damage dealt by the lightning bolt increase by 1d6 for each slot level above 1st.</description>
+    </sheet>
+    <setters>
+      <set name="level">1</set>
+      <set name="school">V</set>
+      <set name="time">1 bonus</set>
+      <set name="range">Self</set>
+      <set name="components">V</set>
+      <set name="duration">1 minute (concentration)</set>
+      <set name="classes">Paladin</set>
+    </setters>
+  </element>
+  <element name="Geyser" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Geyser">
+    <description>You cause as a blast of steaming hot water to erupt in a 10-foot radius, 60-foot high cylinder centered on a point on the ground or on the surface of water that you can see within range, which can be extended through hydromancy. Each creature in the area must make a Strength saving throw. On a failed save, a target takes 3d6 bludgeoning damage and 3d6 fire damage damage and is knocked prone if it is Medium or larger. On a successful save, it takes half damage and is not knocked prone. A Tiny or Small creature that fails the save is not knocked prone, but is instead flung 30 feet into the air, and lands 1d6 × 5 feet away in a random direction.
+
+Water created by this spell then rapidly boils away. If cast on a point on the ground, any loose earth or stone in the area becomes difficult terrain until cleared, with each 5-foot-diameter portion requiring at least 1 minute to clear by hand. If cast on a point on the surface of water, the spell deals an additional 1d6 bludgeoning damage.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 4th level or higher, the bludgeoning damage or the fire damage (your choice) increases by 1d6 for each slot level above 3rd.</description>
+    <sheet>
+      <description>You cause as a blast of steaming hot water to erupt in a 10-foot radius, 60-foot high cylinder centered on a point on the ground or on the surface of water that you can see within range, which can be extended through hydromancy. Each creature in the area must make a Strength saving throw. On a failed save, a target takes 3d6 bludgeoning damage and 3d6 fire damage damage and is knocked prone if it is Medium or larger. On a successful save, it takes half damage and is not knocked prone. A Tiny or Small creature that fails the save is not knocked prone, but is instead flung 30 feet into the air, and lands 1d6 × 5 feet away in a random direction.
+
+Water created by this spell then rapidly boils away. If cast on a point on the ground, any loose earth or stone in the area becomes difficult terrain until cleared, with each 5-foot-diameter portion requiring at least 1 minute to clear by hand. If cast on a point on the surface of water, the spell deals an additional 1d6 bludgeoning damage.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 4th level or higher, the bludgeoning damage or the fire damage (your choice) increases by 1d6 for each slot level above 3rd.</description>
+    </sheet>
+    <setters>
+      <set name="level">3</set>
+      <set name="school">T</set>
+      <set name="time">1 action</set>
+      <set name="range">90 feet</set>
+      <set name="components">V, S, M (vinegar and a handful of salt)</set>
+      <set name="duration">Instantaneous</set>
+      <set name="classes">Cleric, Druid, Sorcerer, Wizard</set>
+    </setters>
+  </element>
+  <element name="Holy Hydropathy" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Holy_Hydropathy">
+    <description>You imbue a pool of water with holy energy, creating a water weird in an unoccupied space within range. The water weird is bound to the pool of water, and dies if it leaves the water or if that water is destroyed. The water weird reverts back into nonmagical water when it drops to 0 hit points or when the spell ends.
+
+The water weird is friendly to you and your companions for the duration. Roll initiative for the water weird, which has its own turns. It obeys any verbal commands that you issue to it (no action required by you). If you don't issue any commands to the water weird, it defends itself from hostile creatures but otherwise takes no actions.
+
+The water weird's attacks deal an additional 2d6 radiant damage to fiends and undead. As an action, the water weird can reach out and touch a creature other than itself within 10 feet of it. The water weird takes 2d10 necrotic damage, which can't be reduced in any way, and the target regains a number of hit points equal to twice the necrotic damage taken.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 7th level or higher, the water weird's maximum hit points increase by 20 for each slot level above 6th.</description>
+    <sheet>
+      <description>You imbue a pool of water with holy energy, creating a water weird in an unoccupied space within range. The water weird is bound to the pool of water, and dies if it leaves the water or if that water is destroyed. The water weird reverts back into nonmagical water when it drops to 0 hit points or when the spell ends.
+
+The water weird is friendly to you and your companions for the duration. Roll initiative for the water weird, which has its own turns. It obeys any verbal commands that you issue to it (no action required by you). If you don't issue any commands to the water weird, it defends itself from hostile creatures but otherwise takes no actions.
+
+The water weird's attacks deal an additional 2d6 radiant damage to fiends and undead. As an action, the water weird can reach out and touch a creature other than itself within 10 feet of it. The water weird takes 2d10 necrotic damage, which can't be reduced in any way, and the target regains a number of hit points equal to twice the necrotic damage taken.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 7th level or higher, the water weird's maximum hit points increase by 20 for each slot level above 6th.</description>
+    </sheet>
+    <setters>
+      <set name="level">6</set>
+      <set name="school">V</set>
+      <set name="time">1 action</set>
+      <set name="range">30 feet</set>
+      <set name="components">V, S, M (25 gp worth of powdered silver, which the spell consumes)</set>
+      <set name="duration">1 minute (concentration)</set>
+      <set name="classes">Bard, Cleric</set>
+    </setters>
+  </element>
+  <element name="Instant Iceberg" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Instant_Iceberg">
+    <description>You cause water to freeze within a 20-foot cube within range, forming an iceberg. Each creature in the area can make a Dexterity saving throw. On a success, it can use its reaction to move up to its speed so that it is no longer in the area. Otherwise, a target becomes trapped within the transparent ice. A creature in the iceberg is restrained and has total cover against attacks and other effects that originate from outside of its own space.
+
+The iceberg is a Gargantuan object with AC 12 and 100 hit points, and it is vulnerable to fire damage. It floats on the surface of water, and rises at a rate of 60 feet per round at the start of each of your turns if it is submerged in water. If the iceberg is reduced to 0 hit points, it shatters, freeing any creatures trapped within it.
+
+When a creature moves more than 5 feet for the first time on a turn while standing on top of the iceberg, it must succeed on a 10 Dexterity saving throw or be knocked prone.
+
+
+At Higher Levels.
+
+When you cast the spell using a spell slot of 6th level or higher, ice's maximum hit points increase by 20 and the size of the cube you can target increases by 10 feet for each slot level above 5th.</description>
+    <sheet>
+      <description>You cause water to freeze within a 20-foot cube within range, forming an iceberg. Each creature in the area can make a Dexterity saving throw. On a success, it can use its reaction to move up to its speed so that it is no longer in the area. Otherwise, a target becomes trapped within the transparent ice. A creature in the iceberg is restrained and has total cover against attacks and other effects that originate from outside of its own space.
+
+The iceberg is a Gargantuan object with AC 12 and 100 hit points, and it is vulnerable to fire damage. It floats on the surface of water, and rises at a rate of 60 feet per round at the start of each of your turns if it is submerged in water. If the iceberg is reduced to 0 hit points, it shatters, freeing any creatures trapped within it.
+
+When a creature moves more than 5 feet for the first time on a turn while standing on top of the iceberg, it must succeed on a 10 Dexterity saving throw or be knocked prone.
+
+
+At Higher Levels.
+
+When you cast the spell using a spell slot of 6th level or higher, ice's maximum hit points increase by 20 and the size of the cube you can target increases by 10 feet for each slot level above 5th.</description>
+    </sheet>
+    <setters>
+      <set name="level">5</set>
+      <set name="school">V</set>
+      <set name="time">1 action</set>
+      <set name="range">90 feet</set>
+      <set name="components">V, S, M (a glass marble)</set>
+      <set name="duration">1 hour</set>
+      <set name="classes">Artificer, Bard, Druid, Sorcerer, Wizard</set>
+    </setters>
+  </element>
+  <element name="Jonah's Hospitable Whale" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Jonah_s_Hospitable_Whale">
+    <description>You name a destination and conjure a Gargantuan force in the form of a spectral whale, which appears in a body of water within range and lasts until the spell ends. If there isn't enough room for the whale to manifest, the spell fails. When it is conjured, the whale immediately devours you and up to 5 willing creatures of your choice within 10 feet of you, and then begins traveling toward the named destination, which must border a river, ocean, or other body of water, or be underwater. If the destination and your starting body of water are not connected by at least one water route, the spell fails.
+
+The whale has a swimming speed of 300 feet, and can move 30 miles in an hour (240 miles in 8 hours). It travels at a depth of 30 feet in bodies of water that can accommodate it, or otherwise along the surface. Upon reaching your final destination, the whale disgorges you and all other passengers on the shoreline nearest the destination, and the spell ends. If the whale does not reach the destination by the time the spell ends, it discharges all creatures inside it on the nearest piece of solid ground.
+
+The interior of the whale is warm, comfortable, and relatively dry, with enough air to sustain all passengers for the duration of the spell. Nothing—not physical objects, energy, or other spell effects—can enter or exit the whale. The whale is immune to all damage, and a creature or object inside can't be damaged by attacks or effects originating from outside, nor can a creature inside the whale damage anything outside it.
+
+A disintegrate spell targeting the whale destroys it without harming anything inside it.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 7th level or higher, the whale's speed increases by 50 feet (5 miles per hour) for each slot levels above 5th.</description>
+    <sheet>
+      <description>You name a destination and conjure a Gargantuan force in the form of a spectral whale, which appears in a body of water within range and lasts until the spell ends. If there isn't enough room for the whale to manifest, the spell fails. When it is conjured, the whale immediately devours you and up to 5 willing creatures of your choice within 10 feet of you, and then begins traveling toward the named destination, which must border a river, ocean, or other body of water, or be underwater. If the destination and your starting body of water are not connected by at least one water route, the spell fails.
+
+The whale has a swimming speed of 300 feet, and can move 30 miles in an hour (240 miles in 8 hours). It travels at a depth of 30 feet in bodies of water that can accommodate it, or otherwise along the surface. Upon reaching your final destination, the whale disgorges you and all other passengers on the shoreline nearest the destination, and the spell ends. If the whale does not reach the destination by the time the spell ends, it discharges all creatures inside it on the nearest piece of solid ground.
+
+The interior of the whale is warm, comfortable, and relatively dry, with enough air to sustain all passengers for the duration of the spell. Nothing—not physical objects, energy, or other spell effects—can enter or exit the whale. The whale is immune to all damage, and a creature or object inside can't be damaged by attacks or effects originating from outside, nor can a creature inside the whale damage anything outside it.
+
+A disintegrate spell targeting the whale destroys it without harming anything inside it.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 7th level or higher, the whale's speed increases by 50 feet (5 miles per hour) for each slot levels above 5th.</description>
+    </sheet>
+    <setters>
+      <set name="level">5</set>
+      <set name="school">C</set>
+      <set name="time">1 hour</set>
+      <set name="range">30 feet</set>
+      <set name="components">V, S, M (a fragment of whalebone worth at least 100 gp, which the spell consumes)</set>
+      <set name="duration">8 hours</set>
+      <set name="classes">Artificer, Druid, Sorcerer, Warlock, Wizard</set>
+    </setters>
+  </element>
+  <element name="Kllimkaklaeia's Coral Corral" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Kllimkaklaeia_s_Coral_Corral">
+    <description>This spell creates an array of coral chunks, which float on the surface of a 15-foot-radius sphere centered on a point you can see within range, which can be extended through hydromancy.
+
+When you cast this spell, you can designate any number of creatures you can see to be unaffected by it. When an affected creature moves into or out of the sphere for the first time on a turn, bristling coral blooms from the coral chunk nearest to it, and the creature must succeed on a Dexterity saving throw or take 2d4 piercing damage and be restrained by the coral until the spell ends. A creature restrained by the coral can use its action to make a Strength check against your spell save DC. On a success, it frees itself.
+
+Additionally, the sphere grants half cover against attacks that pass into or out of it.
+
+
+At Higher Levels.
+
+When you cast this spell using certain higher-level spell slots, you create additional spheres of coral centered on the same point: a second 30-foot-radius sphere with a 5th-level slot, a third 45-foot-radius sphere with a 7th-level slot, and a fourth 60-foot-radius sphere with an 9th-level slot.</description>
+    <sheet>
+      <description>This spell creates an array of coral chunks, which float on the surface of a 15-foot-radius sphere centered on a point you can see within range, which can be extended through hydromancy.
+
+When you cast this spell, you can designate any number of creatures you can see to be unaffected by it. When an affected creature moves into or out of the sphere for the first time on a turn, bristling coral blooms from the coral chunk nearest to it, and the creature must succeed on a Dexterity saving throw or take 2d4 piercing damage and be restrained by the coral until the spell ends. A creature restrained by the coral can use its action to make a Strength check against your spell save DC. On a success, it frees itself.
+
+Additionally, the sphere grants half cover against attacks that pass into or out of it.
+
+
+At Higher Levels.
+
+When you cast this spell using certain higher-level spell slots, you create additional spheres of coral centered on the same point: a second 30-foot-radius sphere with a 5th-level slot, a third 45-foot-radius sphere with a 7th-level slot, and a fourth 60-foot-radius sphere with an 9th-level slot.</description>
+    </sheet>
+    <setters>
+      <set name="level">3</set>
+      <set name="school">C</set>
+      <set name="time">1 action</set>
+      <set name="range">60 feet</set>
+      <set name="components">V, S, M (a chunk of coral worth at least 5 gp)</set>
+      <set name="duration">1 hour (concentration)</set>
+      <set name="classes">Druid, Ranger</set>
+    </setters>
+  </element>
+  <element name="Leviathan's Maw" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Leviathan_s_Maw">
+    <description>You manifest the jaws of a leviathan, erupting from a point on the ground or on the surface of water that you can see within range, which can be extended through hydromancy. Each creature within a 20-foot radius, 80-foot high cylinder centered on the point must make a Dexterity saving throw. On a failed save, a target takes 12d6 force damage and is banished. On a successful save, it takes half as much damage and isn't banished.
+
+If the spell is cast targeting a point on the ground, all creatures banished by this spell are transported to a harmless demiplane. Each creature remains there until the spell ends, at which point it reappears in the space it left or in the nearest unoccupied space if that space is occupied.
+
+If the spell is cast targeting a point on the surface of a body of water, all creatures banished by this spell are transported to the Elemental Plane of Water. Each creature is blinded and restrained, and takes 6d6 bludgeoning damage at the start of each of its turns. Each creature remains there until the spell ends, at which point it reappears in the space it left or in the nearest unoccupied space if that space is occupied.</description>
+    <sheet>
+      <description>You manifest the jaws of a leviathan, erupting from a point on the ground or on the surface of water that you can see within range, which can be extended through hydromancy. Each creature within a 20-foot radius, 80-foot high cylinder centered on the point must make a Dexterity saving throw. On a failed save, a target takes 12d6 force damage and is banished. On a successful save, it takes half as much damage and isn't banished.
+
+If the spell is cast targeting a point on the ground, all creatures banished by this spell are transported to a harmless demiplane. Each creature remains there until the spell ends, at which point it reappears in the space it left or in the nearest unoccupied space if that space is occupied.
+
+If the spell is cast targeting a point on the surface of a body of water, all creatures banished by this spell are transported to the Elemental Plane of Water. Each creature is blinded and restrained, and takes 6d6 bludgeoning damage at the start of each of its turns. Each creature remains there until the spell ends, at which point it reappears in the space it left or in the nearest unoccupied space if that space is occupied.</description>
+    </sheet>
+    <setters>
+      <set name="level">8</set>
+      <set name="school">A</set>
+      <set name="time">1 action</set>
+      <set name="range">90 feet</set>
+      <set name="components">S, M (a piece of coral from the Elemental Plane of Water worth 500 gp)</set>
+      <set name="duration">1 minute (concentration)</set>
+      <set name="classes">Bard, Druid, Sorcerer, Warlock, Wizard</set>
+    </setters>
+  </element>
+  <element name="Liquefaction" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Liquefaction">
+    <description>Each nonmagical object that is not being worn or carried in a 20-foot cube within range liquefies into water with the same appearance and shape of its original material. For example, a stone statue liquefied with this spell retains its shape, color, and appearance without collapsing or dripping. The water is retains the color and opacity of the object, potentially obscuring creatures and objects submerged in it. Water created with this spell can't be moved out of the spell's area, and magically refills if removed.
+
+When the spell ends, the water solidifies back into solid matter, and each creature or object submerged within the water is shunted to the nearest unoccupied space.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 6th level or higher, the size of the cube increases by 10 feet for each slot level above 5th.</description>
+    <sheet>
+      <description>Each nonmagical object that is not being worn or carried in a 20-foot cube within range liquefies into water with the same appearance and shape of its original material. For example, a stone statue liquefied with this spell retains its shape, color, and appearance without collapsing or dripping. The water is retains the color and opacity of the object, potentially obscuring creatures and objects submerged in it. Water created with this spell can't be moved out of the spell's area, and magically refills if removed.
+
+When the spell ends, the water solidifies back into solid matter, and each creature or object submerged within the water is shunted to the nearest unoccupied space.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 6th level or higher, the size of the cube increases by 10 feet for each slot level above 5th.</description>
+    </sheet>
+    <setters>
+      <set name="level">5</set>
+      <set name="school">T</set>
+      <set name="time">1 action</set>
+      <set name="range">60 feet</set>
+      <set name="components">V, S</set>
+      <set name="duration">1 hour (concentration)</set>
+      <set name="classes">Druid, Sorcerer, Warlock, Wizard</set>
+    </setters>
+  </element>
+  <element name="Liquid Sentinel" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Liquid_Sentinel">
+    <description>You shape water into an orb, which orbits around your head for the duration, granting you the following benefits:
+
+You can adjust the orb's shape as an action, allowing it to function as either a magnifying glass or a spyglass.
+
+When you cast this spell, or as an action on a later turn, you can focus light through the orb at point within 60 feet of you. Make a ranged spell attack. On a hit, the target takes 1d6 radiant damage. You can only make this attack when standing in bright light.
+
+When you are hit by an attack, the orb intercepts the attack, reducing the damage you take by 1d6. The spell then ends.
+
+The spell's damage and reduction both increase by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</description>
+    <sheet>
+      <description>You shape water into an orb, which orbits around your head for the duration, granting you the following benefits:
+
+You can adjust the orb's shape as an action, allowing it to function as either a magnifying glass or a spyglass.
+
+When you cast this spell, or as an action on a later turn, you can focus light through the orb at point within 60 feet of you. Make a ranged spell attack. On a hit, the target takes 1d6 radiant damage. You can only make this attack when standing in bright light.
+
+When you are hit by an attack, the orb intercepts the attack, reducing the damage you take by 1d6. The spell then ends.
+
+The spell's damage and reduction both increase by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</description>
+    </sheet>
+    <setters>
+      <set name="level">0</set>
+      <set name="school">T</set>
+      <set name="time">1 action</set>
+      <set name="range">Self</set>
+      <set name="components">V, S, M (a flask of holy water worth 25 gp)</set>
+      <set name="duration">10 minutes (concentration)</set>
+      <set name="classes">Artificer, Bard, Cleric, Druid, Warlock</set>
+    </setters>
+  </element>
+  <element name="Meandering Torrent" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Meandering_Torrent">
+    <description>You manipulate freestanding water within the spell's range, causing it to surge forward in a slithering path. Choose a point within range, which can be extended through hydromancy, that is within a body of water. The water moves in a 5-foot-wide path originating from that point. You can shape the path in any way you choose so long as it is continuous, doesn't intersect itself, and remains within range at all times. The length of this path is a number of feet equal to the number of gallons contained within the body of water you chose, up to a maximum length of 120 feet. Each creature in the path must make a Dexterity saving throw. On a failed save, a creature takes 6d10 bludgeoning damage and is pushed up to 20 feet along the path. On a successful save, the creature takes half as much damage and isn't pushed.
+
+The spell moves the water used to form the path, up to 120 gallons of water, to the end of the path, where it pools up.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d10 for each slot level above 5th.</description>
+    <sheet>
+      <description>You manipulate freestanding water within the spell's range, causing it to surge forward in a slithering path. Choose a point within range, which can be extended through hydromancy, that is within a body of water. The water moves in a 5-foot-wide path originating from that point. You can shape the path in any way you choose so long as it is continuous, doesn't intersect itself, and remains within range at all times. The length of this path is a number of feet equal to the number of gallons contained within the body of water you chose, up to a maximum length of 120 feet. Each creature in the path must make a Dexterity saving throw. On a failed save, a creature takes 6d10 bludgeoning damage and is pushed up to 20 feet along the path. On a successful save, the creature takes half as much damage and isn't pushed.
+
+The spell moves the water used to form the path, up to 120 gallons of water, to the end of the path, where it pools up.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d10 for each slot level above 5th.</description>
+    </sheet>
+    <setters>
+      <set name="level">5</set>
+      <set name="school">V</set>
+      <set name="time">1 action</set>
+      <set name="range">120 feet</set>
+      <set name="components">S</set>
+      <set name="duration">Instantaneous</set>
+      <set name="classes">Cleric, Druid, Sorcerer, Wizard</set>
+    </setters>
+  </element>
+  <element name="Misty Apparitions" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Misty_Apparitions">
+    <description>You release spectral fog, which mingles with the spirits of the dead and fills a 30-foot-radius sphere centered around you. The mist takes on the form of each creature that died in the area within the past 10 days, reenacting each creatures' last 1 minute of life before dispersing. The mist is incapable of leaving the spell's area, and only shows a creature's actions performed within the area.
+
+
+At Higher Levels.
+
+If you cast this spell using a slot of 5th level or higher, the mist takes on the forms of each creature that died within the past 1 year. If you use a spell slot of 7th level or higher, the mist takes on the forms of each creature that died within the past 10 years. If you use a spell slot of 9th level, the mist takes on the forms of each creature that died within the past 100 years.</description>
+    <sheet>
+      <description>You release spectral fog, which mingles with the spirits of the dead and fills a 30-foot-radius sphere centered around you. The mist takes on the form of each creature that died in the area within the past 10 days, reenacting each creatures' last 1 minute of life before dispersing. The mist is incapable of leaving the spell's area, and only shows a creature's actions performed within the area.
+
+
+At Higher Levels.
+
+If you cast this spell using a slot of 5th level or higher, the mist takes on the forms of each creature that died within the past 1 year. If you use a spell slot of 7th level or higher, the mist takes on the forms of each creature that died within the past 10 years. If you use a spell slot of 9th level, the mist takes on the forms of each creature that died within the past 100 years.</description>
+    </sheet>
+    <setters>
+      <set name="level">4</set>
+      <set name="school">D</set>
+      <set name="time">1 action</set>
+      <set name="range">Self</set>
+      <set name="components">V, S, M (a stick of incense)</set>
+      <set name="duration">1 minute</set>
+      <set name="classes">Bard, Cleric, Warlock, Wizard</set>
+    </setters>
+  </element>
+  <element name="Phantom Galley" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Phantom_Galley">
+    <description>A quasi-real ship appears on the surface of the water in an unoccupied space of your choice within range. You decide the ship's appearance. Any objects created by the spell as part of the ship vanishes in a puff of smoke if it is carried more than 10 feet away from the ship.
+
+The ship is a Gargantuan force with an AC of 15 and 500 hit points, can carry up to 150 tons of creature and cargo, has a speed on the water of 50 feet (5 miles an hour), requiring no crew to steer or man it. Its speed increases to 60 feet (6 miles an hour) if it is sailing with the wind, and decreases to 30 feet (3 miles an hour) if it is sailing into the wind. You can command the ship to move, change directions, or stop as a bonus action on your turn. Otherwise, it maintains its previous bearing, moving at the end of your turn.
+
+As an action before the spell ends, you can command the ship to unleash a volley of ethereal cannon fire in a 300-foot-long, 40-foot-wide line. Each creature in the line must succeed on a Dexterity saving throw or take 8d10 force damage. You can make this attack three times, after which the ship runs out of ammo and becomes incapable of firing its cannons in this way again.
+
+When the spell ends, the ship gradually fades over the course of 10 minutes, allowing creatures on board to disembark and offload any objects placed onto it. The spell ends early if you dismiss it as an action or if the ship is reduced to 0 hit points.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 8th level or higher, the number of times you can fire the ship's cannons increases by 2 for each slot level above 7th.</description>
+    <sheet>
+      <description>A quasi-real ship appears on the surface of the water in an unoccupied space of your choice within range. You decide the ship's appearance. Any objects created by the spell as part of the ship vanishes in a puff of smoke if it is carried more than 10 feet away from the ship.
+
+The ship is a Gargantuan force with an AC of 15 and 500 hit points, can carry up to 150 tons of creature and cargo, has a speed on the water of 50 feet (5 miles an hour), requiring no crew to steer or man it. Its speed increases to 60 feet (6 miles an hour) if it is sailing with the wind, and decreases to 30 feet (3 miles an hour) if it is sailing into the wind. You can command the ship to move, change directions, or stop as a bonus action on your turn. Otherwise, it maintains its previous bearing, moving at the end of your turn.
+
+As an action before the spell ends, you can command the ship to unleash a volley of ethereal cannon fire in a 300-foot-long, 40-foot-wide line. Each creature in the line must succeed on a Dexterity saving throw or take 8d10 force damage. You can make this attack three times, after which the ship runs out of ammo and becomes incapable of firing its cannons in this way again.
+
+When the spell ends, the ship gradually fades over the course of 10 minutes, allowing creatures on board to disembark and offload any objects placed onto it. The spell ends early if you dismiss it as an action or if the ship is reduced to 0 hit points.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 8th level or higher, the number of times you can fire the ship's cannons increases by 2 for each slot level above 7th.</description>
+    </sheet>
+    <setters>
+      <set name="level">7</set>
+      <set name="school">I</set>
+      <set name="time">10 minutes</set>
+      <set name="range">120 feet</set>
+      <set name="components">V, S</set>
+      <set name="duration">8 hours</set>
+      <set name="classes">Warlock</set>
+    </setters>
+  </element>
+  <element name="Plant Growth (Algal Bloom)" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Plant_Growth_Algal_Bloom_">
+    <description>This spell channels vitality into plants within a specific area. There are two possible uses for the spell, granting either immediate or long-term benefits.
+
+If you cast this spell using 1 action, choose a point within range. All normal plants in a 100-foot radius centered on that point become thick and overgrown. A creature moving through the area must spend 4 feet of movement for every 1 foot it moves.
+
+You can exclude one or more areas of any size within the spell's area from being affected.
+
+If you cast this spell using 1 action and choose a point on the surface of a body of water, you can choose the following effect instead of the spell's normal effect:
+
+ This spell channels vitality into the water within a 100-foot radius circle on the surface of a body of water, causing a sudden bloom of life. The surface of the water in the area becomes opaque, covered by vibrant red algae, and the water in a 100-foot-radius, 100-foot-tall cylinder extending down from the surface in the area becomes unbreathable. Creatures within the cylinder that can breathe water are unable to breathe. Additionally, each creature that starts its turn in the cylinder must succeed on a Constitution saving throw or become poisoned until the start of its next turn.
+
+If you cast this spell over 8 hours, you enrich the land. All plants in a half-mile radius centered on a point within range become enriched for 1 year. The plants yield twice the normal amount of food when harvested.</description>
+    <sheet>
+      <description>This spell channels vitality into plants within a specific area. There are two possible uses for the spell, granting either immediate or long-term benefits.
+
+If you cast this spell using 1 action, choose a point within range. All normal plants in a 100-foot radius centered on that point become thick and overgrown. A creature moving through the area must spend 4 feet of movement for every 1 foot it moves.
+
+You can exclude one or more areas of any size within the spell's area from being affected.
+
+If you cast this spell using 1 action and choose a point on the surface of a body of water, you can choose the following effect instead of the spell's normal effect:
+
+ This spell channels vitality into the water within a 100-foot radius circle on the surface of a body of water, causing a sudden bloom of life. The surface of the water in the area becomes opaque, covered by vibrant red algae, and the water in a 100-foot-radius, 100-foot-tall cylinder extending down from the surface in the area becomes unbreathable. Creatures within the cylinder that can breathe water are unable to breathe. Additionally, each creature that starts its turn in the cylinder must succeed on a Constitution saving throw or become poisoned until the start of its next turn.
+
+If you cast this spell over 8 hours, you enrich the land. All plants in a half-mile radius centered on a point within range become enriched for 1 year. The plants yield twice the normal amount of food when harvested.</description>
+    </sheet>
+    <setters>
+      <set name="level">3</set>
+      <set name="school">T</set>
+      <set name="time">1 action</set>
+      <set name="range">150 feet</set>
+      <set name="components">V, S</set>
+      <set name="duration">Instantaneous</set>
+      <set name="classes">Bard, Druid, Ranger</set>
+    </setters>
+  </element>
+  <element name="Pollute Water" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Pollute_Water">
+    <description>You befoul water in a 100-foot cube originating from you. Any water that remains in the area during the entirety of the spell's casting time becomes fouled for the duration, even if it later leaves the area. When a creature drinks from the water, breathes in the water, or spends more than 1 minute within the water, it must succeed on a Constitution saving throw or become poisoned for 24 hours. A poisoned creature must repeat the saving throw every hour, taking 1d6 poison damage on a failed save.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 7th level or higher, you can befoul water in a 1,000-foot cube, and the water remains fouled for 30 days. If you cast this spell using a spell slot of 9th level, you can befoul water in a 1-mile cube, and the water remains fouled until the spell is dispelled.</description>
+    <sheet>
+      <description>You befoul water in a 100-foot cube originating from you. Any water that remains in the area during the entirety of the spell's casting time becomes fouled for the duration, even if it later leaves the area. When a creature drinks from the water, breathes in the water, or spends more than 1 minute within the water, it must succeed on a Constitution saving throw or become poisoned for 24 hours. A poisoned creature must repeat the saving throw every hour, taking 1d6 poison damage on a failed save.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 7th level or higher, you can befoul water in a 1,000-foot cube, and the water remains fouled for 30 days. If you cast this spell using a spell slot of 9th level, you can befoul water in a 1-mile cube, and the water remains fouled until the spell is dispelled.</description>
+    </sheet>
+    <setters>
+      <set name="level">5</set>
+      <set name="school">T</set>
+      <set name="time">1 minute</set>
+      <set name="range">Self</set>
+      <set name="components">V, S, M (a bottle of wormwood spirits, which the spell consumes)</set>
+      <set name="duration">7 days</set>
+      <set name="classes">Artificer, Cleric, Druid, Ranger, Wizard</set>
+    </setters>
+  </element>
+  <element name="Portal to the Depths" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Portal_to_the_Depths">
+    <description>You choose a point on the ground or on the surface of water that you can see within range, which can be extended through hydromancy, and transform a 20-foot radius area on the surface around the point into a portal into the deep ocean. When a creature moves through the portal, it appears in the depths: a 20-foot-radius column of water that extends downward indefinitely, with an opening at the top in the shape of the portal. A creature can enter or exit the depths by passing through the portal.
+
+If the portal is on the surface of a body of water, the water within the depths count as part of that body of water.
+
+When a creature starts its turn within the depths, it must make a Constitution saving throw. On a failed save, a creature take 4d6 cold damage, sinks 50 feet into the water, and becomes stunned until the start of its next turn. Additionally, if a creature starts its turn at a depth of 100 feet or more, it takes 1d6 bludgeoning damage for every 10 feet of depth past 100 feet, to a maximum of 20d6. Creatures that are native to the deep sea automatically succeed on this saving throw and are immune to all damage from this spell.
+
+As a bonus action on each of your turns before the spell ends, you can cause water from the portal to leap out and grab at a creature you can see within 10 feet of it. The creature must succeed on a Strength saving throw or be dragged through the portal, into the depths.
+
+When the spell ends, any creatures and objects within the depths are shunted to the nearest unoccupied spaces within 5 feet of the portal.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 7th level or higher, the cold damage increases by 1d6 for each slot level above 6th.</description>
+    <sheet>
+      <description>You choose a point on the ground or on the surface of water that you can see within range, which can be extended through hydromancy, and transform a 20-foot radius area on the surface around the point into a portal into the deep ocean. When a creature moves through the portal, it appears in the depths: a 20-foot-radius column of water that extends downward indefinitely, with an opening at the top in the shape of the portal. A creature can enter or exit the depths by passing through the portal.
+
+If the portal is on the surface of a body of water, the water within the depths count as part of that body of water.
+
+When a creature starts its turn within the depths, it must make a Constitution saving throw. On a failed save, a creature take 4d6 cold damage, sinks 50 feet into the water, and becomes stunned until the start of its next turn. Additionally, if a creature starts its turn at a depth of 100 feet or more, it takes 1d6 bludgeoning damage for every 10 feet of depth past 100 feet, to a maximum of 20d6. Creatures that are native to the deep sea automatically succeed on this saving throw and are immune to all damage from this spell.
+
+As a bonus action on each of your turns before the spell ends, you can cause water from the portal to leap out and grab at a creature you can see within 10 feet of it. The creature must succeed on a Strength saving throw or be dragged through the portal, into the depths.
+
+When the spell ends, any creatures and objects within the depths are shunted to the nearest unoccupied spaces within 5 feet of the portal.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 7th level or higher, the cold damage increases by 1d6 for each slot level above 6th.</description>
+    </sheet>
+    <setters>
+      <set name="level">6</set>
+      <set name="school">C</set>
+      <set name="time">1 action</set>
+      <set name="range">30 feet</set>
+      <set name="components">V, S, M (a handful of seabed silt)</set>
+      <set name="duration">1 minute (concentration)</set>
+      <set name="classes">Druid, Sorcerer, Warlock, Wizard</set>
+    </setters>
+  </element>
+  <element name="Pressure Stream" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Pressure_Stream">
+    <description>A wire-thin stream of pressurized water shoots from your finger, with devastating yet precise cutting power at point-blank range. Make a melee spell attack against a creature or object you can reach, whether through normal means or hydromancy. On a hit, the target takes 1d8 slashing damage. If the target is a creature or object made of inorganic material such as stone, crystal, or metal, the spell deals maximum damage to it. You can't target an object that is being worn or carried by an unwilling creature.
+
+The spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</description>
+    <sheet>
+      <description>A wire-thin stream of pressurized water shoots from your finger, with devastating yet precise cutting power at point-blank range. Make a melee spell attack against a creature or object you can reach, whether through normal means or hydromancy. On a hit, the target takes 1d8 slashing damage. If the target is a creature or object made of inorganic material such as stone, crystal, or metal, the spell deals maximum damage to it. You can't target an object that is being worn or carried by an unwilling creature.
+
+The spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</description>
+    </sheet>
+    <setters>
+      <set name="level">0</set>
+      <set name="school">V</set>
+      <set name="time">1 action</set>
+      <set name="range">Touch</set>
+      <set name="components">V, S, M (garnet dust worth at least 5 gp)</set>
+      <set name="duration">Instantaneous</set>
+      <set name="classes">Artificer, Druid, Sorcerer, Wizard</set>
+    </setters>
+  </element>
+  <element name="Psychic Anchor" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Psychic_Anchor">
+    <description>Choose a creature you can see within range. The target must make an Intelligence saving throw or become bound by a psychic anchor, which weighs it down and slows its movements. While weighed down, the creature's speed is reduced by 20 feet, it has disadvantage on attack rolls, ability checks, and saving throws that use Strength or Dexterity, and it sinks 30 feet at the start of its turn if it is swimming. At the end of each of its turns, the target can make another Intelligence saving throw. On a success, the spell ends on the target.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 3rd level or higher, you can target one additional target for each slot level above 2nd. The targets must be within 30 feet of each other when you target them.</description>
+    <sheet>
+      <description>Choose a creature you can see within range. The target must make an Intelligence saving throw or become bound by a psychic anchor, which weighs it down and slows its movements. While weighed down, the creature's speed is reduced by 20 feet, it has disadvantage on attack rolls, ability checks, and saving throws that use Strength or Dexterity, and it sinks 30 feet at the start of its turn if it is swimming. At the end of each of its turns, the target can make another Intelligence saving throw. On a success, the spell ends on the target.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 3rd level or higher, you can target one additional target for each slot level above 2nd. The targets must be within 30 feet of each other when you target them.</description>
+    </sheet>
+    <setters>
+      <set name="level">2</set>
+      <set name="school">E</set>
+      <set name="time">1 action</set>
+      <set name="range">120 feet</set>
+      <set name="components">V, S</set>
+      <set name="duration">1 minute (concentration)</set>
+      <set name="classes">Bard, Sorcerer, Warlock, Wizard</set>
+    </setters>
+  </element>
+  <element name="Rain to Arrows" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Rain_to_Arrows">
+    <description>You can cast this spell only when it is raining. The spell forms a 30-foot-radius magic circle centered 120 feet above a point you can see within range. Any rain, natural or magical, that passes through the circle transforms into hundreds of duplicates of the ammunition or weapon. Each creature that starts its turn underneath the circle or enters the area for the first time on a turn must make a Dexterity saving throw. On a failed save, a creature takes 3d8 damage in light rain, or 6d8 damage in heavy rain. On a successful save, the creature takes half as much damage. The damage type is the same as that of the ammunition or weapon.
+
+In heavy rain, the ammunition and weapons created by this spell forms difficult terrain underneath the circle. Ammunition and weapons created by this spell revert back to water when the spell ends.</description>
+    <sheet>
+      <description>You can cast this spell only when it is raining. The spell forms a 30-foot-radius magic circle centered 120 feet above a point you can see within range. Any rain, natural or magical, that passes through the circle transforms into hundreds of duplicates of the ammunition or weapon. Each creature that starts its turn underneath the circle or enters the area for the first time on a turn must make a Dexterity saving throw. On a failed save, a creature takes 3d8 damage in light rain, or 6d8 damage in heavy rain. On a successful save, the creature takes half as much damage. The damage type is the same as that of the ammunition or weapon.
+
+In heavy rain, the ammunition and weapons created by this spell forms difficult terrain underneath the circle. Ammunition and weapons created by this spell revert back to water when the spell ends.</description>
+    </sheet>
+    <setters>
+      <set name="level">5</set>
+      <set name="school">T</set>
+      <set name="time">1 action</set>
+      <set name="range">120 feet</set>
+      <set name="components">V, S, M (one piece of ammunition or one thrown weapon, which the spell consumes)</set>
+      <set name="duration">1 minute (concentration)</set>
+      <set name="classes">Artificer, Cleric, Paladin, Ranger, Warlock, Wizard</set>
+    </setters>
+  </element>
+  <element name="Rime Rhyme" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Rime_Rhyme">
+    <description>You utter a chilling poem, targeting a creature that you can see within range, which can be extended through hydromancy. If the target can hear you (though it need not understand you), it must succeed on a Wisdom saving throw or it take 1d6 cold damage and begin to shiver violently until the spell ends. While shivering, the target has disadvantage on attack rolls and ability checks. At the end of each of its turns, the target must make another Wisdom saving throw. On a failed save, it takes 1d6 cold damage. On a success, the spell ends for the target. If the target takes any fire damage, the spell ends for it.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.</description>
+    <sheet>
+      <description>You utter a chilling poem, targeting a creature that you can see within range, which can be extended through hydromancy. If the target can hear you (though it need not understand you), it must succeed on a Wisdom saving throw or it take 1d6 cold damage and begin to shiver violently until the spell ends. While shivering, the target has disadvantage on attack rolls and ability checks. At the end of each of its turns, the target must make another Wisdom saving throw. On a failed save, it takes 1d6 cold damage. On a success, the spell ends for the target. If the target takes any fire damage, the spell ends for it.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.</description>
+    </sheet>
+    <setters>
+      <set name="level">1</set>
+      <set name="school">E</set>
+      <set name="time">1 action</set>
+      <set name="range">60 feet</set>
+      <set name="components">V</set>
+      <set name="duration">1 minute (concentration)</set>
+      <set name="classes">Bard, Warlock</set>
+    </setters>
+  </element>
+  <element name="Rippling Orb" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Rippling_Orb">
+    <description>You hurl a rippling fist-sized mass of water at a creature within range, which can be extended through hydromancy. Make a ranged spell attack against the target. On a hit, the creature takes 1d6 bludgeoning damage, and if the creature is Large or smaller, it is pushed up to 10 feet away from you. If you used hydromancy with this spell, the creature is instead pushed away from the point you chose to cast from.
+
+This spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</description>
+    <sheet>
+      <description>You hurl a rippling fist-sized mass of water at a creature within range, which can be extended through hydromancy. Make a ranged spell attack against the target. On a hit, the creature takes 1d6 bludgeoning damage, and if the creature is Large or smaller, it is pushed up to 10 feet away from you. If you used hydromancy with this spell, the creature is instead pushed away from the point you chose to cast from.
+
+This spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</description>
+    </sheet>
+    <setters>
+      <set name="level">0</set>
+      <set name="school">V</set>
+      <set name="time">1 action</set>
+      <set name="range">30 feet</set>
+      <set name="components">V, S</set>
+      <set name="duration">Instantaneous</set>
+      <set name="classes">Artificer, Druid, Sorcerer, Wizard</set>
+    </setters>
+  </element>
+  <element name="Riptide" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Riptide">
+    <description>You create a fast current within a body of water, forming a line 90 feet long and 10 feet wide in a direction of your choice extending away from a point you can see within range. Each creature that starts its turn in the line must succeed on a Strength saving throw or be knocked prone and pushed 30 feet in the direction following the line.
+
+A creature in the line must spend 2 feet of movement for every 1 foot that it moves when moving against the tide.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 3rd level or higher, each creature in the line moving against the tide must spend an extra 1 foot of movement for every 1 foot it moves for every two slot levels above 1st.</description>
+    <sheet>
+      <description>You create a fast current within a body of water, forming a line 90 feet long and 10 feet wide in a direction of your choice extending away from a point you can see within range. Each creature that starts its turn in the line must succeed on a Strength saving throw or be knocked prone and pushed 30 feet in the direction following the line.
+
+A creature in the line must spend 2 feet of movement for every 1 foot that it moves when moving against the tide.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 3rd level or higher, each creature in the line moving against the tide must spend an extra 1 foot of movement for every 1 foot it moves for every two slot levels above 1st.</description>
+    </sheet>
+    <setters>
+      <set name="level">1</set>
+      <set name="school">E</set>
+      <set name="time">1 action</set>
+      <set name="range">60 feet</set>
+      <set name="components">V, S</set>
+      <set name="duration">1 minute (concentration)</set>
+      <set name="classes">Artificer, Druid, Ranger, Sorcerer, Wizard</set>
+    </setters>
+  </element>
+  <element name="Sandbar" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Sandbar">
+    <description>You move loose earth and sand to form a barrier in a location you choose within range. The area of the spell consists of up to ten 5-foot cubes, which you can arrange as you wish. Each cube must have at least one face adjacent to the face of another cube.
+
+Each 5-foot-cube is an object with AC 8, 15 hit points, and resistance to bludgeoning, piercing, and slashing damage. When a 5-foot cube of sand is reduced to 0 hit points, it collapses, and might cause other cubes atop or adjacent to it to collapse to fill the space at the DM's discretion.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 3rd level or higher, you create two additional 5-foot cube for each slot level above 2nd.</description>
+    <sheet>
+      <description>You move loose earth and sand to form a barrier in a location you choose within range. The area of the spell consists of up to ten 5-foot cubes, which you can arrange as you wish. Each cube must have at least one face adjacent to the face of another cube.
+
+Each 5-foot-cube is an object with AC 8, 15 hit points, and resistance to bludgeoning, piercing, and slashing damage. When a 5-foot cube of sand is reduced to 0 hit points, it collapses, and might cause other cubes atop or adjacent to it to collapse to fill the space at the DM's discretion.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 3rd level or higher, you create two additional 5-foot cube for each slot level above 2nd.</description>
+    </sheet>
+    <setters>
+      <set name="level">2</set>
+      <set name="school">V</set>
+      <set name="time">1 action</set>
+      <set name="range">120 feet</set>
+      <set name="components">V, S, M (a grain of sand)</set>
+      <set name="duration">8 hours</set>
+      <set name="classes">Artificer, Druid, Ranger</set>
+    </setters>
+  </element>
+  <element name="Salt Spray" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Salt_Spray">
+    <description>A burst of salty ocean mist erupts from your palms, or from a point of your choice within the spell's hydromancy radius if extended through hydromancy. Each creature in a 15-foot cone make a Dexterity saving throw. On a failed save, a target takes an additional 1d4 necrotic damage each time it takes any piercing or slashing damage before the start of your next turn.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 3rd level or higher, the additional damage increases by 1d4 for every two slot levels above 1st.</description>
+    <sheet>
+      <description>A burst of salty ocean mist erupts from your palms, or from a point of your choice within the spell's hydromancy radius if extended through hydromancy. Each creature in a 15-foot cone make a Dexterity saving throw. On a failed save, a target takes an additional 1d4 necrotic damage each time it takes any piercing or slashing damage before the start of your next turn.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 3rd level or higher, the additional damage increases by 1d4 for every two slot levels above 1st.</description>
+    </sheet>
+    <setters>
+      <set name="level">1</set>
+      <set name="school">V</set>
+      <set name="time">1 action</set>
+      <set name="range">Self</set>
+      <set name="components">V, S, M (a vial of saltwater)</set>
+      <set name="duration">1 round</set>
+      <set name="classes">Artificer, Cleric, Druid, Ranger, Sorcerer, Wizard</set>
+    </setters>
+  </element>
+  <element name="Shell Shock" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Shell_Shock">
+    <description>A colorful layer of shell-like armor forms around your body, absorbing the triggering damage. Until the start of your next turn, you are immune to all damage, your speed is 0, you are incapacitated, and attacks against you have advantage. The first time you deal damage to a creature with an attack or spell on your next turn, you can deal additional damage equal to the damage you would have taken while you were incapacitated.</description>
+    <sheet>
+      <description>A colorful layer of shell-like armor forms around your body, absorbing the triggering damage. Until the start of your next turn, you are immune to all damage, your speed is 0, you are incapacitated, and attacks against you have advantage. The first time you deal damage to a creature with an attack or spell on your next turn, you can deal additional damage equal to the damage you would have taken while you were incapacitated.</description>
+    </sheet>
+    <setters>
+      <set name="level">5</set>
+      <set name="school">T</set>
+      <set name="time">1 reaction</set>
+      <set name="range">Self</set>
+      <set name="components">V, S, M (a seashell)</set>
+      <set name="duration">1 round</set>
+      <set name="classes">Druid, Ranger, Sorcerer, Wizard</set>
+    </setters>
+  </element>
+  <element name="Slippery Ice" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Slippery_Ice">
+    <description>You create a layer of slick ice, 6 inches thick, in a 30-foot radius circle centered on a point on the ground or on the surface of water that you can see within range, which lasts for the duration. The ice suppresses any underlying terrain that doesn't protrude past the surface of the ice.
+
+A creature moving across the ice spends 1 foot of movement for every 2 feet it moves, and must succeed a Dexterity saving throw when it moves more than 5 feet across the ice for the first time on a turn or be knocked prone. When a creature attempts to get up from prone while on the ice, it must succeed on a Dexterity check against your spell save DC. On a failure, it falls prone again. When you cast this spell, you can designate any number of creatures you can see to automatically succeed on ability checks and saving throws made against this spell.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 5th level or higher, the radius of the ice increases by 10 feet for each slot level above 4th.</description>
+    <sheet>
+      <description>You create a layer of slick ice, 6 inches thick, in a 30-foot radius circle centered on a point on the ground or on the surface of water that you can see within range, which lasts for the duration. The ice suppresses any underlying terrain that doesn't protrude past the surface of the ice.
+
+A creature moving across the ice spends 1 foot of movement for every 2 feet it moves, and must succeed a Dexterity saving throw when it moves more than 5 feet across the ice for the first time on a turn or be knocked prone. When a creature attempts to get up from prone while on the ice, it must succeed on a Dexterity check against your spell save DC. On a failure, it falls prone again. When you cast this spell, you can designate any number of creatures you can see to automatically succeed on ability checks and saving throws made against this spell.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 5th level or higher, the radius of the ice increases by 10 feet for each slot level above 4th.</description>
+    </sheet>
+    <setters>
+      <set name="level">4</set>
+      <set name="school">C</set>
+      <set name="time">1 action</set>
+      <set name="range">120 feet</set>
+      <set name="components">V, S</set>
+      <set name="duration">10 minutes</set>
+      <set name="classes">Artificer, Druid, Sorcerer, Wizard</set>
+    </setters>
+  </element>
+  <element name="Steam Vent" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Steam_Vent">
+    <description>You cause a 20-foot tall, 5-foot radius cylinder of searing steam to erupt from point on a surface you can see within range, which can be extended through hydromancy. The area fills with hot steam, and is heavily obscured until the start of your next turn or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it. Each creature in the area must make a Constitution saving throw. A target takes 6d6 fire damage on a failed save, or half as much damage on a successful one. Being underwater doesn't grant resistance to this damage.
+
+On each of your turns until the spell ends, you can use your action to create another vent in this way, targeting the same point or a different one. When you do so, any vents previously created by this spell cease to produce steam and disperse.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d6 for each slot level above 4th.</description>
+    <sheet>
+      <description>You cause a 20-foot tall, 5-foot radius cylinder of searing steam to erupt from point on a surface you can see within range, which can be extended through hydromancy. The area fills with hot steam, and is heavily obscured until the start of your next turn or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it. Each creature in the area must make a Constitution saving throw. A target takes 6d6 fire damage on a failed save, or half as much damage on a successful one. Being underwater doesn't grant resistance to this damage.
+
+On each of your turns until the spell ends, you can use your action to create another vent in this way, targeting the same point or a different one. When you do so, any vents previously created by this spell cease to produce steam and disperse.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d6 for each slot level above 4th.</description>
+    </sheet>
+    <setters>
+      <set name="level">4</set>
+      <set name="school">C</set>
+      <set name="time">1 action</set>
+      <set name="range">60 feet</set>
+      <set name="components">V, S, M (a piece of volcanic rock)</set>
+      <set name="duration">10 minutes (concentration)</set>
+      <set name="classes">Druid, Ranger, Sorcerer, Wizard</set>
+    </setters>
+  </element>
+  <element name="Striking Tide" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Striking_Tide">
+    <description>You wreath a weapon with aqueous energy, lashing out with the force of increasingly powerful tides. As part of the action used to cast this spell, you can make up to three melee attacks with a weapon. You can direct the attacks at the same target or at different ones. The first attack deals an additional 1d10 damage, the second attack deals an additional 2d10 damage, and the third attack deals an additional 3d10 damage.</description>
+    <sheet>
+      <description>You wreath a weapon with aqueous energy, lashing out with the force of increasingly powerful tides. As part of the action used to cast this spell, you can make up to three melee attacks with a weapon. You can direct the attacks at the same target or at different ones. The first attack deals an additional 1d10 damage, the second attack deals an additional 2d10 damage, and the third attack deals an additional 3d10 damage.</description>
+    </sheet>
+    <setters>
+      <set name="level">4</set>
+      <set name="school">E</set>
+      <set name="time">1 action</set>
+      <set name="range">Self</set>
+      <set name="components">S, M (a melee weapon worth at least 1 sp)</set>
+      <set name="duration">Instantaneous</set>
+      <set name="classes">Paladin, Ranger, Sorcerer, Wizard</set>
+    </setters>
+  </element>
+  <element name="St. Eleanor's Fire" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_St_Eleanor_s_Fire">
+    <description>You touch a Large or larger vehicle and conjure a corona of blue light, which gathers around any pointed elements on the vehicle. For the duration, ranged weapon attacks made against the vehicle or creatures riding the vehicle have disadvantage, as the corona of light dazzles attackers. Creatures aboard the vehicle and creatures with senses other than sight, such as blindsight, are unaffected by this effect.
+
+If the vehicle is outdoors in stormy conditions, any ranged weapon attack made by creatures aboard it deal an additional 1d4 lightning damage.
+
+
+At Higher Levels.
+
+If you cast this spell using a spell slot of 4th level or higher, the duration is concentration, up to 10 minutes. If you use a spell slot of 5th level or higher, the duration is 8 hours. If you use a spell slot of 7th level or higher, the duration is 24 hours. If you use a 9th level spell slot, the spell lasts until it is dispelled. Using a spell slot of 5th level or higher grants a duration that doesn't require concentration.</description>
+    <sheet>
+      <description>You touch a Large or larger vehicle and conjure a corona of blue light, which gathers around any pointed elements on the vehicle. For the duration, ranged weapon attacks made against the vehicle or creatures riding the vehicle have disadvantage, as the corona of light dazzles attackers. Creatures aboard the vehicle and creatures with senses other than sight, such as blindsight, are unaffected by this effect.
+
+If the vehicle is outdoors in stormy conditions, any ranged weapon attack made by creatures aboard it deal an additional 1d4 lightning damage.
+
+
+At Higher Levels.
+
+If you cast this spell using a spell slot of 4th level or higher, the duration is concentration, up to 10 minutes. If you use a spell slot of 5th level or higher, the duration is 8 hours. If you use a spell slot of 7th level or higher, the duration is 24 hours. If you use a 9th level spell slot, the spell lasts until it is dispelled. Using a spell slot of 5th level or higher grants a duration that doesn't require concentration.</description>
+    </sheet>
+    <setters>
+      <set name="level">3</set>
+      <set name="school">A</set>
+      <set name="time">1 action</set>
+      <set name="range">Touch</set>
+      <set name="components">V, M (a lightning rod worth at least 100 gp)</set>
+      <set name="duration">1 minute (concentration)</set>
+      <set name="classes">Bard, Cleric, Druid, Paladin, Warlock</set>
+    </setters>
+  </element>
+  <element name="Sulfurous Squall" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Sulfurous_Squall">
+    <description>A violent squall of sulfuric rain sweeps through a location you choose within range. The area of the squall consists of up to ten 10-foot cubes, which you can arrange as you wish. Each cube must have at least one face adjacent to the face of another cube. Each creature in the area must make a Dexterity saving throw. It takes 4d8 acid damage on a failed save, and takes half as much damage on a successful one. The squall also damages objects not being worn or carried.
+
+The area of the spell then becomes covered in yellow, caustic sulfur for the duration of the spell. The sulfur floats in place when cast on water or underwater, and clings to solid surfaces. When a creature moves into or within the area, it takes 1d8 acid damage for every 5 feet it travels. The sulfur is flammable. If any part of the area comes into contact with fire, the entire area erupts into flames and burns away in 1 round, dealing 4d8 fire damage to any creature that starts its turn in the fire. The spell ends when the sulfur is burned away.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 7th level or higher, the initial damage increases by 1d8 for each slot level above 6th.</description>
+    <sheet>
+      <description>A violent squall of sulfuric rain sweeps through a location you choose within range. The area of the squall consists of up to ten 10-foot cubes, which you can arrange as you wish. Each cube must have at least one face adjacent to the face of another cube. Each creature in the area must make a Dexterity saving throw. It takes 4d8 acid damage on a failed save, and takes half as much damage on a successful one. The squall also damages objects not being worn or carried.
+
+The area of the spell then becomes covered in yellow, caustic sulfur for the duration of the spell. The sulfur floats in place when cast on water or underwater, and clings to solid surfaces. When a creature moves into or within the area, it takes 1d8 acid damage for every 5 feet it travels. The sulfur is flammable. If any part of the area comes into contact with fire, the entire area erupts into flames and burns away in 1 round, dealing 4d8 fire damage to any creature that starts its turn in the fire. The spell ends when the sulfur is burned away.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 7th level or higher, the initial damage increases by 1d8 for each slot level above 6th.</description>
+    </sheet>
+    <setters>
+      <set name="level">5</set>
+      <set name="school">E</set>
+      <set name="time">1 action</set>
+      <set name="range">150 feet</set>
+      <set name="components">V, S, M (a pinch of brimstone)</set>
+      <set name="duration">10 minutes</set>
+      <set name="classes">Cleric, Druid, Sorcerer, Warlock</set>
+    </setters>
+  </element>
+  <element name="Terega's Treasure Map" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Terega_s_Treasure_Map">
+    <description>You touch the skin or hide of a slain creature and cause a map to form on its surface. The map details the geographic location of the most valuable object or hoard of objects known to the creature. The map is accurate to the creature's knowledge to a distance within 30 feet of the treasure, but does not show elevation, traps, or any markings to indicate what creatures or spells may protect the treasure. If the location of the object or hoard is on a different plane of existence as you, the spell fails.</description>
+    <sheet>
+      <description>You touch the skin or hide of a slain creature and cause a map to form on its surface. The map details the geographic location of the most valuable object or hoard of objects known to the creature. The map is accurate to the creature's knowledge to a distance within 30 feet of the treasure, but does not show elevation, traps, or any markings to indicate what creatures or spells may protect the treasure. If the location of the object or hoard is on a different plane of existence as you, the spell fails.</description>
+    </sheet>
+    <setters>
+      <set name="level">4</set>
+      <set name="school">D</set>
+      <set name="time">10 minutes</set>
+      <set name="range">Touch</set>
+      <set name="components">V, S, M (at least a 6 inch square of skin or hide from a creature that has died within the past hour, which the spell consumes)</set>
+      <set name="duration">Instantaneous</set>
+      <set name="classes">Bard, Warlock, Wizard</set>
+    </setters>
+  </element>
+  <element name="Torrential Culling" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Torrential_Culling">
+    <description>You create a whirl of shadowy saltwater in a 30-foot-radius sphere centered on a point you can see within range, which can be extended through hydromancy. Each creature in the area must make a Dexterity saving throw, taking 4d8 slashing damage and 4d8 necrotic damage on a failed save, or half as much damage on a successful one.
+
+If the damage from this spell reduces one or more creatures to 0 hit points, you can grant 4d8 temporary hit points to a number of creatures you can see within range equal to the number of creatures reduced to 0 hit points.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 8th level, the necrotic damage and temporary hit points increase by 1d8 for each slot level above 7th.</description>
+    <sheet>
+      <description>You create a whirl of shadowy saltwater in a 30-foot-radius sphere centered on a point you can see within range, which can be extended through hydromancy. Each creature in the area must make a Dexterity saving throw, taking 4d8 slashing damage and 4d8 necrotic damage on a failed save, or half as much damage on a successful one.
+
+If the damage from this spell reduces one or more creatures to 0 hit points, you can grant 4d8 temporary hit points to a number of creatures you can see within range equal to the number of creatures reduced to 0 hit points.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 8th level, the necrotic damage and temporary hit points increase by 1d8 for each slot level above 7th.</description>
+    </sheet>
+    <setters>
+      <set name="level">7</set>
+      <set name="school">N</set>
+      <set name="time">1 action</set>
+      <set name="range">60 feet</set>
+      <set name="components">V, S, M (a rusted scythe that has been submerged in saltwater for a week)</set>
+      <set name="duration">Instantaneous</set>
+      <set name="classes">Bard, Cleric, Sorcerer, Warlock, Wizard</set>
+    </setters>
+  </element>
+  <element name="Waterspout" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Waterspout">
+    <description>You cause a spout of water to emerge from a 5-foot-square on the ground or on the surface of water that you can see within range, which can be extended through hydromancy. Water emerges to fill a 20-foot-tall cylinder with a 5-foot diameter that rises from the chosen square and lasts for the duration.
+
+A creature that enters the area for the first time on a turn or starts its turn there must make a Dexterity saving throw, which it can choose to fail. On a failed save, a creature is pushed to the top of the cylinder. On a successful save, a creature is pushed 5 feet out of the area into an unoccupied space of the creature's choice. If no unoccupied space is available, the creature automatically fails the saving throw.
+
+The force of the water is enough to keep creatures aloft, though it is impossible for a creature to stand at the top of the waterspout unless it can normally stand on water. A creature that can't stand on water is prone while it remains at the top of the cylinder.
+
+Water created by this spell vanishes when the spell ends.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 3rd level or higher, the height of the cylinder increases by 10 feet for each slot level above 2nd.</description>
+    <sheet>
+      <description>You cause a spout of water to emerge from a 5-foot-square on the ground or on the surface of water that you can see within range, which can be extended through hydromancy. Water emerges to fill a 20-foot-tall cylinder with a 5-foot diameter that rises from the chosen square and lasts for the duration.
+
+A creature that enters the area for the first time on a turn or starts its turn there must make a Dexterity saving throw, which it can choose to fail. On a failed save, a creature is pushed to the top of the cylinder. On a successful save, a creature is pushed 5 feet out of the area into an unoccupied space of the creature's choice. If no unoccupied space is available, the creature automatically fails the saving throw.
+
+The force of the water is enough to keep creatures aloft, though it is impossible for a creature to stand at the top of the waterspout unless it can normally stand on water. A creature that can't stand on water is prone while it remains at the top of the cylinder.
+
+Water created by this spell vanishes when the spell ends.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 3rd level or higher, the height of the cylinder increases by 10 feet for each slot level above 2nd.</description>
+    </sheet>
+    <setters>
+      <set name="level">1</set>
+      <set name="school">C</set>
+      <set name="time">1 action</set>
+      <set name="range">30 feet</set>
+      <set name="components">V, S</set>
+      <set name="duration">1 minute (concentration)</set>
+      <set name="classes">Druid, Ranger, Sorcerer, Wizard</set>
+    </setters>
+  </element>
+  <element name="Water Veil" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Water_Veil">
+    <description>You create a thin veil of water on the ground at a point you can see within range, which can be extended through hydromancy. You can choose to make the veil up to 30 feet long and 10 feet high, or a circle that has a 10-foot diameter and is up to 10 feet high. The veil is 1 inch thick and transparent, but causes visual distortions of anything observed through it.
+
+When a creature makes an attack, casts a spell, or uses an ability that targets a creature or object on the other side of the veil, roll a d20. On a roll of 10 or lower, the attack, spell, or ability fails or misses.</description>
+    <sheet>
+      <description>You create a thin veil of water on the ground at a point you can see within range, which can be extended through hydromancy. You can choose to make the veil up to 30 feet long and 10 feet high, or a circle that has a 10-foot diameter and is up to 10 feet high. The veil is 1 inch thick and transparent, but causes visual distortions of anything observed through it.
+
+When a creature makes an attack, casts a spell, or uses an ability that targets a creature or object on the other side of the veil, roll a d20. On a roll of 10 or lower, the attack, spell, or ability fails or misses.</description>
+    </sheet>
+    <setters>
+      <set name="level">2</set>
+      <set name="school">I</set>
+      <set name="time">1 action</set>
+      <set name="range">30 feet</set>
+      <set name="components">V, S</set>
+      <set name="duration">1 minute (concentration)</set>
+      <set name="classes">Artificer, Druid, Sorcerer, Wizard</set>
+    </setters>
+  </element>
+  <element name="Wave Strike" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Wave_Strike">
+    <description>The next time you hit a creature with a weapon attack before this spell ends, rushing water surrounds the attack. The target takes an additional 2d6 bludgeoning damage, and must make a Strength saving throw. On a failed saving throw, the target is pushed 15 feet away from you in a straight line.
+
+If you hit a target that is submerged in water, each creature in a 15-foot cone behind the initial target must also succeed on a Strength saving throw or be pushed 15 feet away from you.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd.</description>
+    <sheet>
+      <description>The next time you hit a creature with a weapon attack before this spell ends, rushing water surrounds the attack. The target takes an additional 2d6 bludgeoning damage, and must make a Strength saving throw. On a failed saving throw, the target is pushed 15 feet away from you in a straight line.
+
+If you hit a target that is submerged in water, each creature in a 15-foot cone behind the initial target must also succeed on a Strength saving throw or be pushed 15 feet away from you.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd.</description>
+    </sheet>
+    <setters>
+      <set name="level">2</set>
+      <set name="school">T</set>
+      <set name="time">1 bonus</set>
+      <set name="range">Self</set>
+      <set name="components">V</set>
+      <set name="duration">1 minute (concentration)</set>
+      <set name="classes">Paladin, Ranger</set>
+    </setters>
+  </element>
+  <element name="Wellspring" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Wellspring">
+    <description>You touch a pool of water that is fully contained within a 60-foot radius, blessing and purifying it. For the duration, the pool's contents becomes holy water. When a creature enters the water for the first time on a turn or starts its turn there, it regains 1 hit point if it is not a fiend or undead. A fiend or undead instead takes 2d6 radiant damage.
+
+Additionally, any creature that spends 1 minute bathing in the water gains one of the following benefits:
+
+One disease or condition afflicting the target is removed.
+
+One curse, including the target's attunement to a cursed magic item, is ended.
+
+Any reduction to one of the target's ability scores or maximum hit points is ended.
+
+The target's lifespan is increased by 1d4 years. A creature can only gain this benefit once in its lifetime.
+
+Any water removed from the blessed pool loses these benefits, though it is clean, safe to drink, and has a pleasant mineral taste.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 8th-level or higher, the water remains blessed for 1 year. If you cast this spell using a spell slot of 9th level, the water is blessed until the spell is dispelled.</description>
+    <sheet>
+      <description>You touch a pool of water that is fully contained within a 60-foot radius, blessing and purifying it. For the duration, the pool's contents becomes holy water. When a creature enters the water for the first time on a turn or starts its turn there, it regains 1 hit point if it is not a fiend or undead. A fiend or undead instead takes 2d6 radiant damage.
+
+Additionally, any creature that spends 1 minute bathing in the water gains one of the following benefits:
+
+One disease or condition afflicting the target is removed.
+
+One curse, including the target's attunement to a cursed magic item, is ended.
+
+Any reduction to one of the target's ability scores or maximum hit points is ended.
+
+The target's lifespan is increased by 1d4 years. A creature can only gain this benefit once in its lifetime.
+
+Any water removed from the blessed pool loses these benefits, though it is clean, safe to drink, and has a pleasant mineral taste.
+
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 8th-level or higher, the water remains blessed for 1 year. If you cast this spell using a spell slot of 9th level, the water is blessed until the spell is dispelled.</description>
+    </sheet>
+    <setters>
+      <set name="level">7</set>
+      <set name="school">C</set>
+      <set name="time">1 hour</set>
+      <set name="range">Touch</set>
+      <set name="components">V, S, M (diamond dust worth at least 5,000 gp, which the spell consumes)</set>
+      <set name="duration">24 hours</set>
+      <set name="classes">Bard, Cleric, Druid</set>
+    </setters>
+  </element>
+  <element name="Whaleoil" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Whaleoil">
+    <description>You transform the flesh of a creature you can see within range into burning fuel. The target must make a Constitution saving throw. On a failed save, the target takes 6d10 necrotic damage and ignites in flames. On a successful save, the target takes half as much damage and isn't set ablaze. While ablaze, the target sheds bright light in a 30-foot radius and dim light for an additional 30 feet. At the start of each of the target's turns, it and each creature within 10 feet of it takes 2d10 fire damage. At the end of each of its turns, the target can make a Constitution saving throw. On a success, the spell ends.
+
+If you target a creature without flesh, such as an ooze, iron golem, or skeleton, the spell fails.
+
+When you cast this spell using a spell slot of 6th-level or higher, both the necrotic and fire damage increase by 1d10 for each slot level above 5th.</description>
+    <sheet>
+      <description>You transform the flesh of a creature you can see within range into burning fuel. The target must make a Constitution saving throw. On a failed save, the target takes 6d10 necrotic damage and ignites in flames. On a successful save, the target takes half as much damage and isn't set ablaze. While ablaze, the target sheds bright light in a 30-foot radius and dim light for an additional 30 feet. At the start of each of the target's turns, it and each creature within 10 feet of it takes 2d10 fire damage. At the end of each of its turns, the target can make a Constitution saving throw. On a success, the spell ends.
+
+If you target a creature without flesh, such as an ooze, iron golem, or skeleton, the spell fails.
+
+When you cast this spell using a spell slot of 6th-level or higher, both the necrotic and fire damage increase by 1d10 for each slot level above 5th.</description>
+    </sheet>
+    <setters>
+      <set name="level">5</set>
+      <set name="school">T</set>
+      <set name="time">1 action</set>
+      <set name="range">60 feet</set>
+      <set name="components">V, S, M (a length of cotton wick)</set>
+      <set name="duration">1 minute</set>
+    </setters>
+  </element>
+  <element name="Whirlpool Slash" type="Spell" source="ABYSS" id="ID_ABYSS_SPELL_Whirlpool_Slash">
+    <description>You swing a weapon with the force of a whirlpool. Each creature within 15 feet of you must succeed on a Strength saving throw or be pulled up to 10 feet in a straight line toward you. As part of the action used to cast this spell, you can make a melee attack with a weapon at each creature that is pulled within 5 feet of you. If both you and the target are standing on or submerged in a body of water, you have advantage on the attack roll.</description>
+    <sheet>
+      <description>You swing a weapon with the force of a whirlpool. Each creature within 15 feet of you must succeed on a Strength saving throw or be pulled up to 10 feet in a straight line toward you. As part of the action used to cast this spell, you can make a melee attack with a weapon at each creature that is pulled within 5 feet of you. If both you and the target are standing on or submerged in a body of water, you have advantage on the attack roll.</description>
+    </sheet>
+    <setters>
+      <set name="level">3</set>
+      <set name="school">V</set>
+      <set name="time">1 action</set>
+      <set name="range">Self</set>
+      <set name="components">S, M (a melee weapon worth at least 1 sp)</set>
+      <set name="duration">Instantaneous</set>
+      <set name="classes">Paladin, Ranger, Sorcerer, Wizard</set>
+    </setters>
+  </element>
+</elements>
