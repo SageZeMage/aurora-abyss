@@ -15,7 +15,7 @@ The swarm is hostile toward every creature. Roll initiative for the swarm, which
 The swarm is hostile toward every creature. Roll initiative for the swarm, which has its own turns. On its turn, the swarm moves towards the nearest creature it can see and attacks it. If the swarm can't attack a creature on its turn, it instead takes the Dash action toward the nearest creature it can see. If the swarm can't see any creatures, it does nothing on its turn.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Uncommon</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -26,7 +26,7 @@ The swarm is hostile toward every creature. Roll initiative for the swarm, which
       <description>This 50-foot length of hempen rope weighs 10 pounds. If one end of the rope is dipped into water, the rope absorbs and ejects the water out the other end at a rate of 1 gallon per round, or 10 gallons per minute.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Uncommon</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -43,7 +43,7 @@ Once on each of your turns when you hit a creature with this weapon, you can hav
 {'type': 'entries', 'name': '    Personality', 'entries': ["The sword possess a vicious wit, enthusiastically mocking any that it strikes. It punctuates its attacks with verbal jabs and curses, questioning its opponent's honor, skill, or physical appearance. The sword prefers high adventures with good friends, and often voices support for decisions that lead to great exploits and dramatic duels."]}</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Rare</set>
       <set name="type">Weapon</set>
     </setters>
@@ -58,7 +58,7 @@ The sailcloth has 3 charges, and it regains 1d3 expended charges daily at dawn. 
 The sailcloth can also be used as a sail for any Large or smaller water vehicle (such as a rowboat). While used in this way, you can use an action to speak the sailcloth's command word, expending 1 to 3 of its charges to cause the sail to billow with wind. For the next 10 minutes, the vehicle's speed  increases by 10 feet per charge expended.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Uncommon</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -73,7 +73,7 @@ Whenever this weapon hits a creature with an amorphous form composed of liquid, 
 This sword has 3 charges, and regains 1d3 charges daily at dawn. If it is submerged in a river or the sea at dawn, it regains all its charges instead. As an action while wielding this blade, you can expend a charge to strike the earth, sending a blast of power in a 30 foot wide, 90 foot long line. Each creature in the area makes a 17 Strength saving throw. On a failed save, a creature takes 3d8 bludgeoning damage and is pushed 15 feet away from the center of the line and knocked prone. On a successful save, the creature takes half as much damage and isn't pushed or knocked prone. If the line passes through a body of water, the shockwave pushes the water aside, forming a 30-foot-wide trench. The trench remains until the end of your next turn, after which the water slowly flows back into place.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Rare</set>
       <set name="type">Weapon</set>
     </setters>
@@ -88,7 +88,7 @@ If the brazier is empty when you speak its command word, it does not produce a m
 Once you use a brazier in this way, it can't be used again until the next dawn. If one of the braziers is destroyed, the other one becomes nonmagical.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Uncommon</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -99,7 +99,7 @@ Once you use a brazier in this way, it can't be used again until the next dawn. 
       <description>This fist-sized glass orb glistens iridescent in sunlight. When you take damage or are forced to make a saving throw against an effect that you can see, you can crush the orb as a reaction, destroying it and enveloping you in a protective bubble which functions as an Otiluke's resilient sphere, preventing the triggering effect and lasting until the start of your next turn.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -114,7 +114,7 @@ If you speak the lantern's command word while touching a copper coin to the unde
 A creature that spends 1 minute studying the lantern can attempt to learn the lantern's command word with a successful 20 Intelligence (Investigation) check. On a failed check, the alarm spell triggers.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Uncommon</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -127,7 +127,7 @@ While you are underwater, you can use an action to cast darkness from the bands,
 While you are underwater, you can use an action to cast darkness from the bands, centered on yourself. When you do so, your speed is doubled until the end of the turn. Once you cast this spell in this way, you can't do so again until the next dawn.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -140,7 +140,7 @@ While you are wearing these gauntlets, your unarmed strikes made with these claw
 While you are wearing these gauntlets, your unarmed strikes made with these claws deal bludgeoning damage equal to 1d6 + your Strength modifier instead of their normal damage and gain a +1 bonus to attack and damage rolls. When you hit a creature with an unarmed strike made with one of these claws, the creature is grappled if the claw isn't already grappling another creature or holding an object.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -153,7 +153,7 @@ While you are wearing the armor, you can use an action to cast burning hands as 
 While you are wearing the armor, you can use an action to cast burning hands as a 3rd-level spell (save 15) from the armor. When you cast the spell in this way, it produces a burst of steam instead of flames, and being underwater doesn't grant resistance against the spell's damage. Once you cast the spell in this way, you can roll a d6 at the start of each of your turns. On a 5 or 6, you regain the ability to cast the spell with this armor.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Very Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -166,7 +166,7 @@ The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand'
 The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand explodes in a burst of black ink and is destroyed.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Uncommon</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -177,7 +177,7 @@ The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand'
       <description>These gauntlets appear to be made out of mercury bound into a semi-solid shape, but become transparent when submerged in water. These gauntlets have 3 charges, and regain all expended charges daily at dawn. When you cast a spell that lacks the hydromancy tag while wearing these gauntlets, you can spend 1 charge to grant the spell the hydromancy tag with a hydromancy radius of 30 feet. When you cast a spell in this way, a watery hand appears at the chosen point, delivering the spell for you.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -188,7 +188,7 @@ The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand'
       <description>This silver horn 3 charges, and it regains 1d3 expended charges daily at dawn. While holding it, you can use an action to expend 1 or more of its charges to cast the fog cloud spell from it, producing a low drone audible out to 300 feet. For 1 charge, you cast the 1st-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Uncommon</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -199,7 +199,7 @@ The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand'
       <description>This solid gold clockwork fish flops pathetically when it is within 120 feet of another piece of gold that is coin-sized or larger. If the fish is submerged, it instead swims toward the treasure at a rate of 10 feet per round.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Common</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -212,7 +212,7 @@ The grail regains all its charges by being refilled with water at a river or fre
 The grail regains all its charges by being refilled with water at a river or freshwater lake at the moment of dawn.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -227,7 +227,7 @@ Additionally, this helmet has 3 charges, and it regains 1d3 expended charges dai
 {'type': 'entries', 'name': 'Curse', 'entries': ['This helmet is cursed. Attuning to it curses you until you are targeted by the remove curse spell or similar magic. Removing the helmet fails to end the curse on you. While you are cursed, you require ten times as much food to sustain yourself each day.']}</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Very Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -238,7 +238,7 @@ Additionally, this helmet has 3 charges, and it regains 1d3 expended charges dai
       <description>This trident is carved with arcane channels that run its length, allowing it to transfer its movements through bodies of water. When you make an attack with this trident while you are standing within 5 feet of a body of water, you can choose a point within 30 feet of you that is within the same body of water. The attack is made as if you were at the chosen point, but you must use your own senses.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Uncommon</set>
       <set name="type">Weapon</set>
     </setters>
@@ -249,7 +249,7 @@ Additionally, this helmet has 3 charges, and it regains 1d3 expended charges dai
       <description>This weapon is unusually light, and was crafted to be used by the most vicious of pirates. You can use this weapon while it is held between your teeth as if you were holding it in a hand. While you are holding the weapon in this way, your speech is somewhat impeded, and you can't cast spells that include a verbal component. When you make an attack as a bonus action using two-weapon fighting, you can make an additional attack with this weapon as part of the same bonus action. You must be wielding three separate one-handed melee weapons in order to make this additional attack, and you don't add your ability modifier to the damage of the additional attack, unless that modifier is negative.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Uncommon</set>
       <set name="type">Weapon</set>
     </setters>
@@ -264,7 +264,7 @@ As a bonus action on your turn, you can cast the lure out to a point within 10 f
 As an action, you can attach the lure to the butt end of the spear, allowing the fishing rod to function as a longbow.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Uncommon</set>
       <set name="type">Weapon</set>
     </setters>
@@ -277,7 +277,7 @@ You can also use an action to play the instrument and expend 6 charges from it t
 You can also use an action to play the instrument and expend 6 charges from it to cast the Otto's irresistible dance spell from it, using your spell save DC.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -292,7 +292,7 @@ While you are tethered to a creature, both you and that creature have resistance
 The rope is an object with with an AC of 15, 20 hit points, and immunity to poison and psychic damage. If the rope is reduced to 0 hit points, it is severed and can't be used again until the next dawn, at which time its segments knit back together. The rope is also severed if a creature takes an action and succeeds on a 15 Strength check, or if an effect would ever cause you to have full cover from the tethered creature.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -305,7 +305,7 @@ A creature that can see the orb has disadvantage on Wisdom (Perception) checks m
 A creature that can see the orb has disadvantage on Wisdom (Perception) checks made to perceive any creature not illuminated by the orb's light.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Uncommon</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -318,7 +318,7 @@ While wearing the cloak, you can use your action to cast gaseous form on yoursel
 While wearing the cloak, you can use your action to cast gaseous form on yourself. When you cast the spell in this way, it doesn't require concentration, and you can use a bonus action on your turn to end the spell and revert to your normal form.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -335,7 +335,7 @@ When you leap out of water that is at least 10 feet deep, you can jump up to 20 
 {'type': 'list', 'items': ["You have blindsight to a range of 60 feet while you are underwater and aren't deafened.", 'If you move at least 30 feet in a straight line on your turn while you are underwater, attacks against you are made at disadvantage until the start of your next turn.']}</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Very Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -348,7 +348,7 @@ You can hurl multiple pearls, or even the whole necklace, as one action. When yo
 You can hurl multiple pearls, or even the whole necklace, as one action. When you do so, increase the level of the aqueous blast by 1 for each bead beyond the first.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -361,7 +361,7 @@ As an action, you can throw the pearl at a point up to 60 feet away, causing it 
 As an action, you can throw the pearl at a point up to 60 feet away, causing it to shatter on impact. Each creature within 30 feet of that point must make a 15 Dexterity saving throw, taking 1d10 lightning damage for each charge in the pearl on a failed save, or half as much damage on a successful one.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -374,7 +374,7 @@ As an action, you can throw the pearl at a point up to 60 feet away, causing it 
 {'type': 'entries', 'name': '    Curse', 'entries': ["This pearl is cursed. Attuning to it curses you until you are targeted by the remove curse spell or similar magic. Removing the pearl fails to end the curse on you. Until the curse is broken, you don't regain spell slots when you finish a short or long rest."]}</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Uncommon</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -387,7 +387,7 @@ The bubble is a Tiny object with an AC of 5 and 1 hit point. If it is reduced to
 The bubble is a Tiny object with an AC of 5 and 1 hit point. If it is reduced to 0 hit points, it bursts. At the end of each hour it has traveled, roll a d6. On a 6, the bubble bursts.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Common</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -402,7 +402,7 @@ When you first drink the potion, you must succeed on a 15 Constitution saving th
 This potion's sea-green liquid contains flakes of vibrant coral suspended within it.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -413,7 +413,7 @@ This potion's sea-green liquid contains flakes of vibrant coral suspended within
       <description>When you drink this potion, you gain the effect of the armor of Agathys spell at the start of each of your turns for 1 hour. The potion's pale blue fluid is sparkles with iridescent ice crystals.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -424,7 +424,7 @@ This potion's sea-green liquid contains flakes of vibrant coral suspended within
       <description>You can use an action to throw this colorful coral bud at a point within 60 feet of you, which shatters on impact and is destroyed. Each creature within 5 feet of the point must succeed on a 13 Dexterity saving throw or take 2d4 piercing damage. Colourful entangling coral then spreads along solid surfaces in a 15-foot radius around the point, becoming difficult terrain until cleared. When a creature moves into or within the area, it takes 1d4 piercing damage for every 5 feet it travels. Each 5-foot-square portion of the coral requires at least 1 minute to clear by hand.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Uncommon</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -443,7 +443,7 @@ Once a piece of ammunition drawn from this quiver has been used, the ammunition 
 {'type': 'entries', 'name': '    Lightning', 'entries': ['You have a +2 bonus to attack and damage rolls made with this piece of ammunition, which arcs with lightning when you make an attack with it and deals an additional 4d10 lightning damage to a creature it hits.']}</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Legendary</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -454,7 +454,7 @@ Once a piece of ammunition drawn from this quiver has been used, the ammunition 
       <description>This knee-length coat is imbued with absorptive magic, and can be worn over normal clothing or light armor. When it comes into contact with at least 1 gallon of water, the coat's weight magically increases to 60 pounds, and it functions as a suit of splint armor (AC 17). You are considered proficient with this armor even if you lack proficiency with heavy armor. If the coat is left to dry for 1 minute, it reverts to normal.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -471,7 +471,7 @@ Immediately after making a ranged attack with this weapon on your turn, you can 
 {'type': 'entries', 'name': 'Curse', 'entries': ["This maul is cursed, and becoming attuned to it extends the curse to you. As long as you remain cursed, the weapon's chain binding it to you can't be removed, and you have disadvantage on attack rolls with weapons other than this one.", "Rhelmon's anchor is a weapon of supernatural density, weighing 100 pounds. If you have a Strength score below 17, your movement speed is reduced by 20 feet and you have disadvantage on ability checks, attack rolls, and saving throws that use Strength, Dexterity, or Constitution while the weapon is bound to you."]}</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Rare</set>
       <set name="type">Weapon</set>
     </setters>
@@ -486,7 +486,7 @@ As an action, you can summon a Huge gelatinous cube, which appears centered in y
 The cube disappears after 1 hour or when it drops to 0 hit points. It is friendly to you and your companions, and has its own turn on your initiative count. You can use a bonus action to command how the cube moves and what action it takes on its next turn, or to give it general orders, such as to attack your enemies. Otherwise, the cube acts in accordance with its normal disposition and alignment. After summoning a cube this way, you can't summon another until the next dawn.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Very Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -501,7 +501,7 @@ While frightened, the creature is paralyzed. A creature can repeat the saving th
 {'type': 'entries', 'name': 'Curse', 'entries': ['The pendant is cursed. Attuning to it curses you until you are targeted by the remove curse spell, a dispel evil and good spell, or similar magic. Removing the pendant fails to end the curse on you. While cursed, you have a swim speed of 0 and sink 60 feet at the start of your turn if you are in water.']}</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Very Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -512,7 +512,7 @@ While frightened, the creature is paralyzed. A creature can repeat the saving th
       <description>This piece of headgear is cobbled together from the chitin and gills of a giant crab. It remains constantly damp with briny water, and never rots. While wearing this helm, you can walk and act on surfaces underwater as if on dry land, regardless of orientation, and the amount of time you can hold your breath is doubled.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Uncommon</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -525,7 +525,7 @@ If the familiar is reduced to 0 hit points or your attunement with the flask end
 If the familiar is reduced to 0 hit points or your attunement with the flask ends, the familiar becomes a normal puddle of water. The flask must then be refilled with 1 pint of holy water before it can be used to cast the spell again in this way.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -538,7 +538,7 @@ On your turn, you can expend 10 feet of movement to attempt a 10 Dexterity check
 On your turn, you can expend 10 feet of movement to attempt a 10 Dexterity check to perform a stunt with the shield, such as a flip or a spin. If the check is successful, you perform the stunt and gain a bonus to AC as if  holding the shield until the end of your turn. If the check fails by 5 or more, you and all creatures riding on the shield immediately fall prone as the shield wipes out and comes to a dead stop.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Uncommon</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -549,7 +549,7 @@ On your turn, you can expend 10 feet of movement to attempt a 10 Dexterity check
       <description>This glass bottle contains a miniature ship within it, which glows faintly when within 120 feet of the sea. You can use an action to throw this bottle up to 60 feet away. The bottle shatters on impact with a body of water, releasing a ghostly ship as a 7th-level phantom galley spell (save 17).</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Very Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -564,7 +564,7 @@ On your turn, you can expend 10 feet of movement to attempt a 10 Dexterity check
 {'type': 'entries', 'name': '    Personality', 'entries': ["The wheel is gruff and abrasive. With such a vast wealth of knowledge pertaining to the seas, ships, and navigation, it tends to butt words with those it perceives as being unworthy of command. To earn the wheel's respect, a captain must demonstrate powerful command, as well as both the respect of their crew and a deep compassion for them."]}</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Very Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -577,7 +577,7 @@ The staff has 10 charges, and regains 1d8 + 2 charges daily at dawn. You can use
 The staff has 10 charges, and regains 1d8 + 2 charges daily at dawn. You can use your reaction when a creature within 30 feet of you is targeted by a spell or magical effect to expend up to 5 charges from the staff. The target gains a number of temporary hit points equal to five times the number of expended charges. While a creature has these hit points, it has advantage on saving throws against spells and other magical effects, and spell attacks have disadvantage against it. These hit points are applied to the target before the effects of the spell or magical effect targeting it.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Rare</set>
       <set name="type">Weapon</set>
     </setters>
@@ -588,7 +588,7 @@ The staff has 10 charges, and regains 1d8 + 2 charges daily at dawn. You can use
       <description>This shield's face is covered with a sticky substance which allows it to bind to anything it touches. When a creature that is no more than one size larger than you misses you with a melee attack while you are holding this shield, you can use your reaction to attempt to catch the weapon against the shield's face. The attacker must make a 13 Strength saving throw. On a failed save, the weapon becomes stuck to the shield. If the weapon's wielder can't or won't let go to the weapon (such as if it missed with a natural weapon or unarmed strike), the wielder is grappled while the weapon is stuck. While stuck, the weapon can't be used. A creature can attempt to pull the weapon free by using an action to make a 13 Strength check, freeing it on a success.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Uncommon</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -609,7 +609,7 @@ You gain a +3 bonus to attack and damage rolls made with this magic weapon. Whil
 {'type': 'entries', 'name': '    Whirlwind', 'entries': ['You create a vortex of wind that fills a 20 foot radius centered on you. Each creature in the area must make a 18 Strength saving throw. On a failed save, a creature is pulled or pushed up to 10 feet towards or away from you. You choose whether the whirlwind pushes or pulls when you create it.']}</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Legendary</set>
       <set name="type">Weapon</set>
     </setters>
@@ -632,7 +632,7 @@ If the weapon is loaded with a any of the following liquids, it has additional e
 {'type': 'entries', 'name': '    Oil', 'entries': ['If a target soaked in oil takes fire damage, it takes an additional 5 fire damage from the oil burning away. Afterwards, the creature is no longer soaked.']}</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Legendary</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -647,7 +647,7 @@ While a humanoid is charmed by the conch, it regards you and your possessions as
 Each time you or your companions do anything harmful to a charmed target, it can repeat the saving throw, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the conch's effects for the next 24 hours.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -658,7 +658,7 @@ Each time you or your companions do anything harmful to a charmed target, it can
       <description>This anchor-shaped iron pendant seems completely stationary, never swaying or shaking even in defiance of its wearer's movements. While wearing this pendant, you can't be moved against your will, and can't be teleported or transported to other planes against your will, such as by the teleport or banishment spells.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Very Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -671,7 +671,7 @@ The contents of the Uncommon Treasure Map's horde are determined by rolling on t
 The contents of the Uncommon Treasure Map's horde are determined by rolling on the Treasure Hoard: Challenge 0—4 table.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Uncommon</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -684,7 +684,7 @@ The contents of the Rare Treasure Map's horde are determined by rolling on the T
 The contents of the Rare Treasure Map's horde are determined by rolling on the Treasure Hoard: Challenge 5—10 table.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Uncommon</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -697,7 +697,7 @@ The contents of the Very Rare Treasure Map's horde are determined by rolling on 
 The contents of the Very Rare Treasure Map's horde are determined by rolling on the Treasure Hoard: Challenge 11—16 table.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Uncommon</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -710,7 +710,7 @@ The contents of the Legendary Treasure Map's horde are determined by rolling on 
 The contents of the Legendary Treasure Map's horde are determined by rolling on the Treasure Hoard: Challenge 17+ table.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Uncommon</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -733,7 +733,7 @@ These spells are wizard spells for you.
 {'type': 'entries', 'name': '    Ocean Codex', 'entries': ["You can use your action to open the spellbook and speak one of its command words, naming a creature, loca- tion, or object, to search the spellbook for information. Roll a d6. On a 6, the spellbook magically displays information about the creature, location, or objec</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Legendary</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -744,7 +744,7 @@ These spells are wizard spells for you.
       <description>This glassy pendant, hung from kelp thread, never quite dries. While wearing this pendant while you are underwater, you can use your action to become invisible until you move or take an action or a reaction.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Uncommon</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -763,7 +763,7 @@ These spells are wizard spells for you.
 {'type': 'entries', 'name': '    Vaporize', 'entries': ['Any nonmagical water within the area evaporates into steam, which heavily obscures the area. The steam lasts until the start of your next turn before dispersing, or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.']}</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Uncommon</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -776,7 +776,7 @@ An individual piece of rope or fabric separated from the whole loses its magic, 
 An individual piece of rope or fabric separated from the whole loses its magic, but rope or fabric used to repair the rigging gains the enchantment's benefits.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Uncommon</set>
       <set name="type">Wondrous Item</set>
     </setters>
