@@ -7,12 +7,12 @@
       <file name="abyss-items.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-abyss/main/abyss-items.xml" />
     </update>
   </info>
+
   <element name="Bag of Teeth" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Bag_of_Teeth">
     <description>This small sack is made of fish skin and contains a handful of quipper teeth. As an action, you can open the bag and scatter its contents in a body of water, creating a swarm of quippers which lasts for 10 minutes.
 The swarm is hostile toward every creature. Roll initiative for the swarm, which has its own turns. On its turn, the swarm moves towards the nearest creature it can see and attacks it. If the swarm can't attack a creature on its turn, it instead takes the Dash action toward the nearest creature it can see. If the swarm can't see any creatures, it does nothing on its turn.</description>
     <sheet>
-      <description>This small sack is made of fish skin and contains a handful of quipper teeth. As an action, you can open the bag and scatter its contents in a body of water, creating a swarm of quippers which lasts for 10 minutes.
-The swarm is hostile toward every creature. Roll initiative for the swarm, which has its own turns. On its turn, the swarm moves towards the nearest creature it can see and attacks it. If the swarm can't attack a creature on its turn, it instead takes the Dash action toward the nearest creature it can see. If the swarm can't see any creatures, it does nothing on its turn.</description>
+      <description>Create a swarm of hostile quippers in water for 10 minutes. The swarm acts on its own initiative, moving to and attacking the nearest creature.</description>
     </sheet>
     <setters>
       <set name="category">Wondrous Items</set>
@@ -20,10 +20,11 @@ The swarm is hostile toward every creature. Roll initiative for the swarm, which
       <set name="type">Wondrous Item</set>
     </setters>
   </element>
+
   <element name="Bailing Twine" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Bailing_Twine">
     <description>This 50-foot length of hempen rope weighs 10 pounds. If one end of the rope is dipped into water, the rope absorbs and ejects the water out the other end at a rate of 1 gallon per round, or 10 gallons per minute.</description>
     <sheet>
-      <description>This 50-foot length of hempen rope weighs 10 pounds. If one end of the rope is dipped into water, the rope absorbs and ejects the water out the other end at a rate of 1 gallon per round, or 10 gallons per minute.</description>
+      <description>50-foot rope that pumps water: absorbs at one end and ejects 1 gallon per round (10 gallons per minute) from the other.</description>
     </sheet>
     <setters>
       <set name="category">Wondrous Items</set>
@@ -31,16 +32,16 @@ The swarm is hostile toward every creature. Roll initiative for the swarm, which
       <set name="type">Wondrous Item</set>
     </setters>
   </element>
+
   <element name="Bantering Blade" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Bantering_Blade">
     <description>This well-worn cutlass is a veteran of hundreds of voyages across the seas. You gain a +1 bonus to attack and damage rolls made with this magic weapon.
-Once on each of your turns when you hit a creature with this weapon, you can have the sword unleash a string of magical insults at the target, often with nautical allusions or crude humor. The target must succeed on a 15 Wisdom saving throw or take 2d4 psychic damage and have disadvantage on the next attack roll it makes before the end of its next turn.
-{'type': 'entries', 'name': '    Sentience', 'entries': ['The sword is a sentient chaotic neutral item with an Intelligence of 10, a Wisdom of 9, and a Charisma of 14. It has hearing and darkvision out to a range of 10 feet.', 'The sword can speak, read, and understand Common. It communicates verbally, and its voice is slurred and theatrical.']}
-{'type': 'entries', 'name': '    Personality', 'entries': ["The sword possess a vicious wit, enthusiastically mocking any that it strikes. It punctuates its attacks with verbal jabs and curses, questioning its opponent's honor, skill, or physical appearance. The sword prefers high adventures with good friends, and often voices support for decisions that lead to great exploits and dramatic duels."]}</description>
+Once on each of your turns when you hit a creature with this weapon, you can have the sword unleash a string of magical insults at the target, often with nautical allusions or crude humor. The target must succeed on a DC 15 Wisdom saving throw or take 2d4 psychic damage and have disadvantage on the next attack roll it makes before the end of its next turn.
+
+Sentience. The sword is a sentient chaotic neutral item with an Intelligence of 10, a Wisdom of 9, and a Charisma of 14. It has hearing and darkvision out to a range of 10 feet. The sword can speak, read, and understand Common. It communicates verbally, and its voice is slurred and theatrical.
+
+Personality. The sword possesses a vicious wit, enthusiastically mocking any that it strikes. It punctuates its attacks with verbal jabs and curses, questioning its opponent's honor, skill, or physical appearance. The sword prefers high adventures with good friends, and often voices support for decisions that lead to great exploits and dramatic duels.</description>
     <sheet>
-      <description>This well-worn cutlass is a veteran of hundreds of voyages across the seas. You gain a +1 bonus to attack and damage rolls made with this magic weapon.
-Once on each of your turns when you hit a creature with this weapon, you can have the sword unleash a string of magical insults at the target, often with nautical allusions or crude humor. The target must succeed on a 15 Wisdom saving throw or take 2d4 psychic damage and have disadvantage on the next attack roll it makes before the end of its next turn.
-{'type': 'entries', 'name': '    Sentience', 'entries': ['The sword is a sentient chaotic neutral item with an Intelligence of 10, a Wisdom of 9, and a Charisma of 14. It has hearing and darkvision out to a range of 10 feet.', 'The sword can speak, read, and understand Common. It communicates verbally, and its voice is slurred and theatrical.']}
-{'type': 'entries', 'name': '    Personality', 'entries': ["The sword possess a vicious wit, enthusiastically mocking any that it strikes. It punctuates its attacks with verbal jabs and curses, questioning its opponent's honor, skill, or physical appearance. The sword prefers high adventures with good friends, and often voices support for decisions that lead to great exploits and dramatic duels."]}</description>
+      <description>+1 cutlass. Once per turn on a hit, force a DC 15 Wisdom save or the target takes 2d4 psychic damage and has disadvantage on its next attack. Sentient, chaotic neutral, with a loud, mocking personality.</description>
     </sheet>
     <setters>
       <set name="keywords">cutlass</set>
@@ -50,14 +51,13 @@ Once on each of your turns when you hit a creature with this weapon, you can hav
       <set name="weapon">cutlass</set>
     </setters>
   </element>
+
   <element name="Billowing Sailcloth" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Billowing_Sailcloth">
     <description>This white canvas sailcloth is imbued with energy from the Elemental Plane of Air, and can be worn as a billowing cape. When held in both hands, the sailcloth slows your rate of descent to 10 feet per round (falling at the end of each of your turns). It can carry up to 400 pounds, but your rate of descent becomes 30 feet while it is carrying more than 200 pounds. If you let go of the sailcloth with either hand, you immediately fall as normal.
-The sailcloth has 3 charges, and it regains 1d3 expended charges daily at dawn. While holding the sailcloth, you can use an action to speak the sailcloth's command word, expending 1 to 3 of its charges to create a powerful updraft which propels you upwards a 30 feet for each charge you spend. This movement doesn't provoke opportunity attacks.
-The sailcloth can also be used as a sail for any Large or smaller water vehicle (such as a rowboat). While used in this way, you can use an action to speak the sailcloth's command word, expending 1 to 3 of its charges to cause the sail to billow with wind. For the next 10 minutes, the vehicle's speed  increases by 10 feet per charge expended.</description>
+The sailcloth has 3 charges, and it regains 1d3 expended charges daily at dawn. While holding the sailcloth, you can use an action to speak the sailcloth's command word, expending 1 to 3 of its charges to create a powerful updraft which propels you upwards 30 feet for each charge you spend. This movement doesn't provoke opportunity attacks.
+The sailcloth can also be used as a sail for any Large or smaller water vehicle (such as a rowboat). While used in this way, you can use an action to speak the sailcloth's command word, expending 1 to 3 of its charges to cause the sail to billow with wind. For the next 10 minutes, the vehicle's speed increases by 10 feet per charge expended.</description>
     <sheet>
-      <description>This white canvas sailcloth is imbued with energy from the Elemental Plane of Air, and can be worn as a billowing cape. When held in both hands, the sailcloth slows your rate of descent to 10 feet per round (falling at the end of each of your turns). It can carry up to 400 pounds, but your rate of descent becomes 30 feet while it is carrying more than 200 pounds. If you let go of the sailcloth with either hand, you immediately fall as normal.
-The sailcloth has 3 charges, and it regains 1d3 expended charges daily at dawn. While holding the sailcloth, you can use an action to speak the sailcloth's command word, expending 1 to 3 of its charges to create a powerful updraft which propels you upwards a 30 feet for each charge you spend. This movement doesn't provoke opportunity attacks.
-The sailcloth can also be used as a sail for any Large or smaller water vehicle (such as a rowboat). While used in this way, you can use an action to speak the sailcloth's command word, expending 1 to 3 of its charges to cause the sail to billow with wind. For the next 10 minutes, the vehicle's speed  increases by 10 feet per charge expended.</description>
+      <description>Cape/sail that slows falls and can spend 1–3 charges to launch you upward (30 ft per charge) or speed up a Small/Large boat (+10 ft per charge for 10 minutes). Regains 1d3 charges at dawn.</description>
     </sheet>
     <setters>
       <set name="category">Wondrous Items</set>
@@ -65,29 +65,27 @@ The sailcloth can also be used as a sail for any Large or smaller water vehicle 
       <set name="type">Wondrous Item</set>
     </setters>
   </element>
+
   <element name="Blade of Parting Water" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Blade_of_Parting_Water">
     <description>This monolithic bronze blade has the pinkish hue of untarnished copper. Attacks made with this magic weapon don't suffer disadvantage from being underwater.
 Whenever this weapon hits a creature with an amorphous form composed of liquid, such as an ooze or water elemental, the hit is a critical hit.
-This sword has 3 charges, and regains 1d3 charges daily at dawn. If it is submerged in a river or the sea at dawn, it regains all its charges instead. As an action while wielding this blade, you can expend a charge to strike the earth, sending a blast of power in a 30 foot wide, 90 foot long line. Each creature in the area makes a 17 Strength saving throw. On a failed save, a creature takes 3d8 bludgeoning damage and is pushed 15 feet away from the center of the line and knocked prone. On a successful save, the creature takes half as much damage and isn't pushed or knocked prone. If the line passes through a body of water, the shockwave pushes the water aside, forming a 30-foot-wide trench. The trench remains until the end of your next turn, after which the water slowly flows back into place.</description>
+This sword has 3 charges, and regains 1d3 charges daily at dawn. If it is submerged in a river or the sea at dawn, it regains all its charges instead. As an action while wielding this blade, you can expend a charge to strike the earth, sending a blast of power in a 30-foot-wide, 90-foot-long line. Each creature in the area makes a DC 17 Strength saving throw. On a failed save, a creature takes 3d8 bludgeoning damage and is pushed 15 feet away from the center of the line and knocked prone. On a successful save, the creature takes half as much damage and isn't pushed or knocked prone. If the line passes through a body of water, the shockwave pushes the water aside, forming a 30-foot-wide trench. The trench remains until the end of your next turn, after which the water slowly flows back into place.</description>
     <sheet>
-      <description>This monolithic bronze blade has the pinkish hue of untarnished copper. Attacks made with this magic weapon don't suffer disadvantage from being underwater.
-Whenever this weapon hits a creature with an amorphous form composed of liquid, such as an ooze or water elemental, the hit is a critical hit.
-This sword has 3 charges, and regains 1d3 charges daily at dawn. If it is submerged in a river or the sea at dawn, it regains all its charges instead. As an action while wielding this blade, you can expend a charge to strike the earth, sending a blast of power in a 30 foot wide, 90 foot long line. Each creature in the area makes a 17 Strength saving throw. On a failed save, a creature takes 3d8 bludgeoning damage and is pushed 15 feet away from the center of the line and knocked prone. On a successful save, the creature takes half as much damage and isn't pushed or knocked prone. If the line passes through a body of water, the shockwave pushes the water aside, forming a 30-foot-wide trench. The trench remains until the end of your next turn, after which the water slowly flows back into place.</description>
+      <description>Magic sword that ignores underwater disadvantage, crits oozes/liquid creatures, and can spend charges to fire a 30 ft-wide, 90 ft-long shockwave (3d8 bludgeoning, DC 17 Str, push and knock prone; parts water into a temporary trench). 3 charges, regains 1d3 at dawn (all if submerged at dawn).</description>
     </sheet>
     <setters>
-      <set name="category">Wondrous Items</set>
+      <set name="category">Magic Weapons</set>
       <set name="rarity">Rare</set>
       <set name="type">Weapon</set>
     </setters>
   </element>
+
   <element name="Braziers of Misty Forms" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Braziers_of_Misty_Forms">
-    <description>Braziers of misty forms come in pairs, with each silver goblet marked with matching ripple patterns. While you are holding a brazier, you can speak its command word as an action. When you do so, any nonmagical liquid within the brazier instantly transforms into mist, spreading out around you in a 10-foot-radius sphere that lightly obscures the area for 1 minute. The mist takes on the form of each creature or object within 10 feet of the other brazier, moving and shifting as the shapes it represents does for the duration. The other brazier then also activates as if its command word had been spoken.
+    <description>Braziers of misty forms come in pairs, with each silver goblet marked with matching ripple patterns. While you are holding a brazier, you can speak its command word as an action. When you do so, any nonmagical liquid within the brazier instantly transforms into mist, spreading out around you in a 10-foot-radius sphere that lightly obscures the area for 1 minute. The mist takes on the form of each creature or object within 10 feet of the other brazier, moving and shifting as the shapes it represents do for the duration. The other brazier then also activates as if its command word had been spoken.
 If the brazier is empty when you speak its command word, it does not produce a mist.
 Once you use a brazier in this way, it can't be used again until the next dawn. If one of the braziers is destroyed, the other one becomes nonmagical.</description>
     <sheet>
-      <description>Braziers of misty forms come in pairs, with each silver goblet marked with matching ripple patterns. While you are holding a brazier, you can speak its command word as an action. When you do so, any nonmagical liquid within the brazier instantly transforms into mist, spreading out around you in a 10-foot-radius sphere that lightly obscures the area for 1 minute. The mist takes on the form of each creature or object within 10 feet of the other brazier, moving and shifting as the shapes it represents does for the duration. The other brazier then also activates as if its command word had been spoken.
-If the brazier is empty when you speak its command word, it does not produce a mist.
-Once you use a brazier in this way, it can't be used again until the next dawn. If one of the braziers is destroyed, the other one becomes nonmagical.</description>
+      <description>Paired goblets that turn liquid into a 10 ft-radius mist copying the shapes around the paired brazier. 1/day each; destroying one makes the other nonmagical.</description>
     </sheet>
     <setters>
       <set name="category">Wondrous Items</set>
@@ -95,10 +93,11 @@ Once you use a brazier in this way, it can't be used again until the next dawn. 
       <set name="type">Wondrous Item</set>
     </setters>
   </element>
+
   <element name="Bubble Barrier" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Bubble_Barrier">
     <description>This fist-sized glass orb glistens iridescent in sunlight. When you take damage or are forced to make a saving throw against an effect that you can see, you can crush the orb as a reaction, destroying it and enveloping you in a protective bubble which functions as an Otiluke's resilient sphere, preventing the triggering effect and lasting until the start of your next turn.</description>
     <sheet>
-      <description>This fist-sized glass orb glistens iridescent in sunlight. When you take damage or are forced to make a saving throw against an effect that you can see, you can crush the orb as a reaction, destroying it and enveloping you in a protective bubble which functions as an Otiluke's resilient sphere, preventing the triggering effect and lasting until the start of your next turn.</description>
+      <description>Reaction: crush the orb to surround yourself in an Otiluke's resilient sphere until the start of your next turn, negating the triggering effect.</description>
     </sheet>
     <setters>
       <set name="category">Wondrous Items</set>
@@ -106,14 +105,13 @@ Once you use a brazier in this way, it can't be used again until the next dawn. 
       <set name="type">Wondrous Item</set>
     </setters>
   </element>
+
   <element name="Captain's Lantern" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Captain_s_Lantern">
     <description>This exquisite brass-and-green glass lantern constantly protects the ship it is mounted on. Until it is removed, the entire ship is under the effect of the alarm spell, set to produce the sound of heavy bronze bells ringing when triggered.
 If you speak the lantern's command word while touching a copper coin to the underside of the lantern, the coin becomes a token of passage, marked with a depiction of the ship on one of its faces. While a creature is carrying a token, it does not trigger the lantern's alarm. If you speak the lantern's command word while holding a silver coin to the underside of the lantern, all previously created tokens of passage lose their magic and revert to nonmagical copper coins.
-A creature that spends 1 minute studying the lantern can attempt to learn the lantern's command word with a successful 20 Intelligence (Investigation) check. On a failed check, the alarm spell triggers.</description>
+A creature that spends 1 minute studying the lantern can attempt to learn the lantern's command word with a successful DC 20 Intelligence (Investigation) check. On a failed check, the alarm spell triggers.</description>
     <sheet>
-      <description>This exquisite brass-and-green glass lantern constantly protects the ship it is mounted on. Until it is removed, the entire ship is under the effect of the alarm spell, set to produce the sound of heavy bronze bells ringing when triggered.
-If you speak the lantern's command word while touching a copper coin to the underside of the lantern, the coin becomes a token of passage, marked with a depiction of the ship on one of its faces. While a creature is carrying a token, it does not trigger the lantern's alarm. If you speak the lantern's command word while holding a silver coin to the underside of the lantern, all previously created tokens of passage lose their magic and revert to nonmagical copper coins.
-A creature that spends 1 minute studying the lantern can attempt to learn the lantern's command word with a successful 20 Intelligence (Investigation) check. On a failed check, the alarm spell triggers.</description>
+      <description>Lantern that wards a ship with an alarm spell and can create/revoke “tokens of passage” on copper coins. Studying it can reveal the command word (DC 20 Investigation) but a failed check triggers the alarm.</description>
     </sheet>
     <setters>
       <set name="category">Wondrous Items</set>
@@ -121,12 +119,12 @@ A creature that spends 1 minute studying the lantern can attempt to learn the la
       <set name="type">Wondrous Item</set>
     </setters>
   </element>
+
   <element name="Cephalian Bands" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Cephalian_Bands">
     <description>These brass armbands bear the shape of entwined tentacles, lined with veins of black ink. While wearing them, you have advantage on checks made to maintain grapples.
 While you are underwater, you can use an action to cast darkness from the bands, centered on yourself. When you do so, your speed is doubled until the end of the turn. Once you cast this spell in this way, you can't do so again until the next dawn.</description>
     <sheet>
-      <description>These brass armbands bear the shape of entwined tentacles, lined with veins of black ink. While wearing them, you have advantage on checks made to maintain grapples.
-While you are underwater, you can use an action to cast darkness from the bands, centered on yourself. When you do so, your speed is doubled until the end of the turn. Once you cast this spell in this way, you can't do so again until the next dawn.</description>
+      <description>Brass tentacle armbands. Advantage on checks to maintain grapples. 1/day while underwater, cast darkness centered on you and double your speed until end of turn.</description>
     </sheet>
     <setters>
       <set name="category">Wondrous Items</set>
@@ -134,12 +132,12 @@ While you are underwater, you can use an action to cast darkness from the bands,
       <set name="type">Wondrous Item</set>
     </setters>
   </element>
+
   <element name="Crab Claw Gauntlets" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Crab_Claw_Gauntlets">
     <description>These spiked silver gauntlets resemble the claws of a giant crab.
 While you are wearing these gauntlets, your unarmed strikes made with these claws deal bludgeoning damage equal to 1d6 + your Strength modifier instead of their normal damage and gain a +1 bonus to attack and damage rolls. When you hit a creature with an unarmed strike made with one of these claws, the creature is grappled if the claw isn't already grappling another creature or holding an object.</description>
     <sheet>
-      <description>These spiked silver gauntlets resemble the claws of a giant crab.
-While you are wearing these gauntlets, your unarmed strikes made with these claws deal bludgeoning damage equal to 1d6 + your Strength modifier instead of their normal damage and gain a +1 bonus to attack and damage rolls. When you hit a creature with an unarmed strike made with one of these claws, the creature is grappled if the claw isn't already grappling another creature or holding an object.</description>
+      <description>Spiked gauntlets. Unarmed strikes with them are +1 and deal 1d6 + Str bludgeoning; on a hit, you can grapple the target if the claw is free.</description>
     </sheet>
     <setters>
       <set name="category">Wondrous Items</set>
@@ -147,36 +145,37 @@ While you are wearing these gauntlets, your unarmed strikes made with these claw
       <set name="type">Wondrous Item</set>
     </setters>
   </element>
+
   <element name="Dragon Turtle Armor" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Dragon_Turtle_Armor">
     <description>This fine turtle-shell armor constantly emits faint trails of steam. While wearing this armor, you gain a swim speed of 40 feet, have resistance to fire damage, and can breathe air and water.
-While you are wearing the armor, you can use an action to cast burning hands as a 3rd-level spell (save 15) from the armor. When you cast the spell in this way, it produces a burst of steam instead of flames, and being underwater doesn't grant resistance against the spell's damage. Once you cast the spell in this way, you can roll a d6 at the start of each of your turns. On a 5 or 6, you regain the ability to cast the spell with this armor.</description>
+While you are wearing the armor, you can use an action to cast burning hands as a 3rd-level spell (save DC 15) from the armor. When you cast the spell in this way, it produces a burst of steam instead of flames, and being underwater doesn't grant resistance against the spell's damage. Once you cast the spell in this way, you can roll a d6 at the start of each of your turns. On a 5 or 6, you regain the ability to cast the spell with this armor.</description>
     <sheet>
-      <description>This fine turtle-shell armor constantly emits faint trails of steam. While wearing this armor, you gain a swim speed of 40 feet, have resistance to fire damage, and can breathe air and water.
-While you are wearing the armor, you can use an action to cast burning hands as a 3rd-level spell (save 15) from the armor. When you cast the spell in this way, it produces a burst of steam instead of flames, and being underwater doesn't grant resistance against the spell's damage. Once you cast the spell in this way, you can roll a d6 at the start of each of your turns. On a 5 or 6, you regain the ability to cast the spell with this armor.</description>
+      <description>Steam-trailing turtle-shell armor. Swim speed 40 ft, fire resistance, and amphibious. Can cast burning hands (3rd-level, DC 15) as steam; recharge on 5–6 on a d6 each turn.</description>
     </sheet>
     <setters>
-      <set name="category">Wondrous Items</set>
+      <set name="category">Armor</set>
       <set name="rarity">Very Rare</set>
-      <set name="type">Wondrous Item</set>
+      <set name="type">Armor</set>
     </setters>
   </element>
+
   <element name="Figgly's Wand of Squids" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Figgly_s_Wand_of_Squids">
-    <description>This jet black wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the Figgly's exploding squid spell (7 to hit) from it. For 1 charge, you cast the 1st-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.
+    <description>This jet black wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the Figgly's exploding squid spell (attack bonus +7) from it. For 1 charge, you cast the 1st-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.
 The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand explodes in a burst of black ink and is destroyed.</description>
     <sheet>
-      <description>This jet black wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the Figgly's exploding squid spell (7 to hit) from it. For 1 charge, you cast the 1st-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.
-The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand explodes in a burst of black ink and is destroyed.</description>
+      <description>Wand with 7 charges that casts Figgly's exploding squid (attack +7) at 1st level for 1 charge, or higher by spending more. Regains 1d6 + 1 charges at dawn; on using the last charge, roll a d20 — on a 1 it explodes and is destroyed.</description>
     </sheet>
     <setters>
-      <set name="category">Wondrous Items</set>
+      <set name="category">Wands</set>
       <set name="rarity">Uncommon</set>
-      <set name="type">Wondrous Item</set>
+      <set name="type">Wand</set>
     </setters>
   </element>
+
   <element name="Flow Gauntlets" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Flow_Gauntlets">
     <description>These gauntlets appear to be made out of mercury bound into a semi-solid shape, but become transparent when submerged in water. These gauntlets have 3 charges, and regain all expended charges daily at dawn. When you cast a spell that lacks the hydromancy tag while wearing these gauntlets, you can spend 1 charge to grant the spell the hydromancy tag with a hydromancy radius of 30 feet. When you cast a spell in this way, a watery hand appears at the chosen point, delivering the spell for you.</description>
     <sheet>
-      <description>These gauntlets appear to be made out of mercury bound into a semi-solid shape, but become transparent when submerged in water. These gauntlets have 3 charges, and regain all expended charges daily at dawn. When you cast a spell that lacks the hydromancy tag while wearing these gauntlets, you can spend 1 charge to grant the spell the hydromancy tag with a hydromancy radius of 30 feet. When you cast a spell in this way, a watery hand appears at the chosen point, delivering the spell for you.</description>
+      <description>3-charge gauntlets that let you spend 1 charge when casting a non-hydromancy spell to give it the hydromancy tag (30 ft radius) and have a watery hand deliver it. Regains all charges at dawn.</description>
     </sheet>
     <setters>
       <set name="category">Wondrous Items</set>
@@ -184,10 +183,11 @@ The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand'
       <set name="type">Wondrous Item</set>
     </setters>
   </element>
+
   <element name="Fog Horn" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Fog_Horn">
-    <description>This silver horn 3 charges, and it regains 1d3 expended charges daily at dawn. While holding it, you can use an action to expend 1 or more of its charges to cast the fog cloud spell from it, producing a low drone audible out to 300 feet. For 1 charge, you cast the 1st-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.</description>
+    <description>This silver horn has 3 charges, and it regains 1d3 expended charges daily at dawn. While holding it, you can use an action to expend 1 or more of its charges to cast the fog cloud spell from it, producing a low drone audible out to 300 feet. For 1 charge, you cast the 1st-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.</description>
     <sheet>
-      <description>This silver horn 3 charges, and it regains 1d3 expended charges daily at dawn. While holding it, you can use an action to expend 1 or more of its charges to cast the fog cloud spell from it, producing a low drone audible out to 300 feet. For 1 charge, you cast the 1st-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.</description>
+      <description>Horn with 3 charges that casts fog cloud (1st level for 1 charge; higher by spending more). Regains 1d3 charges at dawn.</description>
     </sheet>
     <setters>
       <set name="category">Wondrous Items</set>
@@ -195,10 +195,11 @@ The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand'
       <set name="type">Wondrous Item</set>
     </setters>
   </element>
+
   <element name="Gold Fish" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Gold_Fish">
     <description>This solid gold clockwork fish flops pathetically when it is within 120 feet of another piece of gold that is coin-sized or larger. If the fish is submerged, it instead swims toward the treasure at a rate of 10 feet per round.</description>
     <sheet>
-      <description>This solid gold clockwork fish flops pathetically when it is within 120 feet of another piece of gold that is coin-sized or larger. If the fish is submerged, it instead swims toward the treasure at a rate of 10 feet per round.</description>
+      <description>Clockwork gold fish that detects nearby gold (120 ft). On land it flops toward it; underwater it swims 10 ft per round toward the treasure.</description>
     </sheet>
     <setters>
       <set name="category">Wondrous Items</set>
@@ -206,12 +207,12 @@ The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand'
       <set name="type">Wondrous Item</set>
     </setters>
   </element>
+
   <element name="Grail of Restoration" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Grail_of_Restoration">
     <description>This ornate alabaster grail can't be accidentally spilled. This grail has 20 charges. While holding it, you can use an action to drink from the grail or pour water from it on another creature's wounds, expending any number of charges from the grail. The target regains a number of hit points equal to the number of charges spent. Alternatively, you can expend 5 charges to cast lesser restoration, or 20 charges to cast greater restoration from the grail.
 The grail regains all its charges by being refilled with water at a river or freshwater lake at the moment of dawn.</description>
     <sheet>
-      <description>This ornate alabaster grail can't be accidentally spilled. This grail has 20 charges. While holding it, you can use an action to drink from the grail or pour water from it on another creature's wounds, expending any number of charges from the grail. The target regains a number of hit points equal to the number of charges spent. Alternatively, you can expend 5 charges to cast lesser restoration, or 20 charges to cast greater restoration from the grail.
-The grail regains all its charges by being refilled with water at a river or freshwater lake at the moment of dawn.</description>
+      <description>Alabaster grail with 20 charges. Spend charges for healing (1 HP per charge), lesser restoration (5 charges), or greater restoration (20 charges). Fully recharges when refilled at a river or freshwater lake at dawn.</description>
     </sheet>
     <setters>
       <set name="category">Wondrous Items</set>
@@ -219,25 +220,26 @@ The grail regains all its charges by being refilled with water at a river or fre
       <set name="type">Wondrous Item</set>
     </setters>
   </element>
+
   <element name="Helm of Hunger" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Helm_of_Hunger">
     <description>This finned iron helmet resembles the visage of a shark, and grants the wearer the beast's signature frenzied hunger. While you are wearing the helmet you automatically know the location of each creature within 300 feet of you that doesn't have all of its hit points.
-Additionally, this helmet has 3 charges, and it regains 1d3 expended charges daily at dawn. While you are wearing the helmet, you can use an action to expend 1 of its charges to cast the polymorph spell targeting yourself. When you cast the spell in this way, you can only become a reef shark, hunter shark, giant shark, or megalodon obeying all of the spell's other rules.
-{'type': 'entries', 'name': 'Curse', 'entries': ['This helmet is cursed. Attuning to it curses you until you are targeted by the remove curse spell or similar magic. Removing the helmet fails to end the curse on you. While you are cursed, you require ten times as much food to sustain yourself each day.']}</description>
+Additionally, this helmet has 3 charges, and it regains 1d3 expended charges daily at dawn. While you are wearing the helmet, you can use an action to expend 1 of its charges to cast the polymorph spell targeting yourself. When you cast the spell in this way, you can only become a reef shark, hunter shark, giant shark, or megalodon, obeying all of the spell's other rules.
+
+Curse. This helmet is cursed. Attuning to it curses you until you are targeted by the remove curse spell or similar magic. Removing the helmet fails to end the curse on you. While you are cursed, you require ten times as much food to sustain yourself each day.</description>
     <sheet>
-      <description>This finned iron helmet resembles the visage of a shark, and grants the wearer the beast's signature frenzied hunger. While you are wearing the helmet you automatically know the location of each creature within 300 feet of you that doesn't have all of its hit points.
-Additionally, this helmet has 3 charges, and it regains 1d3 expended charges daily at dawn. While you are wearing the helmet, you can use an action to expend 1 of its charges to cast the polymorph spell targeting yourself. When you cast the spell in this way, you can only become a reef shark, hunter shark, giant shark, or megalodon obeying all of the spell's other rules.
-{'type': 'entries', 'name': 'Curse', 'entries': ['This helmet is cursed. Attuning to it curses you until you are targeted by the remove curse spell or similar magic. Removing the helmet fails to end the curse on you. While you are cursed, you require ten times as much food to sustain yourself each day.']}</description>
+      <description>Shark-visage helm. Sense all wounded creatures within 300 ft. 3/day you can polymorph yourself into a shark form. Cursed: you need ten times normal food until remove curse or similar ends it.</description>
     </sheet>
     <setters>
-      <set name="category">Wondrous Items</set>
+      <set name="category">Armor</set>
       <set name="rarity">Very Rare</set>
-      <set name="type">Wondrous Item</set>
+      <set name="type">Armor</set>
     </setters>
   </element>
+
   <element name="Hydromancer's Trident" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Hydromancer_s_Trident">
     <description>This trident is carved with arcane channels that run its length, allowing it to transfer its movements through bodies of water. When you make an attack with this trident while you are standing within 5 feet of a body of water, you can choose a point within 30 feet of you that is within the same body of water. The attack is made as if you were at the chosen point, but you must use your own senses.</description>
     <sheet>
-      <description>This trident is carved with arcane channels that run its length, allowing it to transfer its movements through bodies of water. When you make an attack with this trident while you are standing within 5 feet of a body of water, you can choose a point within 30 feet of you that is within the same body of water. The attack is made as if you were at the chosen point, but you must use your own senses.</description>
+      <description>Magic trident that lets you “project” melee attacks through nearby water: if you stand within 5 ft of a body of water, you can resolve the attack as if you were at a point within 30 ft in that same water.</description>
     </sheet>
     <setters>
       <set name="keywords">trident</set>
@@ -247,10 +249,11 @@ Additionally, this helmet has 3 charges, and it regains 1d3 expended charges dai
       <set name="rarity">Uncommon</set>
     </setters>
   </element>
+
   <element name="Knave's Cutlass" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Knave_s_Cutlass">
     <description>This weapon is unusually light, and was crafted to be used by the most vicious of pirates. You can use this weapon while it is held between your teeth as if you were holding it in a hand. While you are holding the weapon in this way, your speech is somewhat impeded, and you can't cast spells that include a verbal component. When you make an attack as a bonus action using two-weapon fighting, you can make an additional attack with this weapon as part of the same bonus action. You must be wielding three separate one-handed melee weapons in order to make this additional attack, and you don't add your ability modifier to the damage of the additional attack, unless that modifier is negative.</description>
     <sheet>
-      <description>This weapon is unusually light, and was crafted to be used by the most vicious of pirates. You can use this weapon while it is held between your teeth as if you were holding it in a hand. While you are holding the weapon in this way, your speech is somewhat impeded, and you can't cast spells that include a verbal component. When you make an attack as a bonus action using two-weapon fighting, you can make an additional attack with this weapon as part of the same bonus action. You must be wielding three separate one-handed melee weapons in order to make this additional attack, and you don't add your ability modifier to the damage of the additional attack, unless that modifier is negative.</description>
+      <description>Light cutlass you can wield in your teeth. While using two-weapon fighting with three one-handed weapons (including this one), you can make an extra attack with it as part of the same bonus action (no ability mod to that damage).</description>
     </sheet>
     <setters>
       <set name="keywords">cutlass</set>
@@ -260,27 +263,26 @@ Additionally, this helmet has 3 charges, and it regains 1d3 expended charges dai
       <set name="rarity">Uncommon</set>
     </setters>
   </element>
+
   <element name="Krend's Fishing Rod" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Krend_s_Fishing_Rod">
     <description>This fishing rod is tipped at the end with a jagged spear point, and is fitted with a magical lure. You have a +1 bonus to attack and damage rolls made with this magic weapon.
-As a bonus action on your turn, you can cast the lure out to a point within 10 feet of you. While the lure is floating within a body of water, you know the exact depth of the water directly underneath the lure. Additionally, when a submerged creature comes within 10 feet of the lure, you can cause the lure to shoot out toward it. The target must succeed on a 13 Dexterity saving throw or become ensnared by the lure. While ensnared, the target can't move more than 30 feet away from you. A creature can use its action to make a 13 Strength check, freeing itself or another creature within its reach on a success.
+As a bonus action on your turn, you can cast the lure out to a point within 10 feet of you. While the lure is floating within a body of water, you know the exact depth of the water directly underneath the lure. Additionally, when a submerged creature comes within 10 feet of the lure, you can cause the lure to shoot out toward it. The target must succeed on a DC 13 Dexterity saving throw or become ensnared by the lure. While ensnared, the target can't move more than 30 feet away from you. A creature can use its action to make a DC 13 Strength check, freeing itself or another creature within its reach on a success.
 As an action, you can attach the lure to the butt end of the spear, allowing the fishing rod to function as a longbow.</description>
     <sheet>
-      <description>This fishing rod is tipped at the end with a jagged spear point, and is fitted with a magical lure. You have a +1 bonus to attack and damage rolls made with this magic weapon.
-As a bonus action on your turn, you can cast the lure out to a point within 10 feet of you. While the lure is floating within a body of water, you know the exact depth of the water directly underneath the lure. Additionally, when a submerged creature comes within 10 feet of the lure, you can cause the lure to shoot out toward it. The target must succeed on a 13 Dexterity saving throw or become ensnared by the lure. While ensnared, the target can't move more than 30 feet away from you. A creature can use its action to make a 13 Strength check, freeing itself or another creature within its reach on a success.
-As an action, you can attach the lure to the butt end of the spear, allowing the fishing rod to function as a longbow.</description>
+      <description>+1 spear-like fishing rod with a magical lure that senses water depth and can ensnare submerged creatures (DC 13 Dex, escape DC 13 Str, tethered to 30 ft). Can be configured to function as a longbow.</description>
     </sheet>
     <setters>
-      <set name="category">Wondrous Items</set>
+      <set name="category">Magic Weapons</set>
       <set name="rarity">Uncommon</set>
       <set name="type">Weapon</set>
     </setters>
   </element>
+
   <element name="Instrument of the Coxswain" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Instrument_of_the_Coxswain">
     <description>This musical instrument has 7 charges, and regains 1d6 + 1 expended charges daily at dawn. You can use an action to start a performance, expending 1 charge from it to command obedience from each creature of your choice that can see and hear you within 120 feet. The performance lasts for up to 1 minute, and ends if you use your action to do anything else. Each target must succeed on a Wisdom saving throw using your spell save DC or be charmed by you until the performance ends. While charmed in this way, the creature uses its action to sing and all its movement to dance. You can mentally command the creature to instead use its action and movement to perform strenuous or intense labor such as mining, cleaning, crafting, or cooking and serving food and drinks. If harmed by you or your companions, or commanded to do something that would be harmful to it, a target ceases to be charmed in this way.
 You can also use an action to play the instrument and expend 6 charges from it to cast the Otto's irresistible dance spell from it, using your spell save DC.</description>
     <sheet>
-      <description>This musical instrument has 7 charges, and regains 1d6 + 1 expended charges daily at dawn. You can use an action to start a performance, expending 1 charge from it to command obedience from each creature of your choice that can see and hear you within 120 feet. The performance lasts for up to 1 minute, and ends if you use your action to do anything else. Each target must succeed on a Wisdom saving throw using your spell save DC or be charmed by you until the performance ends. While charmed in this way, the creature uses its action to sing and all its movement to dance. You can mentally command the creature to instead use its action and movement to perform strenuous or intense labor such as mining, cleaning, crafting, or cooking and serving food and drinks. If harmed by you or your companions, or commanded to do something that would be harmful to it, a target ceases to be charmed in this way.
-You can also use an action to play the instrument and expend 6 charges from it to cast the Otto's irresistible dance spell from it, using your spell save DC.</description>
+      <description>7-charge instrument. 1 charge: 1-minute performance that charms creatures (Wis save vs your DC), forcing them to sing/dance or labor. 6 charges: cast Otto's irresistible dance. Regains 1d6 + 1 charges at dawn.</description>
     </sheet>
     <setters>
       <set name="category">Wondrous Items</set>
@@ -288,14 +290,13 @@ You can also use an action to play the instrument and expend 6 charges from it t
       <set name="type">Wondrous Item</set>
     </setters>
   </element>
+
   <element name="Lifeline" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Lifeline">
-    <description>While held, 50-foot length of rope binds itself around your wrist. As an action, you can tether this rope to a creature within 20 feet of you. If you target an unwilling creature, it must succeed on a DC 15 Dexterity saving throw to avoid being tethered. While tethered, the creature can't move more than 50 feet away from you. If an effect would move either you or the tethered creature more than 50 feet apart, the other is dragged along as well.
+    <description>While held, this 50-foot length of rope binds itself around your wrist. As an action, you can tether this rope to a creature within 20 feet of you. If you target an unwilling creature, it must succeed on a DC 15 Dexterity saving throw to avoid being tethered. While tethered, the creature can't move more than 50 feet away from you. If an effect would move either you or the tethered creature more than 50 feet apart, the other is dragged along as well.
 While you are tethered to a creature, both you and that creature have resistance to all damage. Each time either you or the tethered creature takes damage, the other takes the same amount of damage. Additionally, while either you or the tethered creature can breathe, the other can also breathe.
-The rope is an object with with an AC of 15, 20 hit points, and immunity to poison and psychic damage. If the rope is reduced to 0 hit points, it is severed and can't be used again until the next dawn, at which time its segments knit back together. The rope is also severed if a creature takes an action and succeeds on a 15 Strength check, or if an effect would ever cause you to have full cover from the tethered creature.</description>
+The rope is an object with an AC of 15, 20 hit points, and immunity to poison and psychic damage. If the rope is reduced to 0 hit points, it is severed and can't be used again until the next dawn, at which time its segments knit back together. The rope is also severed if a creature takes an action and succeeds on a DC 15 Strength check, or if an effect would ever cause you to have full cover from the tethered creature.</description>
     <sheet>
-      <description>While held, 50-foot length of rope binds itself around your wrist. As an action, you can tether this rope to a creature within 20 feet of you. If you target an unwilling creature, it must succeed on a DC 15 Dexterity saving throw to avoid being tethered. While tethered, the creature can't move more than 50 feet away from you. If an effect would move either you or the tethered creature more than 50 feet apart, the other is dragged along as well.
-While you are tethered to a creature, both you and that creature have resistance to all damage. Each time either you or the tethered creature takes damage, the other takes the same amount of damage. Additionally, while either you or the tethered creature can breathe, the other can also breathe.
-The rope is an object with with an AC of 15, 20 hit points, and immunity to poison and psychic damage. If the rope is reduced to 0 hit points, it is severed and can't be used again until the next dawn, at which time its segments knit back together. The rope is also severed if a creature takes an action and succeeds on a 15 Strength check, or if an effect would ever cause you to have full cover from the tethered creature.</description>
+      <description>50-ft rope that tethers you to a creature (DC 15 Dex for unwilling). While tethered, you share resistance to all damage and mirrored damage, and share the ability to breathe. Rope can be severed (AC 15, 20 HP) or by DC 15 Str check; reforms at dawn if broken.</description>
     </sheet>
     <setters>
       <set name="category">Wondrous Items</set>
@@ -303,12 +304,12 @@ The rope is an object with with an AC of 15, 20 hit points, and immunity to pois
       <set name="type">Wondrous Item</set>
     </setters>
   </element>
+
   <element name="Lurelight" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Lurelight">
     <description>This dangling, glowing orb ever draws eyes towards it. It emits bright light in a 15-foot radius and dim light for an additional 15 feet. As an action while you are holding the orb, you can expand or reduce the radius of the bright and dim light by 5 feet each, to a maximum of 30 feet each or a minimum of 10 feet each.
 A creature that can see the orb has disadvantage on Wisdom (Perception) checks made to perceive any creature not illuminated by the orb's light.</description>
     <sheet>
-      <description>This dangling, glowing orb ever draws eyes towards it. It emits bright light in a 15-foot radius and dim light for an additional 15 feet. As an action while you are holding the orb, you can expand or reduce the radius of the bright and dim light by 5 feet each, to a maximum of 30 feet each or a minimum of 10 feet each.
-A creature that can see the orb has disadvantage on Wisdom (Perception) checks made to perceive any creature not illuminated by the orb's light.</description>
+      <description>Adjustable glowing orb (bright 10–30 ft, dim an extra 10–30 ft). Creatures that can see it have disadvantage on Perception checks to notice things outside its light.</description>
     </sheet>
     <setters>
       <set name="category">Wondrous Items</set>
@@ -316,12 +317,12 @@ A creature that can see the orb has disadvantage on Wisdom (Perception) checks m
       <set name="type">Wondrous Item</set>
     </setters>
   </element>
+
   <element name="Mariner's Cowl" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Mariner_s_Cowl">
     <description>This cloak appears to be made of a translucent material that is perpetually covered by fresh dew. While wearing this cloak with its hood up, a fine mist fills your space, lightly obscuring you. You can see through this mist, as well as any fog, mist, or steam, both magical and nonmagical. Pulling the hood up or down requires an action.
 While wearing the cloak, you can use your action to cast gaseous form on yourself. When you cast the spell in this way, it doesn't require concentration, and you can use a bonus action on your turn to end the spell and revert to your normal form.</description>
     <sheet>
-      <description>This cloak appears to be made of a translucent material that is perpetually covered by fresh dew. While wearing this cloak with its hood up, a fine mist fills your space, lightly obscuring you. You can see through this mist, as well as any fog, mist, or steam, both magical and nonmagical. Pulling the hood up or down requires an action.
-While wearing the cloak, you can use your action to cast gaseous form on yourself. When you cast the spell in this way, it doesn't require concentration, and you can use a bonus action on your turn to end the spell and revert to your normal form.</description>
+      <description>Dewy cloak. Hood up lightly obscures you while you can see through mist/fog/steam. 1/day cast gaseous form on yourself without concentration; you can end it as a bonus action.</description>
     </sheet>
     <setters>
       <set name="category">Wondrous Items</set>
@@ -329,16 +330,15 @@ While wearing the cloak, you can use your action to cast gaseous form on yoursel
       <set name="type">Wondrous Item</set>
     </setters>
   </element>
+
   <element name="Mermaid's Sapphire" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Mermaid_s_Sapphire">
     <description>This silver pendant bears a large sapphire, flanked by mermaids. While you are attuned to it, you gain the following benefits:
-{'type': 'list', 'items': ['You can breathe water, and have a swim speed of 60 feet.']}
-When you leap out of water that is at least 10 feet deep, you can jump up to 20 feet.
-{'type': 'list', 'items': ["You have blindsight to a range of 60 feet while you are underwater and aren't deafened.", 'If you move at least 30 feet in a straight line on your turn while you are underwater, attacks against you are made at disadvantage until the start of your next turn.']}</description>
+• You can breathe water and have a swim speed of 60 feet.
+• When you leap out of water that is at least 10 feet deep, you can jump up to 20 feet.
+• You have blindsight to a range of 60 feet while you are underwater and aren't deafened.
+• If you move at least 30 feet in a straight line on your turn while you are underwater, attacks against you are made at disadvantage until the start of your next turn.</description>
     <sheet>
-      <description>This silver pendant bears a large sapphire, flanked by mermaids. While you are attuned to it, you gain the following benefits:
-{'type': 'list', 'items': ['You can breathe water, and have a swim speed of 60 feet.']}
-When you leap out of water that is at least 10 feet deep, you can jump up to 20 feet.
-{'type': 'list', 'items': ["You have blindsight to a range of 60 feet while you are underwater and aren't deafened.", 'If you move at least 30 feet in a straight line on your turn while you are underwater, attacks against you are made at disadvantage until the start of your next turn.']}</description>
+      <description>Pendant that grants water breathing, 60 ft swim speed, 60 ft underwater blindsight, boosted leaps from deep water, and disadvantage on attacks against you if you move 30 ft in a straight line underwater on your turn.</description>
     </sheet>
     <setters>
       <set name="category">Wondrous Items</set>
@@ -346,12 +346,12 @@ When you leap out of water that is at least 10 feet deep, you can jump up to 20 
       <set name="type">Wondrous Item</set>
     </setters>
   </element>
+
   <element name="Necklace of Ocean Pearls" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Necklace_of_Ocean_Pearls">
-    <description>This necklace has 1d6 + 3 pearls hanging from it. You can use an action to detach a pearl and throw it up to 60 feet away. When it reaches the end of its trajectory, the pearl detonates as a 3rd-level aqueous blast spell (save 15).
+    <description>This necklace has 1d6 + 3 pearls hanging from it. You can use an action to detach a pearl and throw it up to 60 feet away. When it reaches the end of its trajectory, the pearl detonates as a 3rd-level aqueous blast spell (save DC 15).
 You can hurl multiple pearls, or even the whole necklace, as one action. When you do so, increase the level of the aqueous blast by 1 for each bead beyond the first.</description>
     <sheet>
-      <description>This necklace has 1d6 + 3 pearls hanging from it. You can use an action to detach a pearl and throw it up to 60 feet away. When it reaches the end of its trajectory, the pearl detonates as a 3rd-level aqueous blast spell (save 15).
-You can hurl multiple pearls, or even the whole necklace, as one action. When you do so, increase the level of the aqueous blast by 1 for each bead beyond the first.</description>
+      <description>Necklace with 1d6 + 3 pearls. Throw a pearl (60 ft) to trigger a 3rd-level aqueous blast (DC 15). Throw multiple to increase the spell level by 1 per extra pearl.</description>
     </sheet>
     <setters>
       <set name="category">Wondrous Items</set>
@@ -359,12 +359,12 @@ You can hurl multiple pearls, or even the whole necklace, as one action. When yo
       <set name="type">Wondrous Item</set>
     </setters>
   </element>
+
   <element name="Pearl of Lightning Absorption" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Pearl_of_Lightning_Absorption">
-    <description>Shining with an impossible wet sheen, this silvery-white pearl from the Elemental Plane of Water has the ability to absorb and store lighting. When you take lightning damage while carrying this pearl, you can grant yourself resistance to the triggering lightning damage as a reaction, causing the pearl to gain 1 charge. If this brings the pearl's total number of charges above 10, the pearl explodes as if you had thrown it (see below). The pearl loses 1d4 stored charges daily at dawn.
-As an action, you can throw the pearl at a point up to 60 feet away, causing it to shatter on impact. Each creature within 30 feet of that point must make a 15 Dexterity saving throw, taking 1d10 lightning damage for each charge in the pearl on a failed save, or half as much damage on a successful one.</description>
+    <description>Shining with an impossible wet sheen, this silvery-white pearl from the Elemental Plane of Water has the ability to absorb and store lightning. When you take lightning damage while carrying this pearl, you can grant yourself resistance to the triggering lightning damage as a reaction, causing the pearl to gain 1 charge. If this brings the pearl's total number of charges above 10, the pearl explodes as if you had thrown it (see below). The pearl loses 1d4 stored charges daily at dawn.
+As an action, you can throw the pearl at a point up to 60 feet away, causing it to shatter on impact. Each creature within 30 feet of that point must make a DC 15 Dexterity saving throw, taking 1d10 lightning damage for each charge in the pearl on a failed save, or half as much damage on a successful one.</description>
     <sheet>
-      <description>Shining with an impossible wet sheen, this silvery-white pearl from the Elemental Plane of Water has the ability to absorb and store lighting. When you take lightning damage while carrying this pearl, you can grant yourself resistance to the triggering lightning damage as a reaction, causing the pearl to gain 1 charge. If this brings the pearl's total number of charges above 10, the pearl explodes as if you had thrown it (see below). The pearl loses 1d4 stored charges daily at dawn.
-As an action, you can throw the pearl at a point up to 60 feet away, causing it to shatter on impact. Each creature within 30 feet of that point must make a 15 Dexterity saving throw, taking 1d10 lightning damage for each charge in the pearl on a failed save, or half as much damage on a successful one.</description>
+      <description>Pearl that can absorb lightning, giving you resistance and adding 1 charge (max 10). As an action, throw it (60 ft) to deal 1d10 lightning per charge in a 30 ft radius (Dex DC 15 half). Loses 1d4 charges at dawn.</description>
     </sheet>
     <setters>
       <set name="category">Wondrous Items</set>
@@ -372,12 +372,13 @@ As an action, you can throw the pearl at a point up to 60 feet away, causing it 
       <set name="type">Wondrous Item</set>
     </setters>
   </element>
+
   <element name="Pearl of Putrescence" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Pearl_of_Putrescence">
     <description>This flawless black pearl appears to be a pearl of power to anyone who tries to identify it, and can be used as one.
-{'type': 'entries', 'name': '    Curse', 'entries': ["This pearl is cursed. Attuning to it curses you until you are targeted by the remove curse spell or similar magic. Removing the pearl fails to end the curse on you. Until the curse is broken, you don't regain spell slots when you finish a short or long rest."]}</description>
+
+Curse. This pearl is cursed. Attuning to it curses you until you are targeted by the remove curse spell or similar magic. Removing the pearl fails to end the curse on you. Until the curse is broken, you don't regain spell slots when you finish a short or long rest.</description>
     <sheet>
-      <description>This flawless black pearl appears to be a pearl of power to anyone who tries to identify it, and can be used as one.
-{'type': 'entries', 'name': '    Curse', 'entries': ["This pearl is cursed. Attuning to it curses you until you are targeted by the remove curse spell or similar magic. Removing the pearl fails to end the curse on you. Until the curse is broken, you don't regain spell slots when you finish a short or long rest."]}</description>
+      <description>Functions as a pearl of power, but is cursed: you do not regain spell slots on rests until remove curse or similar breaks it, and removing the pearl doesn't help.</description>
     </sheet>
     <setters>
       <set name="category">Wondrous Items</set>
@@ -385,12 +386,12 @@ As an action, you can throw the pearl at a point up to 60 feet away, causing it 
       <set name="type">Wondrous Item</set>
     </setters>
   </element>
+
   <element name="Pipe of Bubbles" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Pipe_of_Bubbles">
-    <description>This coral smoking pipe has 3 charges. While holding it, you can use an action to expend 1 of its charges to speak a message of twenty-five words or less into the pipe, designating a creature you are familiar with. The pipe then forms a bubble, 1 inch in diameter. If the target isn't on the same plane of existence as you, the bubble bursts. Otherwise, the bubble begins drifting towards the target at a rate of 30 feet per round (3 miles an hour),  following the straightest possible path towards the target, while avoiding obstructions. If the bubble comes across an obstruction it can't avoid (such as a closed door between it and the target), it stops moving until there is a clear path to the target. When the bubble reaches the target, it bursts harmlessly against the target's ear, delivering the message to the target. The target (and only the target) can hear the message.
+    <description>This coral smoking pipe has 3 charges. While holding it, you can use an action to expend 1 of its charges to speak a message of twenty-five words or less into the pipe, designating a creature you are familiar with. The pipe then forms a bubble, 1 inch in diameter. If the target isn't on the same plane of existence as you, the bubble bursts. Otherwise, the bubble begins drifting towards the target at a rate of 30 feet per round (3 miles an hour), following the straightest possible path towards the target, while avoiding obstructions. If the bubble comes across an obstruction it can't avoid (such as a closed door between it and the target), it stops moving until there is a clear path to the target. When the bubble reaches the target, it bursts harmlessly against the target's ear, delivering the message to the target. The target (and only the target) can hear the message.
 The bubble is a Tiny object with an AC of 5 and 1 hit point. If it is reduced to 0 hit points, it bursts. At the end of each hour it has traveled, roll a d6. On a 6, the bubble bursts.</description>
     <sheet>
-      <description>This coral smoking pipe has 3 charges. While holding it, you can use an action to expend 1 of its charges to speak a message of twenty-five words or less into the pipe, designating a creature you are familiar with. The pipe then forms a bubble, 1 inch in diameter. If the target isn't on the same plane of existence as you, the bubble bursts. Otherwise, the bubble begins drifting towards the target at a rate of 30 feet per round (3 miles an hour),  following the straightest possible path towards the target, while avoiding obstructions. If the bubble comes across an obstruction it can't avoid (such as a closed door between it and the target), it stops moving until there is a clear path to the target. When the bubble reaches the target, it bursts harmlessly against the target's ear, delivering the message to the target. The target (and only the target) can hear the message.
-The bubble is a Tiny object with an AC of 5 and 1 hit point. If it is reduced to 0 hit points, it bursts. At the end of each hour it has traveled, roll a d6. On a 6, the bubble bursts.</description>
+      <description>3-charge pipe that sends 25-word messages in drifting bubbles to a familiar creature on the same plane. Bubbles travel 30 ft/round, can be destroyed (AC 5, 1 HP), and might randomly pop (d6 each hour, bursting on a 6).</description>
     </sheet>
     <setters>
       <set name="category">Wondrous Items</set>
@@ -398,36 +399,37 @@ The bubble is a Tiny object with an AC of 5 and 1 hit point. If it is reduced to
       <set name="type">Wondrous Item</set>
     </setters>
   </element>
+
   <element name="Potion of Blooming Coral" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Potion_of_Blooming_Coral">
-    <description>When you drink this potion, coral formations rapidly form over the surface of your skin, lasting for 1 hour. For the duration, your AC can't be less than 16, and you emit an invisible aura around you in a 10 foot radius around you. Spells of 3rd level or lower can't affect creatures or objects within the radius, and the area within the radius is excluded from areas affected by such spells.
-When you first drink the potion, you must succeed on a 15 Constitution saving throw or become restrained by the coral for the duration. While you are restrained by the coral, you must repeat the Constitution saving throw at the start of each of your turns. If you fail the saving throw against this potion three times, you become petrified for the duration. If you succeed on the saving throw three times, you are no longer restrained. The successes and failures don't need to be consecutive; keep track of both until you collects three of a kind.
+    <description>When you drink this potion, coral formations rapidly form over the surface of your skin, lasting for 1 hour. For the duration, your AC can't be less than 16, and you emit an invisible aura around you in a 10-foot radius. Spells of 3rd level or lower can't affect creatures or objects within the radius, and the area within the radius is excluded from areas affected by such spells.
+When you first drink the potion, you must succeed on a DC 15 Constitution saving throw or become restrained by the coral for the duration. While you are restrained by the coral, you must repeat the Constitution saving throw at the start of each of your turns. If you fail the saving throw against this potion three times, you become petrified for the duration. If you succeed on the saving throw three times, you are no longer restrained. The successes and failures don't need to be consecutive; keep track of both until you collect three of a kind.
 This potion's sea-green liquid contains flakes of vibrant coral suspended within it.</description>
     <sheet>
-      <description>When you drink this potion, coral formations rapidly form over the surface of your skin, lasting for 1 hour. For the duration, your AC can't be less than 16, and you emit an invisible aura around you in a 10 foot radius around you. Spells of 3rd level or lower can't affect creatures or objects within the radius, and the area within the radius is excluded from areas affected by such spells.
-When you first drink the potion, you must succeed on a 15 Constitution saving throw or become restrained by the coral for the duration. While you are restrained by the coral, you must repeat the Constitution saving throw at the start of each of your turns. If you fail the saving throw against this potion three times, you become petrified for the duration. If you succeed on the saving throw three times, you are no longer restrained. The successes and failures don't need to be consecutive; keep track of both until you collects three of a kind.
-This potion's sea-green liquid contains flakes of vibrant coral suspended within it.</description>
+      <description>1-hour buff: AC at least 16, 10 ft aura that blocks 3rd-level or lower spells. On drinking, DC 15 Con save; 3 failures = restrained then petrified for the duration, 3 successes = no longer restrained.</description>
     </sheet>
     <setters>
-      <set name="category">Wondrous Items</set>
+      <set name="category">Potions</set>
       <set name="rarity">Rare</set>
-      <set name="type">Wondrous Item</set>
+      <set name="type">Potion</set>
     </setters>
   </element>
+
   <element name="Potion of Icy Veins" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Potion_of_Icy_Veins">
-    <description>When you drink this potion, you gain the effect of the armor of Agathys spell at the start of each of your turns for 1 hour. The potion's pale blue fluid is sparkles with iridescent ice crystals.</description>
+    <description>When you drink this potion, you gain the effect of the armor of Agathys spell at the start of each of your turns for 1 hour. The potion's pale blue fluid sparkles with iridescent ice crystals.</description>
     <sheet>
-      <description>When you drink this potion, you gain the effect of the armor of Agathys spell at the start of each of your turns for 1 hour. The potion's pale blue fluid is sparkles with iridescent ice crystals.</description>
+      <description>For 1 hour after drinking, you gain fresh armor of Agathys at the start of each of your turns (DM determines level). Pale blue, ice-flecked liquid.</description>
     </sheet>
     <setters>
-      <set name="category">Wondrous Items</set>
+      <set name="category">Potions</set>
       <set name="rarity">Rare</set>
-      <set name="type">Wondrous Item</set>
+      <set name="type">Potion</set>
     </setters>
   </element>
+
   <element name="Prismatic Polyp" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Prismatic_Polyp">
-    <description>You can use an action to throw this colorful coral bud at a point within 60 feet of you, which shatters on impact and is destroyed. Each creature within 5 feet of the point must succeed on a 13 Dexterity saving throw or take 2d4 piercing damage. Colourful entangling coral then spreads along solid surfaces in a 15-foot radius around the point, becoming difficult terrain until cleared. When a creature moves into or within the area, it takes 1d4 piercing damage for every 5 feet it travels. Each 5-foot-square portion of the coral requires at least 1 minute to clear by hand.</description>
+    <description>You can use an action to throw this colorful coral bud at a point within 60 feet of you, which shatters on impact and is destroyed. Each creature within 5 feet of the point must succeed on a DC 13 Dexterity saving throw or take 2d4 piercing damage. Colourful entangling coral then spreads along solid surfaces in a 15-foot radius around the point, becoming difficult terrain until cleared. When a creature moves into or within the area, it takes 1d4 piercing damage for every 5 feet it travels. Each 5-foot-square portion of the coral requires at least 1 minute to clear by hand.</description>
     <sheet>
-      <description>You can use an action to throw this colorful coral bud at a point within 60 feet of you, which shatters on impact and is destroyed. Each creature within 5 feet of the point must succeed on a 13 Dexterity saving throw or take 2d4 piercing damage. Colourful entangling coral then spreads along solid surfaces in a 15-foot radius around the point, becoming difficult terrain until cleared. When a creature moves into or within the area, it takes 1d4 piercing damage for every 5 feet it travels. Each 5-foot-square portion of the coral requires at least 1 minute to clear by hand.</description>
+      <description>Thrown coral bud (60 ft). On impact, creatures within 5 ft (Dex DC 13) take 2d4 piercing. A 15 ft radius becomes difficult terrain; moving 5 ft through it deals 1d4 piercing. Clearing each 5 ft square takes 1 minute.</description>
     </sheet>
     <setters>
       <set name="category">Wondrous Items</set>
@@ -435,18 +437,18 @@ This potion's sea-green liquid contains flakes of vibrant coral suspended within
       <set name="type">Wondrous Item</set>
     </setters>
   </element>
+
   <element name="Quiver of the Kraken" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Quiver_of_the_Kraken">
-    <description>This magic quiver is imbued with the power of a mighty kraken, and has three compartments. The large first compartment can hold up to 10 pieces of ammunition. The smaller second and third smaller compartments can each hold up to 5 pieces of ammunition. Every day at dawn, the quiver imbues each piece of nonmagical ammunition in the first compartment with the Binding Tentacles property, the second compartment with the Lightning properties, and the third compartment with the Ink Cloud property.
+    <description>This magic quiver is imbued with the power of a mighty kraken, and has three compartments. The large first compartment can hold up to 10 pieces of ammunition. The smaller second and third compartments can each hold up to 5 pieces of ammunition. Every day at dawn, the quiver imbues each piece of nonmagical ammunition in the first compartment with the Binding Tentacles property, the second compartment with the Lightning property, and the third compartment with the Ink Cloud property.
 Once a piece of ammunition drawn from this quiver has been used, the ammunition is destroyed.
-{'type': 'entries', 'name': '    Binding Tentacles', 'entries': ["This piece of ammunition transforms into a mass of tentacles when you make an attack with it. If the attack hit a creature, it suffers the attack's normal effects and becomes restrained by the tentacles for 1 minute, after which the tentacles vanish. A creature restrained by the tentacles can use its action to make a 17 Strength check. On a success, it frees itself, destroying the tentacles."]}
-{'type': 'entries', 'name': '    Ink Cloud', 'entries': ['You have a +2 bonus to attack and damage rolls made with this piece of ammunition, which releases wisps of poisonous ink when you make an attack with it. Hit or miss, the ammunition bursts into an ink cloud in a 60 foot radius around the target. The cloud spreads around corners, and its area is heavily obscured. A strong current disperses the cloud, which otherwise disappears at the end of your next turn. Each creature that ends its turn in the area must make a 17 Constitution saving throw, taking 3d10 poison damage on a failed save, or half as much damage on a successful one.']}
-{'type': 'entries', 'name': '    Lightning', 'entries': ['You have a +2 bonus to attack and damage rolls made with this piece of ammunition, which arcs with lightning when you make an attack with it and deals an additional 4d10 lightning damage to a creature it hits.']}</description>
+
+Binding Tentacles. This piece of ammunition transforms into a mass of tentacles when you make an attack with it. If the attack hits a creature, it suffers the attack's normal effects and becomes restrained by the tentacles for 1 minute, after which the tentacles vanish. A creature restrained by the tentacles can use its action to make a DC 17 Strength check. On a success, it frees itself, destroying the tentacles.
+
+Ink Cloud. You have a +2 bonus to attack and damage rolls made with this piece of ammunition, which releases wisps of poisonous ink when you make an attack with it. Hit or miss, the ammunition bursts into an ink cloud in a 60-foot radius around the target. The cloud spreads around corners, and its area is heavily obscured. A strong current disperses the cloud, which otherwise disappears at the end of your next turn. Each creature that ends its turn in the area must make a DC 17 Constitution saving throw, taking 3d10 poison damage on a failed save, or half as much damage on a successful one.
+
+Lightning. You have a +2 bonus to attack and damage rolls made with this piece of ammunition, which arcs with lightning when you make an attack with it and deals an additional 4d10 lightning damage to a creature it hits.</description>
     <sheet>
-      <description>This magic quiver is imbued with the power of a mighty kraken, and has three compartments. The large first compartment can hold up to 10 pieces of ammunition. The smaller second and third smaller compartments can each hold up to 5 pieces of ammunition. Every day at dawn, the quiver imbues each piece of nonmagical ammunition in the first compartment with the Binding Tentacles property, the second compartment with the Lightning properties, and the third compartment with the Ink Cloud property.
-Once a piece of ammunition drawn from this quiver has been used, the ammunition is destroyed.
-{'type': 'entries', 'name': '    Binding Tentacles', 'entries': ["This piece of ammunition transforms into a mass of tentacles when you make an attack with it. If the attack hit a creature, it suffers the attack's normal effects and becomes restrained by the tentacles for 1 minute, after which the tentacles vanish. A creature restrained by the tentacles can use its action to make a 17 Strength check. On a success, it frees itself, destroying the tentacles."]}
-{'type': 'entries', 'name': '    Ink Cloud', 'entries': ['You have a +2 bonus to attack and damage rolls made with this piece of ammunition, which releases wisps of poisonous ink when you make an attack with it. Hit or miss, the ammunition bursts into an ink cloud in a 60 foot radius around the target. The cloud spreads around corners, and its area is heavily obscured. A strong current disperses the cloud, which otherwise disappears at the end of your next turn. Each creature that ends its turn in the area must make a 17 Constitution saving throw, taking 3d10 poison damage on a failed save, or half as much damage on a successful one.']}
-{'type': 'entries', 'name': '    Lightning', 'entries': ['You have a +2 bonus to attack and damage rolls made with this piece of ammunition, which arcs with lightning when you make an attack with it and deals an additional 4d10 lightning damage to a creature it hits.']}</description>
+      <description>Quiver with 3 compartments that each day create special ammunition: Binding Tentacles (restrain on hit, DC 17 Str to escape), Lightning (+2 to hit/damage, +4d10 lightning), and Ink Cloud (+2 to hit/damage, 60 ft heavily obscuring poisonous cloud, 3d10 poison, DC 17 Con half). Used shots are destroyed.</description>
     </sheet>
     <setters>
       <set name="category">Wondrous Items</set>
@@ -454,57 +456,57 @@ Once a piece of ammunition drawn from this quiver has been used, the ammunition 
       <set name="type">Wondrous Item</set>
     </setters>
   </element>
+
   <element name="Rayleigh's Raincoat" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Rayleigh_s_Raincoat">
     <description>This knee-length coat is imbued with absorptive magic, and can be worn over normal clothing or light armor. When it comes into contact with at least 1 gallon of water, the coat's weight magically increases to 60 pounds, and it functions as a suit of splint armor (AC 17). You are considered proficient with this armor even if you lack proficiency with heavy armor. If the coat is left to dry for 1 minute, it reverts to normal.</description>
     <sheet>
-      <description>This knee-length coat is imbued with absorptive magic, and can be worn over normal clothing or light armor. When it comes into contact with at least 1 gallon of water, the coat's weight magically increases to 60 pounds, and it functions as a suit of splint armor (AC 17). You are considered proficient with this armor even if you lack proficiency with heavy armor. If the coat is left to dry for 1 minute, it reverts to normal.</description>
+      <description>Raincoat that, when soaked with at least 1 gallon of water, becomes splint armor (AC 17) weighing 60 lb, and you are proficient with it. Dries and reverts after 1 minute.</description>
     </sheet>
     <setters>
-      <set name="category">Wondrous Items</set>
+      <set name="category">Armor</set>
       <set name="rarity">Rare</set>
-      <set name="type">Wondrous Item</set>
+      <set name="type" addition="splint">Armor</set>
     </setters>
   </element>
+
   <element name="Rhelmon's Anchor" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Rhelmon_s_Anchor">
     <description>This weapon takes the form of a heavy iron anchor, pitted and worn through time, attached to a 30-foot-long iron chain. While you are attuned to the weapon, its chain is bound to the wrist of your dominant hand, and it can't ever be moved more than 30 feet away from you. If an effect would move either you or the weapon more than 30 feet away from each other, the other is dragged along as well.
-You gain a +2 to attack and damage rolls made with this magic weapon. It has the thrown property with a normal range of 10 feet and a long range of 30 feet.
-Immediately after making a ranged attack with this weapon on your turn, you can use a bonus action to reel the weapon back to your hand. The target of the attack must make a 17 Strength saving throw. On a failed save, the target is dragged up to 10 feet toward you if it is Large or smaller, or knocked prone if it is Huge or larger.
-{'type': 'entries', 'name': 'Curse', 'entries': ["This maul is cursed, and becoming attuned to it extends the curse to you. As long as you remain cursed, the weapon's chain binding it to you can't be removed, and you have disadvantage on attack rolls with weapons other than this one.", "Rhelmon's anchor is a weapon of supernatural density, weighing 100 pounds. If you have a Strength score below 17, your movement speed is reduced by 20 feet and you have disadvantage on ability checks, attack rolls, and saving throws that use Strength, Dexterity, or Constitution while the weapon is bound to you."]}</description>
+You gain a +2 bonus to attack and damage rolls made with this magic weapon. It has the thrown property with a normal range of 10 feet and a long range of 30 feet.
+Immediately after making a ranged attack with this weapon on your turn, you can use a bonus action to reel the weapon back to your hand. The target of the attack must make a DC 17 Strength saving throw. On a failed save, the target is dragged up to 10 feet toward you if it is Large or smaller, or knocked prone if it is Huge or larger.
+
+Curse. This weapon is cursed, and becoming attuned to it extends the curse to you. As long as you remain cursed, the weapon's chain binding it to you can't be removed, and you have disadvantage on attack rolls with weapons other than this one.
+Rhelmon's anchor is a weapon of supernatural density, weighing 100 pounds. If you have a Strength score below 17, your movement speed is reduced by 20 feet and you have disadvantage on ability checks, attack rolls, and saving throws that use Strength, Dexterity, or Constitution while the weapon is bound to you.</description>
     <sheet>
-      <description>This weapon takes the form of a heavy iron anchor, pitted and worn through time, attached to a 30-foot-long iron chain. While you are attuned to the weapon, its chain is bound to the wrist of your dominant hand, and it can't ever be moved more than 30 feet away from you. If an effect would move either you or the weapon more than 30 feet away from each other, the other is dragged along as well.
-You gain a +2 to attack and damage rolls made with this magic weapon. It has the thrown property with a normal range of 10 feet and a long range of 30 feet.
-Immediately after making a ranged attack with this weapon on your turn, you can use a bonus action to reel the weapon back to your hand. The target of the attack must make a 17 Strength saving throw. On a failed save, the target is dragged up to 10 feet toward you if it is Large or smaller, or knocked prone if it is Huge or larger.
-{'type': 'entries', 'name': 'Curse', 'entries': ["This maul is cursed, and becoming attuned to it extends the curse to you. As long as you remain cursed, the weapon's chain binding it to you can't be removed, and you have disadvantage on attack rolls with weapons other than this one.", "Rhelmon's anchor is a weapon of supernatural density, weighing 100 pounds. If you have a Strength score below 17, your movement speed is reduced by 20 feet and you have disadvantage on ability checks, attack rolls, and saving throws that use Strength, Dexterity, or Constitution while the weapon is bound to you."]}</description>
+      <description>+2 thrown anchor (10/30 ft) bound to you by a 30 ft chain. Bonus action to reel it in and drag/knock targets (DC 17 Str). Cursed: you have disadvantage with other weapons; at Str &lt; 17 you suffer speed reduction and disadvantage on physical checks/saves.</description>
     </sheet>
     <setters>
-      <set name="category">Wondrous Items</set>
+      <set name="category">Magic Weapons</set>
       <set name="rarity">Rare</set>
       <set name="type">Weapon</set>
     </setters>
   </element>
+
   <element name="Ring of the Hagfish" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Ring_of_the_Hagfish">
     <description>This silver ring in the shape of a hagfish is constantly slick with a thin layer of mucus. While you are attuned to this magic item, you have a swim speed of 30 feet, can breathe underwater, are immune to acid damage, and can't be grappled or restrained.
-As an action, you can summon a Huge gelatinous cube, which appears centered in your space. Its statistics other than its size are unchanged. Each creature that would be inside the cube's space when it first appears can make a 12 Dexterity saving throw. On a success, it can use its reaction to move up to its speed so that it is no longer engulfed by the cube.
+As an action, you can summon a Huge gelatinous cube, which appears centered in your space. Its statistics other than its size are unchanged. Each creature that would be inside the cube's space when it first appears can make a DC 12 Dexterity saving throw. On a success, it can use its reaction to move up to its speed so that it is no longer engulfed by the cube.
 The cube disappears after 1 hour or when it drops to 0 hit points. It is friendly to you and your companions, and has its own turn on your initiative count. You can use a bonus action to command how the cube moves and what action it takes on its next turn, or to give it general orders, such as to attack your enemies. Otherwise, the cube acts in accordance with its normal disposition and alignment. After summoning a cube this way, you can't summon another until the next dawn.</description>
     <sheet>
-      <description>This silver ring in the shape of a hagfish is constantly slick with a thin layer of mucus. While you are attuned to this magic item, you have a swim speed of 30 feet, can breathe underwater, are immune to acid damage, and can't be grappled or restrained.
-As an action, you can summon a Huge gelatinous cube, which appears centered in your space. Its statistics other than its size are unchanged. Each creature that would be inside the cube's space when it first appears can make a 12 Dexterity saving throw. On a success, it can use its reaction to move up to its speed so that it is no longer engulfed by the cube.
-The cube disappears after 1 hour or when it drops to 0 hit points. It is friendly to you and your companions, and has its own turn on your initiative count. You can use a bonus action to command how the cube moves and what action it takes on its next turn, or to give it general orders, such as to attack your enemies. Otherwise, the cube acts in accordance with its normal disposition and alignment. After summoning a cube this way, you can't summon another until the next dawn.</description>
+      <description>Ring that grants 30 ft swim speed, water breathing, acid immunity, and immunity to being grappled/restrained. 1/day you can summon a Huge gelatinous cube for 1 hour, friendly and controllable as a companion.</description>
     </sheet>
     <setters>
-      <set name="category">Wondrous Items</set>
+      <set name="category">Rings</set>
       <set name="rarity">Very Rare</set>
-      <set name="type">Wondrous Item</set>
+      <set name="type">Ring</set>
     </setters>
   </element>
+
   <element name="Sea Devil's Sapphire" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Sea_Devil_s_Sapphire">
-    <description>This silver pendant bears a small sapphire surrounded by all manner of strange and terrifying creatures. While wearing it, you can expend 1 charge as an action to speak this pendant's command word, granting yourself the terrifying visage of a devil for 1 minute. If a creature that isn't a fiend or undead starts its turn within 30 feet of you and can see you, it must succeed on a 15 Wisdom saving throw or become frightened of you for 1 minute. A creature that isn't surprised can avert its eyes to avoid the saving throw at the start of its turn. If it does so, it can't see you until the start of its next turn, when it can avert its eyes again.
-While frightened, the creature is paralyzed. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the pendant's effect for the next 24 hours. Once used, this pendant can't be used again until the next dawn
-{'type': 'entries', 'name': 'Curse', 'entries': ['The pendant is cursed. Attuning to it curses you until you are targeted by the remove curse spell, a dispel evil and good spell, or similar magic. Removing the pendant fails to end the curse on you. While cursed, you have a swim speed of 0 and sink 60 feet at the start of your turn if you are in water.']}</description>
+    <description>This silver pendant bears a small sapphire surrounded by all manner of strange and terrifying creatures. While wearing it, you can expend 1 charge as an action to speak this pendant's command word, granting yourself the terrifying visage of a devil for 1 minute. If a creature that isn't a fiend or undead starts its turn within 30 feet of you and can see you, it must succeed on a DC 15 Wisdom saving throw or become frightened of you for 1 minute. A creature that isn't surprised can avert its eyes to avoid the saving throw at the start of its turn. If it does so, it can't see you until the start of its next turn, when it can avert its eyes again.
+While frightened, the creature is paralyzed. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the pendant's effect for the next 24 hours. Once used, this pendant can't be used again until the next dawn.
+
+Curse. The pendant is cursed. Attuning to it curses you until you are targeted by the remove curse spell, a dispel evil and good spell, or similar magic. Removing the pendant fails to end the curse on you. While cursed, you have a swim speed of 0 and sink 60 feet at the start of your turn if you are in water.</description>
     <sheet>
-      <description>This silver pendant bears a small sapphire surrounded by all manner of strange and terrifying creatures. While wearing it, you can expend 1 charge as an action to speak this pendant's command word, granting yourself the terrifying visage of a devil for 1 minute. If a creature that isn't a fiend or undead starts its turn within 30 feet of you and can see you, it must succeed on a 15 Wisdom saving throw or become frightened of you for 1 minute. A creature that isn't surprised can avert its eyes to avoid the saving throw at the start of its turn. If it does so, it can't see you until the start of its next turn, when it can avert its eyes again.
-While frightened, the creature is paralyzed. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the pendant's effect for the next 24 hours. Once used, this pendant can't be used again until the next dawn
-{'type': 'entries', 'name': 'Curse', 'entries': ['The pendant is cursed. Attuning to it curses you until you are targeted by the remove curse spell, a dispel evil and good spell, or similar magic. Removing the pendant fails to end the curse on you. While cursed, you have a swim speed of 0 and sink 60 feet at the start of your turn if you are in water.']}</description>
+      <description>Pendant that 1/day lets you adopt a terrifying devilish visage: creatures within 30 ft must save vs DC 15 Wis or be frightened and paralyzed, with immunity on success. Cursed: you lose swim speed and sink 60 ft per turn in water until the curse is broken.</description>
     </sheet>
     <setters>
       <set name="category">Wondrous Items</set>
@@ -512,23 +514,24 @@ While frightened, the creature is paralyzed. A creature can repeat the saving th
       <set name="type">Wondrous Item</set>
     </setters>
   </element>
-  <element name="Sea Walker's Helm" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Sea_Walker_s_Helm">
+
+   <element name="Sea Walker's Helm" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Sea_Walker_s_Helm">
     <description>This piece of headgear is cobbled together from the chitin and gills of a giant crab. It remains constantly damp with briny water, and never rots. While wearing this helm, you can walk and act on surfaces underwater as if on dry land, regardless of orientation, and the amount of time you can hold your breath is doubled.</description>
     <sheet>
-      <description>This piece of headgear is cobbled together from the chitin and gills of a giant crab. It remains constantly damp with briny water, and never rots. While wearing this helm, you can walk and act on surfaces underwater as if on dry land, regardless of orientation, and the amount of time you can hold your breath is doubled.</description>
+      <description>Crab-chitin helm. Lets you walk and act on underwater surfaces as though on dry land, regardless of orientation, and doubles the time you can hold your breath.</description>
     </sheet>
     <setters>
-      <set name="category">Wondrous Items</set>
+      <set name="category">Armor</set>
       <set name="rarity">Uncommon</set>
-      <set name="type">Wondrous Item</set>
+      <set name="type">Armor</set>
     </setters>
   </element>
+
   <element name="Shape of Water" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Shape_of_Water">
-    <description>This holy water within this flask can be willed into the shape of a beast. While you are attuned to the flask, you can perform a 1 hour ritual to cast the find familiar spell, forming the familiar formed by the water in the flask. The familiar is an elemental instead of a beast, is invisible while submerged in a body of water, and can use its action to change forms into another creature listed in the find familiar spell.
+    <description>The holy water within this flask can be willed into the shape of a beast. While you are attuned to the flask, you can perform a 1-hour ritual to cast the find familiar spell, forming the familiar from the water in the flask. The familiar is an elemental instead of a beast, is invisible while submerged in a body of water, and can use its action to change forms into another creature listed in the find familiar spell.
 If the familiar is reduced to 0 hit points or your attunement with the flask ends, the familiar becomes a normal puddle of water. The flask must then be refilled with 1 pint of holy water before it can be used to cast the spell again in this way.</description>
     <sheet>
-      <description>This holy water within this flask can be willed into the shape of a beast. While you are attuned to the flask, you can perform a 1 hour ritual to cast the find familiar spell, forming the familiar formed by the water in the flask. The familiar is an elemental instead of a beast, is invisible while submerged in a body of water, and can use its action to change forms into another creature listed in the find familiar spell.
-If the familiar is reduced to 0 hit points or your attunement with the flask ends, the familiar becomes a normal puddle of water. The flask must then be refilled with 1 pint of holy water before it can be used to cast the spell again in this way.</description>
+      <description>Flask of holy water that acts as a reusable find familiar focus: creates an elemental water-formed familiar that can change forms and is invisible while submerged. Requires refilling with holy water if the familiar is destroyed or attunement ends.</description>
     </sheet>
     <setters>
       <set name="category">Wondrous Items</set>
@@ -536,23 +539,24 @@ If the familiar is reduced to 0 hit points or your attunement with the flask end
       <set name="type">Wondrous Item</set>
     </setters>
   </element>
+
   <element name="Shield of Surfing" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Shield_of_Surfing">
-    <description>This shield functions as a mundane shield until you place it upon the surface of a liquid and speak its command word. It then can be ridden over the surface of the liquid. The shield has a speed of 50 feet. It can carry 400 pounds, but its speed becomes 30 feet while carrying over 200 pounds. The shield sinks if its carrying more than 400 pounds, and stops floating when held.
-On your turn, you can expend 10 feet of movement to attempt a 10 Dexterity check to perform a stunt with the shield, such as a flip or a spin. If the check is successful, you perform the stunt and gain a bonus to AC as if  holding the shield until the end of your turn. If the check fails by 5 or more, you and all creatures riding on the shield immediately fall prone as the shield wipes out and comes to a dead stop.</description>
+    <description>This shield functions as a mundane shield until you place it upon the surface of a liquid and speak its command word. It then can be ridden over the surface of the liquid. The shield has a speed of 50 feet. It can carry 400 pounds, but its speed becomes 30 feet while carrying over 200 pounds. The shield sinks if it is carrying more than 400 pounds, and stops floating when held.
+On your turn, you can expend 10 feet of movement to attempt a DC 10 Dexterity check to perform a stunt with the shield, such as a flip or a spin. If the check is successful, you perform the stunt and gain a bonus to AC as if holding the shield until the end of your turn. If the check fails by 5 or more, you and all creatures riding on the shield immediately fall prone as the shield wipes out and comes to a dead stop.</description>
     <sheet>
-      <description>This shield functions as a mundane shield until you place it upon the surface of a liquid and speak its command word. It then can be ridden over the surface of the liquid. The shield has a speed of 50 feet. It can carry 400 pounds, but its speed becomes 30 feet while carrying over 200 pounds. The shield sinks if its carrying more than 400 pounds, and stops floating when held.
-On your turn, you can expend 10 feet of movement to attempt a 10 Dexterity check to perform a stunt with the shield, such as a flip or a spin. If the check is successful, you perform the stunt and gain a bonus to AC as if  holding the shield until the end of your turn. If the check fails by 5 or more, you and all creatures riding on the shield immediately fall prone as the shield wipes out and comes to a dead stop.</description>
+      <description>Shield that doubles as a surfboard over liquids (speed 50 ft, reduced when heavily loaded). You can attempt Dex stunts for AC bonus but risk wiping out and falling prone on a bad failure.</description>
     </sheet>
     <setters>
-      <set name="category">Wondrous Items</set>
+      <set name="category">Armor</set>
       <set name="rarity">Uncommon</set>
-      <set name="type">Wondrous Item</set>
+      <set name="type" addition="shield">Armor</set>
     </setters>
   </element>
+
   <element name="Ship in a Bottle" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Ship_in_a_Bottle">
-    <description>This glass bottle contains a miniature ship within it, which glows faintly when within 120 feet of the sea. You can use an action to throw this bottle up to 60 feet away. The bottle shatters on impact with a body of water, releasing a ghostly ship as a 7th-level phantom galley spell (save 17).</description>
+    <description>This glass bottle contains a miniature ship within it, which glows faintly when within 120 feet of the sea. You can use an action to throw this bottle up to 60 feet away. The bottle shatters on impact with a body of water, releasing a ghostly ship as a 7th-level phantom galley spell (save DC 17).</description>
     <sheet>
-      <description>This glass bottle contains a miniature ship within it, which glows faintly when within 120 feet of the sea. You can use an action to throw this bottle up to 60 feet away. The bottle shatters on impact with a body of water, releasing a ghostly ship as a 7th-level phantom galley spell (save 17).</description>
+      <description>Throw the bottle into water (60 ft) to shatter it and cast phantom galley as a 7th-level effect (DC 17).</description>
     </sheet>
     <setters>
       <set name="category">Wondrous Items</set>
@@ -560,14 +564,15 @@ On your turn, you can expend 10 feet of movement to attempt a 10 Dexterity check
       <set name="type">Wondrous Item</set>
     </setters>
   </element>
+
   <element name="Soulbound Wheel" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Soulbound_Wheel">
-    <description>This ornately carved wheel harbors the soul and of an experienced mariner. The wheel is affixed to a ship with a successful 15 Dexterity check using carpenter's tools made over the course of 1 hour, binding the soul to the ship.
-{'type': 'entries', 'name': '    Sentience', 'entries': ['The wheel is a sentient magic item with an Intelligence of 13, a Wisdom of 17, and a Charisma of 13. It retains the same alignment of the soul bound to it in life. The wheel has hearing and darkvision out to a range of 120 feet, and can see normally beyond this range.', 'The wheel can speak, read, and understand Common, and can communicate telepathically with any creature within 120 feet of it, with the same voice it had in life.', 'While it is bound to a ship, the wheel can steer and navigate the ship automatically. When it makes a Wisdom (Survival) check pertaining to navigating the open seas, it makes the check with a bonus of +7.']}
-{'type': 'entries', 'name': '    Personality', 'entries': ["The wheel is gruff and abrasive. With such a vast wealth of knowledge pertaining to the seas, ships, and navigation, it tends to butt words with those it perceives as being unworthy of command. To earn the wheel's respect, a captain must demonstrate powerful command, as well as both the respect of their crew and a deep compassion for them."]}</description>
+    <description>This ornately carved wheel harbors the soul of an experienced mariner. The wheel is affixed to a ship with a successful DC 15 Dexterity check using carpenter's tools made over the course of 1 hour, binding the soul to the ship.
+
+Sentience. The wheel is a sentient magic item with an Intelligence of 13, a Wisdom of 17, and a Charisma of 13. It retains the same alignment of the soul bound to it in life. The wheel has hearing and darkvision out to a range of 120 feet, and can see normally beyond this range. The wheel can speak, read, and understand Common, and can communicate telepathically with any creature within 120 feet of it, with the same voice it had in life. While it is bound to a ship, the wheel can steer and navigate the ship automatically. When it makes a Wisdom (Survival) check pertaining to navigating the open seas, it makes the check with a bonus of +7.
+
+Personality. The wheel is gruff and abrasive. With such a vast wealth of knowledge pertaining to the seas, ships, and navigation, it tends to butt words with those it perceives as being unworthy of command. To earn the wheel's respect, a captain must demonstrate powerful command, as well as both the respect of their crew and a deep compassion for them.</description>
     <sheet>
-      <description>This ornately carved wheel harbors the soul and of an experienced mariner. The wheel is affixed to a ship with a successful 15 Dexterity check using carpenter's tools made over the course of 1 hour, binding the soul to the ship.
-{'type': 'entries', 'name': '    Sentience', 'entries': ['The wheel is a sentient magic item with an Intelligence of 13, a Wisdom of 17, and a Charisma of 13. It retains the same alignment of the soul bound to it in life. The wheel has hearing and darkvision out to a range of 120 feet, and can see normally beyond this range.', 'The wheel can speak, read, and understand Common, and can communicate telepathically with any creature within 120 feet of it, with the same voice it had in life.', 'While it is bound to a ship, the wheel can steer and navigate the ship automatically. When it makes a Wisdom (Survival) check pertaining to navigating the open seas, it makes the check with a bonus of +7.']}
-{'type': 'entries', 'name': '    Personality', 'entries': ["The wheel is gruff and abrasive. With such a vast wealth of knowledge pertaining to the seas, ships, and navigation, it tends to butt words with those it perceives as being unworthy of command. To earn the wheel's respect, a captain must demonstrate powerful command, as well as both the respect of their crew and a deep compassion for them."]}</description>
+      <description>Sentient ship’s wheel bound to a vessel (DC 15 carpenter's tools over 1 hour). It can steer and navigate (Survival +7), communicate telepathically within 120 ft, and has a gruff, demanding personality.</description>
     </sheet>
     <setters>
       <set name="category">Wondrous Items</set>
@@ -575,67 +580,67 @@ On your turn, you can expend 10 feet of movement to attempt a 10 Dexterity check
       <set name="type">Wondrous Item</set>
     </setters>
   </element>
+
   <element name="Spellguard Staff" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Spellguard_Staff">
     <description>This staff is formed from vibrant coral and imbued with defensive enchantments. It can be wielded as a magic quarterstaff that grants a +1 bonus to attack and damage rolls made with it. While holding it, you gain a +1 bonus to Armor Class.
 The staff has 10 charges, and regains 1d8 + 2 charges daily at dawn. You can use your reaction when a creature within 30 feet of you is targeted by a spell or magical effect to expend up to 5 charges from the staff. The target gains a number of temporary hit points equal to five times the number of expended charges. While a creature has these hit points, it has advantage on saving throws against spells and other magical effects, and spell attacks have disadvantage against it. These hit points are applied to the target before the effects of the spell or magical effect targeting it.</description>
     <sheet>
-      <description>This staff is formed from vibrant coral and imbued with defensive enchantments. It can be wielded as a magic quarterstaff that grants a +1 bonus to attack and damage rolls made with it. While holding it, you gain a +1 bonus to Armor Class.
-The staff has 10 charges, and regains 1d8 + 2 charges daily at dawn. You can use your reaction when a creature within 30 feet of you is targeted by a spell or magical effect to expend up to 5 charges from the staff. The target gains a number of temporary hit points equal to five times the number of expended charges. While a creature has these hit points, it has advantage on saving throws against spells and other magical effects, and spell attacks have disadvantage against it. These hit points are applied to the target before the effects of the spell or magical effect targeting it.</description>
+      <description>+1 coral quarterstaff that also grants +1 AC. 10 charges; reaction to spend up to 5 to give a creature temp HP (5 × charges) that grant advantage vs magic saves and impose disadvantage on spell attacks. Regains 1d8 + 2 charges at dawn.</description>
     </sheet>
     <setters>
-      <set name="category">Wondrous Items</set>
+      <set name="category">Magic Weapons</set>
       <set name="rarity">Rare</set>
-      <set name="type">Weapon</set>
+      <set name="type" addition="quarterstaff">Weapon</set>
+      <set name="weapon">Quarterstaff</set>
     </setters>
   </element>
+
   <element name="Sticky Shield" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Sticky_Shield">
-    <description>This shield's face is covered with a sticky substance which allows it to bind to anything it touches. When a creature that is no more than one size larger than you misses you with a melee attack while you are holding this shield, you can use your reaction to attempt to catch the weapon against the shield's face. The attacker must make a 13 Strength saving throw. On a failed save, the weapon becomes stuck to the shield. If the weapon's wielder can't or won't let go to the weapon (such as if it missed with a natural weapon or unarmed strike), the wielder is grappled while the weapon is stuck. While stuck, the weapon can't be used. A creature can attempt to pull the weapon free by using an action to make a 13 Strength check, freeing it on a success.</description>
+    <description>This shield's face is covered with a sticky substance which allows it to bind to anything it touches. When a creature that is no more than one size larger than you misses you with a melee attack while you are holding this shield, you can use your reaction to attempt to catch the weapon against the shield's face. The attacker must make a DC 13 Strength saving throw. On a failed save, the weapon becomes stuck to the shield. If the weapon's wielder can't or won't let go of the weapon (such as if it missed with a natural weapon or unarmed strike), the wielder is grappled while the weapon is stuck. While stuck, the weapon can't be used. A creature can attempt to pull the weapon free by using an action to make a DC 13 Strength check, freeing it on a success.</description>
     <sheet>
-      <description>This shield's face is covered with a sticky substance which allows it to bind to anything it touches. When a creature that is no more than one size larger than you misses you with a melee attack while you are holding this shield, you can use your reaction to attempt to catch the weapon against the shield's face. The attacker must make a 13 Strength saving throw. On a failed save, the weapon becomes stuck to the shield. If the weapon's wielder can't or won't let go to the weapon (such as if it missed with a natural weapon or unarmed strike), the wielder is grappled while the weapon is stuck. While stuck, the weapon can't be used. A creature can attempt to pull the weapon free by using an action to make a 13 Strength check, freeing it on a success.</description>
+      <description>Shield that can stick weapons to its face when an attacker misses you in melee (DC 13 Str). If the attacker can’t drop the weapon, it becomes grappled. Removing the weapon requires a DC 13 Str check as an action.</description>
     </sheet>
     <setters>
-      <set name="category">Wondrous Items</set>
+      <set name="category">Armor</set>
       <set name="rarity">Uncommon</set>
-      <set name="type">Wondrous Item</set>
+      <set name="type" addition="shield">Armor</set>
     </setters>
   </element>
+
   <element name="Storm Cleaver" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Storm_Cleaver">
-    <description>This ancient sword is imbued with energy from the Elemental Plane of Air, and is capable of manifesting the power of storms.When drawn, it produces a gentle wind which swirls around its blade.
+    <description>This ancient sword is imbued with energy from the Elemental Plane of Air, and is capable of manifesting the power of storms. When drawn, it produces a gentle wind which swirls around its blade.
 You gain a +3 bonus to attack and damage rolls made with this magic weapon. While you hold the sword, you have resistance to thunder damage, and you can cleave the air as an action to use one of the following additional properties. When one of these properties is used, it can't be used again until the next dawn.
-{'type': 'entries', 'name': '    Air Slash', 'entries': ["You send a shockwave traveling in a line 60 foot long and 5 feet wide in a direction you choose. Each creature in the line must make a 18 Dexterity saving throw. On a failed save, a creature takes 6d6 bludgeoning damage and is knocked prone. On a successful save, the creature takes half as much damage and isn't knocked prone. The shockwave functions as a gust of strong wind, dispersing gas or vapor and extinguishes candles, torches, and similar unprotected flames in the area."]}
-{'type': 'entries', 'name': '    Cleave Clouds', 'entries': ['You send a wide arc of wind high into the sky, dispersing any clouds in a 1 mile radius directly above you.']}
-{'type': 'entries', 'name': '    Uplifting Gale', 'entries': ['You create a blast of wind beneath your feet. You can fly up to 60 feet in any direction and make one melee attack with this sword. This movement does not provoke opportunity attacks, and the attack deals an additional 1d6 damage for every 10 feet you moved toward the target as part of this action.']}
-{'type': 'entries', 'name': '    Whirlwind', 'entries': ['You create a vortex of wind that fills a 20 foot radius centered on you. Each creature in the area must make a 18 Strength saving throw. On a failed save, a creature is pulled or pushed up to 10 feet towards or away from you. You choose whether the whirlwind pushes or pulls when you create it.']}</description>
+
+Air Slash. You send a shockwave traveling in a line 60 feet long and 5 feet wide in a direction you choose. Each creature in the line must make a DC 18 Dexterity saving throw. On a failed save, a creature takes 6d6 bludgeoning damage and is knocked prone. On a successful save, the creature takes half as much damage and isn't knocked prone. The shockwave functions as a gust of strong wind, dispersing gas or vapor and extinguishing candles, torches, and similar unprotected flames in the area.
+
+Cleave Clouds. You send a wide arc of wind high into the sky, dispersing any clouds in a 1-mile radius directly above you.
+
+Uplifting Gale. You create a blast of wind beneath your feet. You can fly up to 60 feet in any direction and make one melee attack with this sword. This movement does not provoke opportunity attacks, and the attack deals an additional 1d6 damage for every 10 feet you moved toward the target as part of this action.
+
+Whirlwind. You create a vortex of wind that fills a 20-foot radius centered on you. Each creature in the area must make a DC 18 Strength saving throw. On a failed save, a creature is pulled or pushed up to 10 feet towards or away from you. You choose whether the whirlwind pushes or pulls when you create it.</description>
     <sheet>
-      <description>This ancient sword is imbued with energy from the Elemental Plane of Air, and is capable of manifesting the power of storms.When drawn, it produces a gentle wind which swirls around its blade.
-You gain a +3 bonus to attack and damage rolls made with this magic weapon. While you hold the sword, you have resistance to thunder damage, and you can cleave the air as an action to use one of the following additional properties. When one of these properties is used, it can't be used again until the next dawn.
-{'type': 'entries', 'name': '    Air Slash', 'entries': ["You send a shockwave traveling in a line 60 foot long and 5 feet wide in a direction you choose. Each creature in the line must make a 18 Dexterity saving throw. On a failed save, a creature takes 6d6 bludgeoning damage and is knocked prone. On a successful save, the creature takes half as much damage and isn't knocked prone. The shockwave functions as a gust of strong wind, dispersing gas or vapor and extinguishes candles, torches, and similar unprotected flames in the area."]}
-{'type': 'entries', 'name': '    Cleave Clouds', 'entries': ['You send a wide arc of wind high into the sky, dispersing any clouds in a 1 mile radius directly above you.']}
-{'type': 'entries', 'name': '    Uplifting Gale', 'entries': ['You create a blast of wind beneath your feet. You can fly up to 60 feet in any direction and make one melee attack with this sword. This movement does not provoke opportunity attacks, and the attack deals an additional 1d6 damage for every 10 feet you moved toward the target as part of this action.']}
-{'type': 'entries', 'name': '    Whirlwind', 'entries': ['You create a vortex of wind that fills a 20 foot radius centered on you. Each creature in the area must make a 18 Strength saving throw. On a failed save, a creature is pulled or pushed up to 10 feet towards or away from you. You choose whether the whirlwind pushes or pulls when you create it.']}</description>
+      <description>+3 storm-infused sword, grants thunder resistance and 1/day each of: Air Slash (60×5 ft line, 6d6 bludgeoning, DC 18 Dex, knock prone), Cleave Clouds (clear 1-mile radius of clouds), Uplifting Gale (fly 60 ft and attack for extra damage), and Whirlwind (20 ft radius push/pull, DC 18 Str).</description>
     </sheet>
     <setters>
-      <set name="category">Wondrous Items</set>
+      <set name="category">Magic Weapons</set>
       <set name="rarity">Legendary</set>
       <set name="type">Weapon</set>
     </setters>
   </element>
+
   <element name="Supreme Soaker" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Supreme_Soaker">
     <description>The supreme soaker is a uniquely designed ranged weapon, consisting of a series of three flasks held within an external backpack, which is hooked up to a barrel through which liquid can be expelled. It also has a grip, for ease of use, and a trigger that can be pressed to activate the weapon. You have a +3 bonus to attack and damage rolls made with this magic weapon, which has the heavy and two-handed weapon properties, and its attacks have a range of 100/400 feet. Creatures proficient with heavy crossbows are also proficient with this weapon.
 The weapon uses liquid as ammunition. Liquid can be loaded into each of the weapon's three flasks, which can each magically hold up to 10 gallons (80 pints) despite their small size. You can switch which flask the weapon draws from as a bonus action.
 Making an attack with this weapon consumes 1 pint of liquid. The weapon deals 2d6 bludgeoning damage on a hit, and magically soaks the target until the start of your next turn. A soaked creature has its speed reduced by 10 feet, and has disadvantage on Dexterity ability checks.
-If the weapon is loaded with a any of the following liquids, it has additional effects, depending on the type of liquid:
-{'type': 'entries', 'name': '    Acid', 'entries': ['On a hit, the target takes an additional 6d6 acid damage.']}
-{'type': 'entries', 'name': '    Holy Water', 'entries': ['A fiend or undead takes 2d6 additional radiant damage on a hit. While soaked in holy water, a target sheds dim light in a 5-foot radius.']}
-{'type': 'entries', 'name': '    Oil', 'entries': ['If a target soaked in oil takes fire damage, it takes an additional 5 fire damage from the oil burning away. Afterwards, the creature is no longer soaked.']}</description>
+If the weapon is loaded with any of the following liquids, it has additional effects, depending on the type of liquid:
+
+Acid. On a hit, the target takes an additional 6d6 acid damage.
+
+Holy Water. A fiend or undead takes 2d6 additional radiant damage on a hit. While soaked in holy water, a target sheds dim light in a 5-foot radius.
+
+Oil. If a target soaked in oil takes fire damage, it takes an additional 5 fire damage from the oil burning away. Afterwards, the creature is no longer soaked.</description>
     <sheet>
-      <description>The supreme soaker is a uniquely designed ranged weapon, consisting of a series of three flasks held within an external backpack, which is hooked up to a barrel through which liquid can be expelled. It also has a grip, for ease of use, and a trigger that can be pressed to activate the weapon. You have a +3 bonus to attack and damage rolls made with this magic weapon, which has the heavy and two-handed weapon properties, and its attacks have a range of 100/400 feet. Creatures proficient with heavy crossbows are also proficient with this weapon.
-The weapon uses liquid as ammunition. Liquid can be loaded into each of the weapon's three flasks, which can each magically hold up to 10 gallons (80 pints) despite their small size. You can switch which flask the weapon draws from as a bonus action.
-Making an attack with this weapon consumes 1 pint of liquid. The weapon deals 2d6 bludgeoning damage on a hit, and magically soaks the target until the start of your next turn. A soaked creature has its speed reduced by 10 feet, and has disadvantage on Dexterity ability checks.
-If the weapon is loaded with a any of the following liquids, it has additional effects, depending on the type of liquid:
-{'type': 'entries', 'name': '    Acid', 'entries': ['On a hit, the target takes an additional 6d6 acid damage.']}
-{'type': 'entries', 'name': '    Holy Water', 'entries': ['A fiend or undead takes 2d6 additional radiant damage on a hit. While soaked in holy water, a target sheds dim light in a 5-foot radius.']}
-{'type': 'entries', 'name': '    Oil', 'entries': ['If a target soaked in oil takes fire damage, it takes an additional 5 fire damage from the oil burning away. Afterwards, the creature is no longer soaked.']}</description>
+      <description>+3 heavy, two-handed liquid-firing rifle (100/400 ft). Uses liquid as ammo (1 pint/shot, 2d6 bludgeoning and “soaked” debuff). Extra effects with acid (6d6 acid), holy water (extra radiant vs fiends/undead), and oil (extra fire damage when ignited).</description>
     </sheet>
     <setters>
       <set name="category">Magic Weapons</set>
@@ -643,14 +648,13 @@ If the weapon is loaded with a any of the following liquids, it has additional e
       <set name="type" addition="rifle">Weapon</set>
     </setters>
   </element>
+
   <element name="Tide Inheritor's Conch" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Tide_Inheritor_s_Conch">
-    <description>This Large conch shell shines iridescent in the light, weighing 300 pounds. As an action, you can make a 15 Constitution check to blow the conch. A Huge or larger creature automatically succeeds on this check. On a success, a deep drone fills the air. Each beast and humanoid that can hear the conch within 300 feet of it must succeed on a DC 15 Wisdom saving throw or be charmed by you for 1 minute.
+    <description>This Large conch shell shines iridescent in the light, weighing 300 pounds. As an action, you can make a DC 15 Constitution check to blow the conch. A Huge or larger creature automatically succeeds on this check. On a success, a deep drone fills the air. Each beast and humanoid that can hear the conch within 300 feet of it must succeed on a DC 15 Wisdom saving throw or be charmed by you for 1 minute.
 While a humanoid is charmed by the conch, it regards you and your possessions as magnificently beautiful, and takes your requests or actions in the most favorable way it can. While a beast is charmed by the conch, you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as "Attack that creature," "Run over there," or "Fetch that object." If the creature completes the order and doesn't receive further direction from you, it defends and preserves itself to the best of its ability.
 Each time you or your companions do anything harmful to a charmed target, it can repeat the saving throw, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the conch's effects for the next 24 hours.</description>
     <sheet>
-      <description>This Large conch shell shines iridescent in the light, weighing 300 pounds. As an action, you can make a 15 Constitution check to blow the conch. A Huge or larger creature automatically succeeds on this check. On a success, a deep drone fills the air. Each beast and humanoid that can hear the conch within 300 feet of it must succeed on a DC 15 Wisdom saving throw or be charmed by you for 1 minute.
-While a humanoid is charmed by the conch, it regards you and your possessions as magnificently beautiful, and takes your requests or actions in the most favorable way it can. While a beast is charmed by the conch, you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as "Attack that creature," "Run over there," or "Fetch that object." If the creature completes the order and doesn't receive further direction from you, it defends and preserves itself to the best of its ability.
-Each time you or your companions do anything harmful to a charmed target, it can repeat the saving throw, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the conch's effects for the next 24 hours.</description>
+      <description>300-lb conch. On a successful DC 15 Con check to blow it, beasts and humanoids within 300 ft (Wis DC 15) are charmed for 1 minute, treating you favorably or obeying telepathic commands. Harmed targets can repeat saves and gain 24-hour immunity on a success.</description>
     </sheet>
     <setters>
       <set name="category">Wondrous Items</set>
@@ -658,10 +662,11 @@ Each time you or your companions do anything harmful to a charmed target, it can
       <set name="type">Wondrous Item</set>
     </setters>
   </element>
+
   <element name="Tranquil Anchor" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Tranquil_Anchor">
     <description>This anchor-shaped iron pendant seems completely stationary, never swaying or shaking even in defiance of its wearer's movements. While wearing this pendant, you can't be moved against your will, and can't be teleported or transported to other planes against your will, such as by the teleport or banishment spells.</description>
     <sheet>
-      <description>This anchor-shaped iron pendant seems completely stationary, never swaying or shaking even in defiance of its wearer's movements. While wearing this pendant, you can't be moved against your will, and can't be teleported or transported to other planes against your will, such as by the teleport or banishment spells.</description>
+      <description>Pendant that prevents forced movement, teleportation, or planar transport against your will.</description>
     </sheet>
     <setters>
       <set name="category">Wondrous Items</set>
@@ -669,12 +674,12 @@ Each time you or your companions do anything harmful to a charmed target, it can
       <set name="type">Wondrous Item</set>
     </setters>
   </element>
+
   <element name="Treasure Map, Uncommon" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Treasure_Map_Uncommon">
-    <description>Promising a vast fortune, this scroll bears upon it a map with a particular location marked with a glowing red cross. By using an action to read the scroll's command word, you can cause the scroll to conjure forth its treasure in an unoccupied space within 30 feet of you. You must be standing in the marked location when you use the scroll, or the treasure will not appear. Once the scroll has manifested its treasure, it becomes a non- magical piece of parchment.
-The contents of the Uncommon Treasure Map's horde are determined by rolling on the Treasure Hoard: Challenge 0—4 table.</description>
+    <description>Promising a vast fortune, this scroll bears upon it a map with a particular location marked with a glowing red cross. By using an action to read the scroll's command word, you can cause the scroll to conjure forth its treasure in an unoccupied space within 30 feet of you. You must be standing in the marked location when you use the scroll, or the treasure will not appear. Once the scroll has manifested its treasure, it becomes a nonmagical piece of parchment.
+The contents of the Uncommon Treasure Map's hoard are determined by rolling on the Treasure Hoard: Challenge 0—4 table.</description>
     <sheet>
-      <description>Promising a vast fortune, this scroll bears upon it a map with a particular location marked with a glowing red cross. By using an action to read the scroll's command word, you can cause the scroll to conjure forth its treasure in an unoccupied space within 30 feet of you. You must be standing in the marked location when you use the scroll, or the treasure will not appear. Once the scroll has manifested its treasure, it becomes a non- magical piece of parchment.
-The contents of the Uncommon Treasure Map's horde are determined by rolling on the Treasure Hoard: Challenge 0—4 table.</description>
+      <description>Scroll that conjures a treasure hoard (Challenge 0–4 table) if used at the marked location. Becomes nonmagical afterward.</description>
     </sheet>
     <setters>
       <set name="category">Wondrous Items</set>
@@ -682,61 +687,38 @@ The contents of the Uncommon Treasure Map's horde are determined by rolling on t
       <set name="type">Wondrous Item</set>
     </setters>
   </element>
+
   <element name="Treasure Map, Rare" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Treasure_Map_Rare">
-    <description>Promising a vast fortune, this scroll bears upon it a map with a particular location marked with a glowing red cross. By using an action to read the scroll's command word, you can cause the scroll to conjure forth its treasure in an unoccupied space within 30 feet of you. You must be standing in the marked location when you use the scroll, or the treasure will not appear. Once the scroll has manifested its treasure, it becomes a non- magical piece of parchment.
-The contents of the Rare Treasure Map's horde are determined by rolling on the Treasure Hoard: Challenge 5—10 table.</description>
+    <description>Promising a vast fortune, this scroll bears upon it a map with a particular location marked with a glowing red cross. By using an action to read the scroll's command word, you can cause the scroll to conjure forth its treasure in an unoccupied space within 30 feet of you. You must be standing in the marked location when you use the scroll, or the treasure will not appear. Once the scroll has manifested its treasure, it becomes a nonmagical piece of parchment.
+The contents of the Rare Treasure Map's hoard are determined by rolling on the Treasure Hoard: Challenge 5—10 table.</description>
     <sheet>
-      <description>Promising a vast fortune, this scroll bears upon it a map with a particular location marked with a glowing red cross. By using an action to read the scroll's command word, you can cause the scroll to conjure forth its treasure in an unoccupied space within 30 feet of you. You must be standing in the marked location when you use the scroll, or the treasure will not appear. Once the scroll has manifested its treasure, it becomes a non- magical piece of parchment.
-The contents of the Rare Treasure Map's horde are determined by rolling on the Treasure Hoard: Challenge 5—10 table.</description>
+      <description>Scroll that conjures a treasure hoard (Challenge 5–10 table) if used at the marked location. Becomes nonmagical afterward.</description>
     </sheet>
     <setters>
       <set name="category">Wondrous Items</set>
-      <set name="rarity">Uncommon</set>
+      <set name="rarity">Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
   </element>
+
   <element name="Treasure Map, Very Rare" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Treasure_Map_Very_Rare">
-    <description>Promising a vast fortune, this scroll bears upon it a map with a particular location marked with a glowing red cross. By using an action to read the scroll's command word, you can cause the scroll to conjure forth its treasure in an unoccupied space within 30 feet of you. You must be standing in the marked location when you use the scroll, or the treasure will not appear. Once the scroll has manifested its treasure, it becomes a non- magical piece of parchment.
-The contents of the Very Rare Treasure Map's horde are determined by rolling on the Treasure Hoard: Challenge 11—16 table.</description>
+    <description>Promising a vast fortune, this scroll bears upon it a map with a particular location marked with a glowing red cross. By using an action to read the scroll's command word, you can cause the scroll to conjure forth its treasure in an unoccupied space within 30 feet of you. You must be standing in the marked location when you use the scroll, or the treasure will not appear. Once the scroll has manifested its treasure, it becomes a nonmagical piece of parchment.
+The contents of the Very Rare Treasure Map's hoard are determined by rolling on the Treasure Hoard: Challenge 11—16 table.</description>
     <sheet>
-      <description>Promising a vast fortune, this scroll bears upon it a map with a particular location marked with a glowing red cross. By using an action to read the scroll's command word, you can cause the scroll to conjure forth its treasure in an unoccupied space within 30 feet of you. You must be standing in the marked location when you use the scroll, or the treasure will not appear. Once the scroll has manifested its treasure, it becomes a non- magical piece of parchment.
-The contents of the Very Rare Treasure Map's horde are determined by rolling on the Treasure Hoard: Challenge 11—16 table.</description>
+      <description>Scroll that conjures a treasure hoard (Challenge 11–16 table) if used at the marked location. Becomes nonmagical afterward.</description>
     </sheet>
     <setters>
       <set name="category">Wondrous Items</set>
-      <set name="rarity">Uncommon</set>
+      <set name="rarity">Very Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
   </element>
+
   <element name="Treasure Map, Legendary" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Treasure_Map_Legendary">
-    <description>Promising a vast fortune, this scroll bears upon it a map with a particular location marked with a glowing red cross. By using an action to read the scroll's command word, you can cause the scroll to conjure forth its treasure in an unoccupied space within 30 feet of you. You must be standing in the marked location when you use the scroll, or the treasure will not appear. Once the scroll has manifested its treasure, it becomes a non- magical piece of parchment.
-The contents of the Legendary Treasure Map's horde are determined by rolling on the Treasure Hoard: Challenge 17+ table.</description>
+    <description>Promising a vast fortune, this scroll bears upon it a map with a particular location marked with a glowing red cross. By using an action to read the scroll's command word, you can cause the scroll to conjure forth its treasure in an unoccupied space within 30 feet of you. You must be standing in the marked location when you use the scroll, or the treasure will not appear. Once the scroll has manifested its treasure, it becomes a nonmagical piece of parchment.
+The contents of the Legendary Treasure Map's hoard are determined by rolling on the Treasure Hoard: Challenge 17+ table.</description>
     <sheet>
-      <description>Promising a vast fortune, this scroll bears upon it a map with a particular location marked with a glowing red cross. By using an action to read the scroll's command word, you can cause the scroll to conjure forth its treasure in an unoccupied space within 30 feet of you. You must be standing in the marked location when you use the scroll, or the treasure will not appear. Once the scroll has manifested its treasure, it becomes a non- magical piece of parchment.
-The contents of the Legendary Treasure Map's horde are determined by rolling on the Treasure Hoard: Challenge 17+ table.</description>
-    </sheet>
-    <setters>
-      <set name="category">Wondrous Items</set>
-      <set name="rarity">Uncommon</set>
-      <set name="type">Wondrous Item</set>
-    </setters>
-  </element>
-  <element name="Tome of the Deep Sea" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Tome_of_the_Deep_Sea">
-    <description>The cover of this ancient spellbook is made from seaweed, and its pages are constantly damp.
-This spellbook, along with anything written on its pages, can't be damaged by immersion in water. A newly discovered spellbook contains the following spells:
-{'type': 'table', 'colLabels': ['Spell Level', 'Spells'], 'colStyles': ['col-2 text-align-center', 'col-10 text-align-left'], 'rows': [['1st', 'riptide, waterspout'], ['2nd', 'crashing wave, water veil'], ['3rd', 'aqueous blast, aqueous form'], ['4th', 'crushing depths, drown'], ['5th', 'instant iceberg, liquefaction'], ['6th', 'meandering torrent, portal to the depths'], ['7th', 'phantom galley, torrential culling'], ['8th', 'flood, tsunami'], ['9th', 'carve gulf, echoes of the deep']]}
-These spells are wizard spells for you.
-{'type': 'entries', 'name': '    Font of Seawater', 'entries': ['You can use an action to open the spellbook and speak one of its command words to cause the spellbook to produce 10 gallons of seawater, which pours from its pages as if from an overflowing basin. The spellbook continues to produce sea water at the same rate at the start of each of your turns until it is closed (100 gallons per minute or 6,000 gallons per hour), up to a maximum of 144,000 gallons over 24 hours.', "Once the spellbook has produced 144,000 gallons of water, its pages turn bone-dry and it can't be used in this way again until it has been submerged in seawater for 24 hours. During this time, the spellbook absorbs seawater at a rate of 10 gallons per turn at the start of each of your turns (100 gallons per minute or 6,000 gallons per hour), up to a maximum of 144,000 gallons of water over 24 hours."]}
-{'type': 'entries', 'name': '    Ocean Codex', 'entries': ["You can use your action to open the spellbook and speak one of its command words, naming a creature, loca- tion, or object, to search the spellbook for information. Roll a d6. On a 6, the spellbook magically displays information about the creature, location, or object within its pages. This information is limited to subject matter associated with the ocean, and may not be complete. Once you have used the spellbook in this way, it can't be used again until the next dawn."]}
-{'type': 'entries', 'name': '    Summons of the Sea', 'entries': ["You can use an action to open the spellbook and speak one of its command words to conjure a creature, which appears within a body of water you can see within 30 feet of you. Roll a d100 and consult the table to determine which creature appears. If there isn't enough space for the creature within the body of water, it fails to manifest.", 'The creature is friendly to you and your companions, and obeys your commands. It vanishes after 1 hour or if it is reduced to 0 hit points.', "Once you use the spellbook in this way, you can't do so again until the next dawn."]}
-{'type': 'table', 'colLabels': ['d100', 'Creature'], 'colStyles': ['col-2 text-align-center', 'col-10 text-align-left'], 'rows': [['01-25', 'Razor reef'], ['26-40', 'Water weird'], ['41-50', 'Chuul'], ['51-60', 'Water elemental'], ['61-70', 'Black shoal'], ['71-80', 'Hydra'], ['81-85', 'Crystazoa'], ['86-90', 'Aboleth'], ['91-95', 'Abyssal Whale'], ['96-00', 'Lochkinhaz']]}</description>
-    <sheet>
-      <description>The cover of this ancient spellbook is made from seaweed, and its pages are constantly damp.
-This spellbook, along with anything written on its pages, can't be damaged by immersion in water. A newly discovered spellbook contains the following spells:
-{'type': 'table', 'colLabels': ['Spell Level', 'Spells'], 'colStyles': ['col-2 text-align-center', 'col-10 text-align-left'], 'rows': [['1st', 'riptide, waterspout'], ['2nd', 'crashing wave, water veil'], ['3rd', 'aqueous blast, aqueous form'], ['4th', 'crushing depths, drown'], ['5th', 'instant iceberg, liquefaction'], ['6th', 'meandering torrent, portal to the depths'], ['7th', 'phantom galley, torrential culling'], ['8th', 'flood, tsunami'], ['9th', 'carve gulf, echoes of the deep']]}
-These spells are wizard spells for you.
-{'type': 'entries', 'name': '    Font of Seawater', 'entries': ['You can use an action to open the spellbook and speak one of its command words to cause the spellbook to produce 10 gallons of seawater, which pours from its pages as if from an overflowing basin. The spellbook continues to produce sea water at the same rate at the start of each of your turns until it is closed (100 gallons per minute or 6,000 gallons per hour), up to a maximum of 144,000 gallons over 24 hours.', "Once the spellbook has produced 144,000 gallons of water, its pages turn bone-dry and it can't be used in this way again until it has been submerged in seawater for 24 hours. During this time, the spellbook absorbs seawater at a rate of 10 gallons per turn at the start of each of your turns (100 gallons per minute or 6,000 gallons per hour), up to a maximum of 144,000 gallons of water over 24 hours."]}
-{'type': 'entries', 'name': '    Ocean Codex', 'entries': ["You can use your action to open the spellbook and speak one of its command words, naming a creature, loca- tion, or object, to search the spellbook for information. Roll a d6. On a 6, the spellbook magically displays information about the creature, location, or objec</description>
+      <description>Scroll that conjures a treasure hoard (Challenge 17+ table) if used at the marked location. Becomes nonmagical afterward.</description>
     </sheet>
     <setters>
       <set name="category">Wondrous Items</set>
@@ -744,47 +726,51 @@ These spells are wizard spells for you.
       <set name="type">Wondrous Item</set>
     </setters>
   </element>
-  <element name="Vitreous Tear" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Vitreous_Tear">
-    <description>This glassy pendant, hung from kelp thread, never quite dries. While wearing this pendant while you are underwater, you can use your action to become invisible until you move or take an action or a reaction.</description>
+
+  <element name="Tome of the Deep Sea" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Tome_of_the_Deep_Sea">
+    <description>The cover of this ancient spellbook is made from seaweed, and its pages are constantly damp.
+This spellbook, along with anything written on its pages, can't be damaged by immersion in water.
+
+Spells. A newly discovered spellbook contains the following spells:
+• 1st level: riptide, waterspout
+• 2nd level: crashing wave, water veil
+• 3rd level: aqueous blast, aqueous form
+• 4th level: crushing depths, drown
+• 5th level: instant iceberg, liquefaction
+• 6th level: meandering torrent, portal to the depths
+• 7th level: phantom galley, torrential culling
+• 8th level: flood, tsunami
+• 9th level: carve gulf, echoes of the deep
+
+These spells are wizard spells for you while you use this tome as your spellbook.
+
+Font of Seawater. You can use an action to open the spellbook and speak one of its command words to cause the spellbook to produce 10 gallons of seawater, which pours from its pages as if from an overflowing basin. The spellbook continues to produce seawater at the same rate at the start of each of your turns until it is closed (100 gallons per minute or 6,000 gallons per hour), up to a maximum of 144,000 gallons over 24 hours.
+Once the spellbook has produced 144,000 gallons of water, its pages turn bone-dry and it can't be used in this way again until it has been submerged in seawater for 24 hours. During this time, the spellbook absorbs seawater at a rate of 10 gallons per turn at the start of each of your turns (100 gallons per minute or 6,000 gallons per hour), up to a maximum of 144,000 gallons of water over 24 hours.
+
+Ocean Codex. You can use your action to open the spellbook and speak one of its command words, naming a creature, location, or object, to search the spellbook for information. Roll a d6. On a 6, the spellbook magically displays information about the creature, location, or object within its pages. This information is limited to subject matter associated with the ocean, and may not be complete. Once you have used the spellbook in this way, it can't be used again until the next dawn.
+
+Summons of the Sea. You can use an action to open the spellbook and speak one of its command words to conjure a creature, which appears within a body of water you can see within 30 feet of you. Roll a d100 and consult the table to determine which creature appears. If there isn't enough space for the creature within the body of water, it fails to manifest.
+The creature is friendly to you and your companions, and obeys your commands. It vanishes after 1 hour or if it is reduced to 0 hit points. Once you use the spellbook in this way, you can't do so again until the next dawn.
+
+d100 — Creature
+01–25: Razor reef
+26–40: Water weird
+41–50: Chuul
+51–60: Water elemental
+61–70: Black shoal
+71–80: Hydra
+81–85: Crystazoa
+86–90: Aboleth
+91–95: Abyssal whale
+96–00: Lochkinhaz</description>
     <sheet>
-      <description>This glassy pendant, hung from kelp thread, never quite dries. While wearing this pendant while you are underwater, you can use your action to become invisible until you move or take an action or a reaction.</description>
+      <description>Waterproof seaweed-bound spellbook that serves as a wizard spellbook containing a suite of oceanic spells, can pour out vast quantities of seawater, answer ocean-related questions on a lucky roll, and once per day summon a powerful sea creature from a d100 table.</description>
     </sheet>
     <setters>
       <set name="category">Wondrous Items</set>
-      <set name="rarity">Uncommon</set>
+      <set name="rarity">Legendary</set>
       <set name="type">Wondrous Item</set>
     </setters>
   </element>
-  <element name="Wand of Phase Change" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Wand_of_Phase_Change">
-    <description>The wand has 3 charges, and regains 1d3 expended charges daily at dawn. While holding it, you can use an action to expend 1 of its charges to produce one of the following effects in a 5 foot radius centered on a point you can see within 30 feet of you.
-{'type': 'entries', 'name': '    Condense', 'entries': ['Any nonmagical fog, mist, or steam within the area condenses into water.']}
-{'type': 'entries', 'name': '    Freeze', 'entries': ['Any nonmagical water within the area freezes into ice. If a creature is submerged in the water, it must succeed on a DC 13 Dexterity saving throw or become restrained within the ice. A creature can use its action to make a DC 13 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 bludgeoning or fire damage to the ice (AC 13) destroys the ice, freeing the creature without harming it. The surface of the ice is slick and slippery, and functions as a grease spell (DC 13) until it is destroyed.']}
-{'type': 'entries', 'name': '    Melt', 'entries': ['Any nonmagical ice within the area melts into water.']}
-{'type': 'entries', 'name': '    Vaporize', 'entries': ['Any nonmagical water within the area evaporates into steam, which heavily obscures the area. The steam lasts until the start of your next turn before dispersing, or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.']}</description>
-    <sheet>
-      <description>The wand has 3 charges, and regains 1d3 expended charges daily at dawn. While holding it, you can use an action to expend 1 of its charges to produce one of the following effects in a 5 foot radius centered on a point you can see within 30 feet of you.
-{'type': 'entries', 'name': '    Condense', 'entries': ['Any nonmagical fog, mist, or steam within the area condenses into water.']}
-{'type': 'entries', 'name': '    Freeze', 'entries': ['Any nonmagical water within the area freezes into ice. If a creature is submerged in the water, it must succeed on a DC 13 Dexterity saving throw or become restrained within the ice. A creature can use its action to make a DC 13 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 bludgeoning or fire damage to the ice (AC 13) destroys the ice, freeing the creature without harming it. The surface of the ice is slick and slippery, and functions as a grease spell (DC 13) until it is destroyed.']}
-{'type': 'entries', 'name': '    Melt', 'entries': ['Any nonmagical ice within the area melts into water.']}
-{'type': 'entries', 'name': '    Vaporize', 'entries': ['Any nonmagical water within the area evaporates into steam, which heavily obscures the area. The steam lasts until the start of your next turn before dispersing, or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.']}</description>
-    </sheet>
-    <setters>
-      <set name="category">Wondrous Items</set>
-      <set name="rarity">Uncommon</set>
-      <set name="type">Wondrous Item</set>
-    </setters>
-  </element>
-  <element name="War Rigging" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_War_Rigging">
-    <description>The enchantments placed upon this collection of heavy ropes and canvas sails makes it impossible for them to be set ablaze by any means, nonmagical or magical.
-An individual piece of rope or fabric separated from the whole loses its magic, but rope or fabric used to repair the rigging gains the enchantment's benefits.</description>
-    <sheet>
-      <description>The enchantments placed upon this collection of heavy ropes and canvas sails makes it impossible for them to be set ablaze by any means, nonmagical or magical.
-An individual piece of rope or fabric separated from the whole loses its magic, but rope or fabric used to repair the rigging gains the enchantment's benefits.</description>
-    </sheet>
-    <setters>
-      <set name="category">Wondrous Items</set>
-      <set name="rarity">Uncommon</set>
-      <set name="type">Wondrous Item</set>
-    </setters>
-  </element>
+
 </elements>
