@@ -1,20 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <elements>
   <info>
     <name>All Beneath the Yonder Seas and Streams — Source</name>
     <description>Source definition for All Beneath the Yonder Seas and Streams (ABYSS) homebrew content.</description>
+    <author>Nassim Guetiteni</author>
     <update version="1.0.0">
       <file name="abyss-source.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-abyss/main/abyss-source.xml" />
     </update>
   </info>
-  <element name="All Beneath the Yonder Seas and Streams" type="Source" source="ABYSS" id="ID_ABYSS_SOURCE">
-    <description>All Beneath the Yonder Seas and Streams (ABYSS)
-Authors: Haven
-Version: 2021.07
-Link: https://drive.google.com/file/d/1QfoBtuqEpGQMcVuvbBbZKOAVQJFOOiy2/view</description>
+
+  <element name="All Beneath the Yonder Seas and Streams"
+           type="Source"
+           source="All Beneath the Yonder Seas and Streams"
+           id="ID_ABYSS_SOURCE_ALL_BENEATH_THE_YONDER_SEAS_AND_STREAMS">
+    <description>
+      <![CDATA[
+All Beneath the Yonder Seas and Streams (ABYSS) is a third-party 5e supplement focused on oceanic, coastal, and underwater content.
+      ]]>
+    </description>
     <setters>
-      <set name="url">https://drive.google.com/file/d/1QfoBtuqEpGQMcVuvbBbZKOAVQJFOOiy2/view</set>
       <set name="abbreviation">ABYSS</set>
+      <set name="url">https://drive.google.com/file/d/1QfoBtuqEpGQMcVuvbBbZKOAVQJFOOiy2/view</set>
+      <set name="author">Haven</set>
     </setters>
   </element>
 </elements>
