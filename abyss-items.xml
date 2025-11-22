@@ -43,9 +43,11 @@ Once on each of your turns when you hit a creature with this weapon, you can hav
 {'type': 'entries', 'name': '    Personality', 'entries': ["The sword possess a vicious wit, enthusiastically mocking any that it strikes. It punctuates its attacks with verbal jabs and curses, questioning its opponent's honor, skill, or physical appearance. The sword prefers high adventures with good friends, and often voices support for decisions that lead to great exploits and dramatic duels."]}</description>
     </sheet>
     <setters>
-      <set name="category">Wondrous Items</set>
+      <set name="keywords">cutlass</set>
+      <set name="category">Magic Weapons</set>
       <set name="rarity">Rare</set>
-      <set name="type">Weapon</set>
+      <set name="type" addition="shortsword">Weapon</set>
+      <set name="weapon">cutlass</set>
     </setters>
   </element>
   <element name="Billowing Sailcloth" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Billowing_Sailcloth">
@@ -238,9 +240,11 @@ Additionally, this helmet has 3 charges, and it regains 1d3 expended charges dai
       <description>This trident is carved with arcane channels that run its length, allowing it to transfer its movements through bodies of water. When you make an attack with this trident while you are standing within 5 feet of a body of water, you can choose a point within 30 feet of you that is within the same body of water. The attack is made as if you were at the chosen point, but you must use your own senses.</description>
     </sheet>
     <setters>
-      <set name="category">Wondrous Items</set>
+      <set name="keywords">trident</set>
+      <set name="category">Magic Weapons</set>
+      <set name="type" addition="trident">Weapon</set>
+      <set name="weapon">Trident</set>
       <set name="rarity">Uncommon</set>
-      <set name="type">Weapon</set>
     </setters>
   </element>
   <element name="Knave's Cutlass" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Knave_s_Cutlass">
@@ -249,9 +253,11 @@ Additionally, this helmet has 3 charges, and it regains 1d3 expended charges dai
       <description>This weapon is unusually light, and was crafted to be used by the most vicious of pirates. You can use this weapon while it is held between your teeth as if you were holding it in a hand. While you are holding the weapon in this way, your speech is somewhat impeded, and you can't cast spells that include a verbal component. When you make an attack as a bonus action using two-weapon fighting, you can make an additional attack with this weapon as part of the same bonus action. You must be wielding three separate one-handed melee weapons in order to make this additional attack, and you don't add your ability modifier to the damage of the additional attack, unless that modifier is negative.</description>
     </sheet>
     <setters>
-      <set name="category">Wondrous Items</set>
+      <set name="keywords">cutlass</set>
+      <set name="category">Magic Weapons</set>
+      <set name="type" addition="cutlass">Weapon</set>
+      <set name="weapon">cutlass</set>
       <set name="rarity">Uncommon</set>
-      <set name="type">Weapon</set>
     </setters>
   </element>
   <element name="Krend's Fishing Rod" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Krend_s_Fishing_Rod">
@@ -632,9 +638,9 @@ If the weapon is loaded with a any of the following liquids, it has additional e
 {'type': 'entries', 'name': '    Oil', 'entries': ['If a target soaked in oil takes fire damage, it takes an additional 5 fire damage from the oil burning away. Afterwards, the creature is no longer soaked.']}</description>
     </sheet>
     <setters>
-      <set name="category">Wondrous Items</set>
+      <set name="category">Magic Weapons</set>
       <set name="rarity">Legendary</set>
-      <set name="type">Wondrous Item</set>
+      <set name="type" addition="rifle">Weapon</set>
     </setters>
   </element>
   <element name="Tide Inheritor's Conch" type="Magic Item" source="ABYSS" id="ID_ABYSS_ITEM_Tide_Inheritor_s_Conch">
